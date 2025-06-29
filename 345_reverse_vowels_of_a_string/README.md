@@ -7,8 +7,8 @@
 
 ### Code
 - [solution.php](./solution.php)
-- 
+- Use two pointers (`left` and `right`) to scan the string from both ends.
 
 ### Time & Space Complexity
 - Time  : O(n)
-- Space : O(1)
+- Space : O(n)
