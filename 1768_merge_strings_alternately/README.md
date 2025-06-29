@@ -12,4 +12,4 @@
 
 ### Time & Space Complexity
 - Time  : O(n + m)
-- Space : O(1)
+- Space : O(n + m)
