@@ -7,8 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
-- 
 
 ### Time & Space Complexity
 - Time  : O(n)
-- Space : O(n)
+- Space : O(1)
