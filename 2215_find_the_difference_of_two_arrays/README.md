@@ -7,8 +7,9 @@
 
 ### Code
 - [solution.php](./solution.php)
-- 
+- Convert input arrays to sets to ensure uniqueness and allow constant-time lookup.
+- Look through each set to find values not present in the other set.
 
 ### Time & Space Complexity
-- Time  : O(n)
-- Space : O(1)
+- Time  : O(n + m)
+- Space : O(n + m)
