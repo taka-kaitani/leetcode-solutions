@@ -7,8 +7,8 @@
 
 ### Code
 - [solution.php](./solution.php)
-- 
+- Use array_flip() to ensure all frequencies are unique.
 
 ### Time & Space Complexity
 - Time  : O(n)
-- Space : O(1)
+- Space : O(n)
