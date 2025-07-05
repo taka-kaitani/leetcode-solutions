@@ -7,7 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
-- 
+- Reverse a singly linked list using an iterative approach.
 
 ### Time & Space Complexity
 - Time  : O(n)
