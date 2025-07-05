@@ -7,8 +7,11 @@
 
 ### Code
 - [solution.php](./solution.php)
-- 
+- Use queue to store timestamps of recent `ping` calls.
+- Each time `ping($t)` is called, we:
+  - Add `$t` to the end of the queue.
+  - Remove all timestamps less than `$t - 3000` from the queue.
 
 ### Time & Space Complexity
-- Time  : O(n)
-- Space : O(1)
+- Time  : O(1)
+- Space : O(n)
