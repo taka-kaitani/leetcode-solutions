@@ -7,8 +7,10 @@
 
 ### Code
 - [solution.php](./solution.php)
-- 
+- Leverage the BST property.
+- This allows us to avoid searching unnecessary parts of the tree (unlike a full DFS).
 
 ### Time & Space Complexity
-- Time  : O(n)
-- Space : O(1)
+- Time  : O(h)
+- Space : O(h)
+- h is the height of the tree.
