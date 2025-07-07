@@ -7,8 +7,8 @@
 
 ### Code
 - [solution.php](./solution.php)
-- 
+- We use binary search to minimize the number of guesses.
 
 ### Time & Space Complexity
-- Time  : O(n)
+- Time  : O(log n)
 - Space : O(1)
