@@ -7,7 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
-- 
+- We use an iterative dynamic programming approach with 3 variables to store the last 3 Tribonacci numbers.
 
 ### Time & Space Complexity
 - Time  : O(n)
