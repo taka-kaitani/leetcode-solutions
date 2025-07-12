@@ -7,7 +7,9 @@
 
 ### Code
 - [solution.php](./solution.php)
-- 
+- We use a greedy linear scan with two variables:
+  - `first` : the smallest value seen so far
+  - `second`: the smallest value greater than `first` seen so far
 
 ### Time & Space Complexity
 - Time  : O(n)
