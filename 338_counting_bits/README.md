@@ -7,8 +7,9 @@
 
 ### Code
 - [solution.php](./solution.php)
-- 
+- We use dynamic programming to with bitwise operation to compute the number of 1's
+  in the binary representation of each number from 0 to n.
 
 ### Time & Space Complexity
 - Time  : O(n)
-- Space : O(1)
+- Space : O(n)
