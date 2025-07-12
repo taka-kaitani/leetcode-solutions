@@ -7,8 +7,8 @@
 
 ### Code
 - [solution.php](./solution.php)
-- 
+- We use `array_filter` to　efficiently remove extra spaces.
 
 ### Time & Space Complexity
 - Time  : O(n)
-- Space : O(1)
+- Space : O(n)
