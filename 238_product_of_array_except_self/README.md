@@ -7,7 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
-- 
+- We calculate the product of all element to the left and right of each index without using division.
 
 ### Time & Space Complexity
 - Time  : O(n)
