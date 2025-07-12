@@ -7,7 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
-- 
+- We use bitwise XOR operations to identify the unique number while keeping the space complexity constant.
 
 ### Time & Space Complexity
 - Time  : O(n)
