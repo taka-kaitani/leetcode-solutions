@@ -8,7 +8,8 @@
 
 ### Code
 - [solution.php](./solution.php)
-- 
+- We use two-pointer technique to minimize the iterations.
+- At each step, we move the pointer pointing the shorter line inward.
 
 ### Time & Space Complexity
 - Time  : O(n)
