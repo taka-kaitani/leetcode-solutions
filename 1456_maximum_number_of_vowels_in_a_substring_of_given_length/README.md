@@ -7,7 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
-- 
+- We use the sliding window technique to efficiently scan through all substrings of length `k`.
 
 ### Time & Space Complexity
 - Time  : O(n)
