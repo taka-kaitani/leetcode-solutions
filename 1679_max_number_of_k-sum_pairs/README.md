@@ -7,8 +7,8 @@
 
 ### Code
 - [solution.php](./solution.php)
-- 
+- We use a hash map (associative array) to track the frequency of numbers we've seen so far.
 
 ### Time & Space Complexity
 - Time  : O(n)
-- Space : O(1)
+- Space : O(n)
