@@ -1,4 +1,4 @@
-# Tree Problems
+# Binary Tree Problems
 
 ## Easy
 - [Problem 872](../problems/872_leaf-similar_trees/README.md)
@@ -8,3 +8,4 @@
 ## Medium
 
 ## Hard
+

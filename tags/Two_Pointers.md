@@ -1,15 +1,16 @@
-# String Problems
+# Two Pointers Problems
 
 ## Easy
 - [Problem 1768](../problems/1768_merge_strings_alternately/README.md)
-- [Problem 1071](../problems/1071_greatest_common_divisor_of_strings/README.md)
 - [Problem 392](../problems/392_is_subsequence/README.md)
 - [Problem 345](../problems/345_reverse_vowels_of_a_string/README.md)
+- [Problem 283](../problems/283_move_zeroes/README.md)
+- [Problem 11](../problems/11_container_with_most_water/README.md)
 
 ## Medium
-- [Problem 1657](../problems/1657_determine_if_two_strings_are_close/README.md)
-- [Problem 1456](../problems/1456_maximum_number_of_vowels_in_a_substring_of_given_length/README.md)
+- [Problem 1679](../problems/1679_max_number_of_k-sum_pairs/README.md)
 - [Problem 443](../problems/443_string_compression/README.md)
 - [Problem 151](../problems/151_reverse_words_in_a_string/README.md)
 
 ## Hard
+
