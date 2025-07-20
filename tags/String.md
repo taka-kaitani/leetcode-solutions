@@ -7,6 +7,7 @@
 - [Problem 345](../problems/345_reverse_vowels_of_a_string/README.md)
 
 ## Medium
+- [Problem 394](../problems/394_decode_string/README.md)
 - [Problem 2390](../problems/2390_removing_stars_from_a_string/README.md)
 - [Problem 1657](../problems/1657_determine_if_two_strings_are_close/README.md)
 - [Problem 1456](../problems/1456_maximum_number_of_vowels_in_a_substring_of_given_length/README.md)
