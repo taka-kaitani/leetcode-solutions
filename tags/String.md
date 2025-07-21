@@ -7,6 +7,7 @@
 - [Problem 345](../problems/345_reverse_vowels_of_a_string/README.md)
 
 ## Medium
+- [Problem 649](../problems/649_dota2_senate/README.md)
 - [Problem 394](../problems/394_decode_string/README.md)
 - [Problem 2390](../problems/2390_removing_stars_from_a_string/README.md)
 - [Problem 1657](../problems/1657_determine_if_two_strings_are_close/README.md)
