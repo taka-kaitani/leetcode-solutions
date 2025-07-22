@@ -8,6 +8,7 @@
 - [Problem 11](../problems/11_container_with_most_water/README.md)
 
 ## Medium
+- [Problem 2095](../problems/2095_delete_the_middle_node_of_a_linked_list/README.md)
 - [Problem 1679](../problems/1679_max_number_of_k-sum_pairs/README.md)
 - [Problem 443](../problems/443_string_compression/README.md)
 - [Problem 151](../problems/151_reverse_words_in_a_string/README.md)
