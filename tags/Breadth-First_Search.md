@@ -4,6 +4,7 @@
 - [Problem 104](../problems/104_maximum_depth_of_binary_tree/README.md)
 
 ## Medium
+- [Problem 547](../problems/547_number_of_provinces/README.md)
 - [Problem 841](../problems/841_keys_and_rooms/README.md)
 - [Problem 1161](../problems/1161_maximum_level_sum_of_a_binary_tree/README.md)
 - [Problem 199](../problems/199_binary_tree_right_side_view/README.md)

@@ -1,10 +1,9 @@
-# Graph Problems
+# Union Find Problems
 
 ## Easy
 
 ## Medium
 - [Problem 547](../problems/547_number_of_provinces/README.md)
-- [Problem 841](../problems/841_keys_and_rooms/README.md)
 
 ## Hard
 
