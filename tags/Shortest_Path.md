@@ -1,10 +1,9 @@
-# Union Find Problems
+# Shortest Path Problems
 
 ## Easy
 
 ## Medium
 - [Problem 399](../problems/399_evaluate_division/README.md)
-- [Problem 547](../problems/547_number_of_provinces/README.md)
 
 ## Hard
 
