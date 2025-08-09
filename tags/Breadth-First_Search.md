@@ -4,6 +4,7 @@
 - [Problem 104](../problems/104_maximum_depth_of_binary_tree/README.md)
 
 ## Medium
+- [Problem 994](../problems/994_rotting_oranges/README.md)
 - [Problem 1926](../problems/1926_nearest_exit_from_entrance_in_maze/README.md)
 - [Problem 399](../problems/399_evaluate_division/README.md)
 - [Problem 1466](../problems/1466_reorder_routes_to_make_all_paths_lead_to_the_city_zero/README.md)
