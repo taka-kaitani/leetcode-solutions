@@ -17,26 +17,22 @@ class Solution {
      */
     function maxScore($nums1, $nums2, $k): int
     {
-        $n = count($nums1);
-        $pairs = [];
-        for ($i = 0; $i < $n; $i++) {
-            $pairs[] = [$nums1[$i], $nums2[$i]];
-        }
-        usort($pairs, fn($x, $y) => $y[1] <=> $x[1]); // by nums2 desc
+        array_multisort($nums2, SORT_DESC, $nums1);
 
         $heap = new SplMinHeap();
         $sum1 = 0;
         $max = 0;
 
-        foreach ($pairs as [$num1, $num2]) {
-            $heap->insert($num1);
-            $sum1 += $num1;
+        $n = count($nums1);
+        for ($i = 0; $i < $n; $i++) {
+            $heap->insert($nums1[$i]);
+            $sum1 += $nums1[$i];
 
             if ($heap->count() > $k) {
                 $sum1 -= $heap->extract();
             }
             if ($heap->count() === $k) {
-                $max = max($max, $sum1 * $num2);
+                $max = max($max, $sum1 * $nums2[$i]);
             }
         }
         return $max;
