@@ -14,6 +14,7 @@
 - [Problem 11](../problems/11_container_with_most_water/README.md)
 
 ## Medium
+- [Problem 2542](../problems/2542_maximum_subsequence_score/README.md)
 - [Problem 215](../problems/215_kth_largest_element_in_an_array/README.md)
 - [Problem 994](../problems/994_rotting_oranges/README.md)
 - [Problem 1926](../problems/1926_nearest_exit_from_entrance_in_maze/README.md)
