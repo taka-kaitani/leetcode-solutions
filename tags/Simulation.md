@@ -3,6 +3,7 @@
 ## Easy
 
 ## Medium
+- [Problem 2462](../problems/2462_total_cost_to_hire_k_workers/README.md)
 - [Problem 735](../problems/735_asteroid_collision/README.md)
 - [Problem 2390](../problems/2390_removing_stars_from_a_string/README.md)
 - [Problem 2352](../problems/2352_equal_row_and_column_pairs/README.md)
