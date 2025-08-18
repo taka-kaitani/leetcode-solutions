@@ -14,6 +14,7 @@
 - [Problem 11](../problems/11_container_with_most_water/README.md)
 
 ## Medium
+- [Problem 2300](../problems/2300_successful_pairs_of_spells_and_potions/README.md)
 - [Problem 2462](../problems/2462_total_cost_to_hire_k_workers/README.md)
 - [Problem 2542](../problems/2542_maximum_subsequence_score/README.md)
 - [Problem 215](../problems/215_kth_largest_element_in_an_array/README.md)

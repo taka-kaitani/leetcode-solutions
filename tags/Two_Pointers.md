@@ -8,6 +8,7 @@
 - [Problem 11](../problems/11_container_with_most_water/README.md)
 
 ## Medium
+- [Problem 2300](../problems/2300_successful_pairs_of_spells_and_potions/README.md)
 - [Problem 2462](../problems/2462_total_cost_to_hire_k_workers/README.md)
 - [Problem 2130](../problems/2130_maximum_twin_sum_of_a_linked_list/README.md)
 - [Problem 2095](../problems/2095_delete_the_middle_node_of_a_linked_list/README.md)
