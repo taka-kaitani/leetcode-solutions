@@ -14,6 +14,7 @@
 - [Problem 11](../problems/11_container_with_most_water/README.md)
 
 ## Medium
+- [Problem 198](../problems/198_house_robber/README.md)
 - [Problem 216](../problems/216_combination_sum_iii/README.md)
 - [Problem 875](../problems/875_koko_eating_bananas/README.md)
 - [Problem 162](../problems/162_find_peak_element/README.md)
