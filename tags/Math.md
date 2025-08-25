@@ -5,6 +5,7 @@
 - [Problem 1071](../problems/1071_greatest_common_divisor_of_strings/README.md)
 
 ## Medium
+- [Problem 62](../problems/62_unique_paths/README.md)
 
 ## Hard
 
