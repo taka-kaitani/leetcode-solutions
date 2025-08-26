@@ -7,6 +7,7 @@
 - [Problem 338](../problems/338_counting_bits/README.md)
 
 ## Medium
+- [Problem 1143](../problems/1143_longest_common_subsequence/README.md)
 - [Problem 62](../problems/62_unique_paths/README.md)
 - [Problem 790](../problems/790_domino_and_tromino_tiling/README.md)
 - [Problem 198](../problems/198_house_robber/README.md)
