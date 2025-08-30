@@ -7,6 +7,7 @@
 - [Problem 338](../problems/338_counting_bits/README.md)
 
 ## Medium
+- [Problem 714](../problems/714_best_time_to_buy_and_sell_stock_with_transaction_fee/README.md)
 - [Problem 1143](../problems/1143_longest_common_subsequence/README.md)
 - [Problem 62](../problems/62_unique_paths/README.md)
 - [Problem 790](../problems/790_domino_and_tromino_tiling/README.md)

@@ -14,6 +14,7 @@
 - [Problem 11](../problems/11_container_with_most_water/README.md)
 
 ## Medium
+- [Problem 714](../problems/714_best_time_to_buy_and_sell_stock_with_transaction_fee/README.md)
 - [Problem 198](../problems/198_house_robber/README.md)
 - [Problem 216](../problems/216_combination_sum_iii/README.md)
 - [Problem 875](../problems/875_koko_eating_bananas/README.md)
