@@ -5,6 +5,7 @@
 - [Problem 136](../problems/136_single_number/README.md)
 
 ## Medium
+- [Problem 1318](../problems/1318_minimum_flips_to_make_a_or_b_equal_to_c/README.md)
 
 ## Hard
 
