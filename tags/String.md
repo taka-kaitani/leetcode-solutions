@@ -7,6 +7,7 @@
 - [Problem 345](../problems/345_reverse_vowels_of_a_string/README.md)
 
 ## Medium
+- [Problem 1268](../problems/1268_search_suggestions_system/README.md)
 - [Problem 208](../problems/208_implement_trie_(prefix_tree)/README.md)
 - [Problem 72](../problems/72_edit_distance/README.md)
 - [Problem 1143](../problems/1143_longest_common_subsequence/README.md)
