@@ -14,6 +14,7 @@
 - [Problem 11](../problems/11_container_with_most_water/README.md)
 
 ## Medium
+- [Problem 435](../problems/435_non-overlapping_intervals/README.md)
 - [Problem 1268](../problems/1268_search_suggestions_system/README.md)
 - [Problem 714](../problems/714_best_time_to_buy_and_sell_stock_with_transaction_fee/README.md)
 - [Problem 198](../problems/198_house_robber/README.md)

@@ -3,6 +3,7 @@
 ## Easy
 
 ## Medium
+- [Problem 435](../problems/435_non-overlapping_intervals/README.md)
 - [Problem 1268](../problems/1268_search_suggestions_system/README.md)
 - [Problem 2300](../problems/2300_successful_pairs_of_spells_and_potions/README.md)
 - [Problem 2542](../problems/2542_maximum_subsequence_score/README.md)
