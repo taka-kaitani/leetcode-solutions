@@ -14,6 +14,7 @@
 - [Problem 11](../problems/11_container_with_most_water/README.md)
 
 ## Medium
+- [Problem 739](../problems/739_daily_temperatures/README.md)
 - [Problem 452](../problems/452_minimum_number_of_arrows_to_burst_balloons/README.md)
 - [Problem 435](../problems/435_non-overlapping_intervals/README.md)
 - [Problem 1268](../problems/1268_search_suggestions_system/README.md)
