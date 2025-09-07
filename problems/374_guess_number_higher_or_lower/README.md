@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - We use binary search to minimize the number of guesses.
 
 ### Time & Space Complexity
