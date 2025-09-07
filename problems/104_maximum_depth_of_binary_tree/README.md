@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - We use recursive depth-first search (DFS) approach.
 - At each node, we compute the depth of its left and right subtrees and return the maximum of the two plus one.
 
