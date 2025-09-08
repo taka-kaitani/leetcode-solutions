@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - We use dynamic programming (bottom-up) to calculate the minimum cost to reach each step.
 
 ### Time & Space Complexity
