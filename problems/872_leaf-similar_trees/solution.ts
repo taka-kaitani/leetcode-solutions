@@ -20,12 +20,14 @@ class TreeNode {
 }
 
 /**
- * Return whether two given trees are leaf-similar.
- * They are leaf-similar when if their leaf value sequence is the same.
+ * Determines whether two binary trees are leaf-similar.
  * 
- * @param root1
- * @param root2
- * @returns 
+ * Two trees are considered leaf-similar if the sequence of their leaf values,
+ * read from left to right, is identical.
+ * 
+ * @param root1 The root node of the first binary tree
+ * @param root2 The root node of the second binary tree
+ * @returns True if both trees are leaf-similar; otherwise, false.
  */
 function leafSimilar(root1: TreeNode | null, root2: TreeNode | null): boolean {
     return arraysEqual(dfs(root1, []), dfs(root2, []));
