@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - Use depth-first search (DFS) to collect leaf node values from each tree.
 
 ### Time & Space Complexity
