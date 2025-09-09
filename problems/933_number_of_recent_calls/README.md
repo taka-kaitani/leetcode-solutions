@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - Use queue to store timestamps of recent `ping` calls.
 - Each time `ping($t)` is called, we:
   - Add `$t` to the end of the queue.
