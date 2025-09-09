@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - Use the two-pointer technique to overwrite non-zero elements from the beginning.
 - First pointer (`insertPos`) tracks the position to write the next non-zero element.
 - In the first pass, shift all non-zero elements to the front.
