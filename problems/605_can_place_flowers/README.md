@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - Iterate through the flowerbed array.
 - If the current plot and its adjacent plots (if any) are all empty, plant a flower.
 - Track the number of planted flowers. If it reaches or exceeds `n`, return true.
