@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - Use two pointers (`left` and `right`) to scan the string from both ends.
 
 ### Time & Space Complexity
