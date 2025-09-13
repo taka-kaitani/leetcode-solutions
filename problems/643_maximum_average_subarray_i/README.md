@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - Use a sliding window of size k to track the sum of the current subarray.
 
 ### Time & Space Complexity
