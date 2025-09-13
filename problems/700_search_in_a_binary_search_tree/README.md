@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - Leverage the BST property.
 - This allows us to avoid searching unnecessary parts of the tree (unlike a full DFS).
 
