@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - To check whether a common divisor string exists, I concatenate the two strings in both orders and compare them.
 - I calculate the GCD of the string lengths in a separate helper function.
 
