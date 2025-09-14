@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - Convert input arrays to sets to ensure uniqueness and allow constant-time lookup.
 - Look through each set to find values not present in the other set.
 
