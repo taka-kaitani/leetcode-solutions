@@ -8,6 +8,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - We use two-pointer technique to minimize the iterations.
 - At each step, we move the pointer pointing the shorter line inward.
 
