@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - We implement a Trie (prefix tree) data structure to support word insertions and prefix-based searches.
 - Each node stores:
   - `children`: a mapping from characters to the next TrieNode

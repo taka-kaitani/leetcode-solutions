@@ -1,7 +1,7 @@
 <?php
 /**
  * LeetCode Problem: 208. Implement Trie (Prefix Tree)
- * https://leetcode.com/problems/implement-trie-(prefix-tree)/
+ * https://leetcode.com/problems/implement-trie-prefix-tree/
  *
  * Solution by Takanori Kaitani
  */
