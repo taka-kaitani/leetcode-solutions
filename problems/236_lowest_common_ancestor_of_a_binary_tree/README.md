@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - We recursively explore the tree to find the two nodes `p` and `q`.
 - If a node matches either `p` or `q`, we return it as a potential ancestor.
 - If both left and right subtrees return non-null, the current node is the lowest common ancestor.
