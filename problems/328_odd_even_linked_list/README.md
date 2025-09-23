@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - We use two pointers (`odd` and `even`) to traverse the linked list.
 
 ### Time & Space Complexity
