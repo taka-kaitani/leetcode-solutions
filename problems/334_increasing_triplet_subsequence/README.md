@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - We use a greedy linear scan with two variables:
   - `first` : the smallest value seen so far
   - `second`: the smallest value greater than `first` seen so far
