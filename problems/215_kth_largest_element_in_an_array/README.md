@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - We use the Quickselect algorithm to find `k`th largest element.
 - Instead of standard Lomuto/Hoare partition, we use a 3-way partition.
 
