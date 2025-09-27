@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - We represent the given `equations` and `values` as a weighted graph.
 - For each query, we perform a DFS traversal to compute the result of the division using the graph.
 
