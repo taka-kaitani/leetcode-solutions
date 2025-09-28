@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - We use two pointers (`read`, `write`) to traverse and overwrite the array in-place.
 
 ### Time & Space Complexity
