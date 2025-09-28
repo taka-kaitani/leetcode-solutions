@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - We search for the node to delete by leveraging the properties of a BST.
 - Once the node is found, we locate the maximum node in its left subtree (the inorder predecessor).
 - We replace the target node's value with the inorder predecessor's value.
