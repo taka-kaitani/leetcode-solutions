@@ -35,7 +35,7 @@
 - 547 OK
 - 714 OK
 - 790 OK
-- 875
+- 875 - (solved with some hints)
 - 1143
 - 1318
 - 1466

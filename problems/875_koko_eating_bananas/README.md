@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - We use a binary search to find the minimum eating speed (bananas per hour)
   such that Koko can finish all bananas within `h` hours.
 
