@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - We use dynamic programming to count the number of ways to tile to 2×n board with dominoes and trominoes.
 - The key idea is to track two states;
   - `dp[n]`: the number of ways to fully cover a 2×n board
