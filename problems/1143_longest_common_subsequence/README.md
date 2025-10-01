@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - We use dynamic programming approach to calculate the Longest Common Subsequence (LCS) between two strings.
 
 ### Time & Space Complexity
