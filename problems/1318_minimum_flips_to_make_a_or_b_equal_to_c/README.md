@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - We solve this by checking each bit of `a`, `b` and `c` independently.
 
 ### Time & Space Complexity

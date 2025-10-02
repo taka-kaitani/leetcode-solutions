@@ -37,7 +37,7 @@
 - 790 OK
 - 875 - (solved with some hints)
 - 1143 - (approach was correct)
-- 1318
+- 1318 OK
 - 1466
 - 1657
 - 1679
