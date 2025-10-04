@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - We recursively count the number of reordering the directions by using DFS approach.
 - Before exploring the roads, we store the directions in `$graph`.
 - We perform a DFS approach to count the number of roads that need to be reordered.
