@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - Steps:
   1. Use `count_chars()` to get the frequency map for both string.
   2. Compare the character sets via `array_keys()`.
