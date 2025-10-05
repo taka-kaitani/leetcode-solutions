@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - We perform a BFS traversal on the maze to find the minimum number of steps from the entrance to the nearest exit.
 
 ### Time & Space Complexity

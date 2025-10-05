@@ -41,7 +41,7 @@
 - 1466 -
 - 1657 OK
 - 1679 OK (a few improvements)
-- 1926
+- 1926 OK (but, spend much time and have some improvement)
 - 2300
 - 2336
 - 2352
