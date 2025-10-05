@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - For each spell, we compute how many potions can form a successful pair (i.e., spell × potion ≥ success).
 - To optimize the search, we sort the `potions` array in advance and apply binary search for each spell.
 
