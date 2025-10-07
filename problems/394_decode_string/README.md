@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - We decode the string by recursively processing bracketed substrings and repeating them according to their prefix number.
 
 ### Time & Space Complexity
