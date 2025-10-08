@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 -	A naive approach would require tracking all numbers explicitly, which is impossible for an infinite set.
 -	By separating:
   -	Finite part: numbers in the heap (already popped and then added back)

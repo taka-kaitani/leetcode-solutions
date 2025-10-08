@@ -43,13 +43,13 @@
 - 1679 OK (a few improvements)
 - 1926 OK (but, spend much time and have some improvement)
 - 2300 OK
-- 2336
+- 2336 OK
 - 2352
 - 2462
 - 2542
 ### 自力で解答できたが、復習が必要なもの（解答時間が1.0h以上 or 添削による改善がかなり必要だったもの）
 - 394 OK
-- 437
+- 437 NG
 - 739
 - 1004
 - 1268
