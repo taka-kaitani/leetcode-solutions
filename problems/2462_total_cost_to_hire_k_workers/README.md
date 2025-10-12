@@ -7,7 +7,8 @@
 
 ### Code
 - [solution.php](./solution.php)
-- We maintain two min-heaps (`healL`, `heapR`) to track the smallest costs
+- [solution.ts](./solution.ts)
+- We maintain two min-heaps (`heapL`, `heapR`) to track the smallest costs
   among at most `candidates` workers from the left side and the right side.
 - At each hiring step, we compare the tops of both heaps and hire the cheaper one.
 - After hiring, we move the next unseen worker from that side into the corresponding heap.

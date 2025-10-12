@@ -45,7 +45,7 @@
 - 2300 OK
 - 2336 OK
 - 2352 OK
-- 2462
+- 2462 - (Approach was nice. But I can't implement it with my own MinHeap class)
 - 2542
 ### 自力で解答できたが、復習が必要なもの（解答時間が1.0h以上 or 添削による改善がかなり必要だったもの）
 - 394 OK
@@ -59,6 +59,7 @@
 - queue
   - FIFO
 - heap
+  - includes my own `MinHeap` class since there is no built-in in ts
 - binary search
 - DP(multidimensional)
 - Bit operations
