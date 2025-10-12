@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - We use a recursive function to traverse the tree and count the number of paths that sum to the target value.
 
 ### Time & Space Complexity

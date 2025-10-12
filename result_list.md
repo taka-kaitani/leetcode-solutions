@@ -49,7 +49,7 @@
 - 2542
 ### 自力で解答できたが、復習が必要なもの（解答時間が1.0h以上 or 添削による改善がかなり必要だったもの）
 - 394 OK
-- 437 NG
+- 437 -
 - 739
 - 1004
 - 1268
@@ -64,4 +64,5 @@
 - DP(multidimensional)
 - Bit operations
 - quicksort, partition
+- prefixSum
 
