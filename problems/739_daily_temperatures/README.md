@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - We use a monotonic stack to keep track of indices of days whose warmer temperature has not yet been found.
 - While iterating through the temperatures:
   - For the current day, compare it with the day at the top of the stack.
