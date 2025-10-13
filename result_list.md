@@ -51,7 +51,7 @@
 - 394 OK
 - 437 -
 - 739 OK (a few improvement of syntax)
-- 1004
+- 1004 -
 - 1268
 
 # 理解が浅い分野（感覚でOK）
