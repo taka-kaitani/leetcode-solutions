@@ -46,7 +46,7 @@
 - 2336 OK
 - 2352 OK
 - 2462 - (Approach was nice. But I can't implement it with my own MinHeap class)
-- 2542
+- 2542 -
 ### 自力で解答できたが、復習が必要なもの（解答時間が1.0h以上 or 添削による改善がかなり必要だったもの）
 - 394 OK
 - 437 -

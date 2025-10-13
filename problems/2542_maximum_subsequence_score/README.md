@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - We use a greedy approach to maximize the score.
 - Before the traversal, we sort the pairs `[nums1, nums2]` in descending order by `nums2`
   so that we can efficiently track the minimum of the selected `nums2`.
