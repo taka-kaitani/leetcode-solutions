@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - We sort the products list and, for each prefix of `searchWord`,
   use binary search (`lowerBound`) to find the range of matching products.
 - From the range, we collect up to 3 lexicographically smallest matches.
