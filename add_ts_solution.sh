@@ -55,8 +55,11 @@ if [ -z "$PROBLEM_DIR" ] || [ ! -d "$PROBLEM_DIR" ]; then
         exit 1
     fi
 
-    # Create folder name: problem_number_problem-title
-    FOLDER_NAME="${PROBLEM_NUM}_$(echo "$PROBLEM_TITLE" | tr '[:upper:]' '[:lower:]' | tr ' ' '-')"
+    # Remove both single and double quotes from the title
+    PROBLEM_TITLE=$(echo "$PROBLEM_TITLE" | tr -d "'\"")
+
+    # Create folder name: problem_number_problem_title (snake_case)
+    FOLDER_NAME="${PROBLEM_NUM}_$(echo "$PROBLEM_TITLE" | tr '[:upper:]' '[:lower:]' | tr ' ' '_')"
     PROBLEM_DIR="problems/$FOLDER_NAME/"
 
     # Create the directory
@@ -105,8 +108,12 @@ EOF
     if [ -n "$DIFFICULTY" ] && [ -n "$TAGS_INPUT" ]; then
         echo "Updating tags..."
 
+        # Convert single quotes to double quotes for proper parsing
+        # 'Array' 'Binary Search' → "Array" "Binary Search"
+        TAGS_INPUT=$(echo "$TAGS_INPUT" | sed "s/'/\"/g")
+
         # Parse tags - handle tags with spaces by looking for quoted strings
-        # Convert input like: Array "Prefix Sum" "Hash Table"
+        # Convert input like: "Array" "Prefix Sum" "Hash Table"
         # Into proper array of arguments
         eval "TAGS_ARRAY=($TAGS_INPUT)"
 
