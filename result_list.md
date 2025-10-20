@@ -28,7 +28,7 @@
 # 問題リスト
 
 ## week 1 (10/20 ~ 10/26) — Sliding Window & Monotonic Stack
-- [ ] 10/20 (Mon): 209 Minimum Size Subarray Sum
+- [x] 10/20 (Mon): 209 Minimum Size Subarray Sum
 - [ ] 10/21 (Tue): 3 Longest Substring Without Repeating Characters
 - [ ] 10/22 (Wed): 438 Find All Anagrams in a String
 - [ ] 10/23 (Thu): 567 Permutation in String

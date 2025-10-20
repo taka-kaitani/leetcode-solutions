@@ -4,6 +4,7 @@
 - [Problem 374](../problems/374_guess_number_higher_or_lower/README.md)
 
 ## Medium
+- [Problem 209](../problems/209_minimum_size_subarray_sum/README.md)
 - [Problem 1268](../problems/1268_search_suggestions_system/README.md)
 - [Problem 875](../problems/875_koko_eating_bananas/README.md)
 - [Problem 162](../problems/162_find_peak_element/README.md)
