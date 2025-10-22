@@ -4,6 +4,7 @@
 - [Problem 643](../problems/643_maximum_average_subarray_i/README.md)
 
 ## Medium
+- [Problem 438](../problems/438_find_all_anagrams_in_a_string/README.md)
 - [Problem 3](../problems/3_longest_substring_without_repeating_characters/README.md)
 - [Problem 209](../problems/209_minimum_size_subarray_sum/README.md)
 - [Problem 1493](../problems/1493_longest_subarray_of_1's_after_deleting_one_element/README.md)

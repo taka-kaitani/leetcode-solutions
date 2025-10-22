@@ -5,6 +5,7 @@
 - [Problem 1207](../problems/1207_unique_number_of_occurrences/README.md)
 
 ## Medium
+- [Problem 438](../problems/438_find_all_anagrams_in_a_string/README.md)
 - [Problem 3](../problems/3_longest_substring_without_repeating_characters/README.md)
 - [Problem 208](../problems/208_implement_trie_(prefix_tree)/README.md)
 - [Problem 17](../problems/17_letter_combinations_of_a_phone_number/README.md)
