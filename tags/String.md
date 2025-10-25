@@ -7,6 +7,7 @@
 - [Problem 345](../problems/345_reverse_vowels_of_a_string/README.md)
 
 ## Medium
+- [Problem 567](../problems/567_permutation_in_string/README.md)
 - [Problem 438](../problems/438_find_all_anagrams_in_a_string/README.md)
 - [Problem 1268](../problems/1268_search_suggestions_system/README.md)
 - [Problem 208](../problems/208_implement_trie_(prefix_tree)/README.md)
