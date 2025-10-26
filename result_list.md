@@ -32,7 +32,7 @@
 - [x] 10/21 (Tue): 3 Longest Substring Without Repeating Characters
 - [x] 10/22 (Wed): 438 Find All Anagrams in a String
 - [x] 10/23 (Thu): 567 Permutation in String
-- [ ] 10/24 (Fri): 496 Next Greater Element I
+- [x] 10/24 (Fri): 496 Next Greater Element I
 - [ ] 10/25 (Sat): 503 Next Greater Element II, 402 Remove K Digits
 - [ ] 10/26 (Sun): 42 Trapping Rain Water, Review → 443 / 1004 (from your list)
 

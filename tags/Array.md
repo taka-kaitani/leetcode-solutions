@@ -1,6 +1,7 @@
 # Array Problems
 
 ## Easy
+- [Problem 496](../problems/496_next_greater_element_i/README.md)
 - [Problem 2215](../problems/2215_find_the_difference_of_two_arrays/README.md)
 - [Problem 1732](../problems/1732_find_the_highest_altitude/README.md)
 - [Problem 1431](../problems/1431_kids_with_the_greatest_number_of_candies/README.md)
