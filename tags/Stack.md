@@ -4,6 +4,7 @@
 - [Problem 496](../problems/496_next_greater_element_i/README.md)
 
 ## Medium
+- [Problem 503](../problems/503_next_greater_element_ii/README.md)
 - [Problem 901](../problems/901_online_stock_span/README.md)
 - [Problem 739](../problems/739_daily_temperatures/README.md)
 - [Problem 2130](../problems/2130_maximum_twin_sum_of_a_linked_list/README.md)
