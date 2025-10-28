@@ -35,6 +35,9 @@
 - [x] 10/24 (Fri): 496 Next Greater Element I
 - [x] 10/25 (Sat): 503 Next Greater Element II, 402 Remove K Digits
 - [ ] 10/26 (Sun): 42 Trapping Rain Water, Review → 443 / 1004 (from your list)
+  - [ ] 42
+  - [x] 443
+  - [ ] 1004
 
 ## week 2 (10/27 ~ 11/02) — Binary Search on Answer & DP
 - [ ] 10/27 (Mon): 1011 Capacity to Ship Packages Within D Days
