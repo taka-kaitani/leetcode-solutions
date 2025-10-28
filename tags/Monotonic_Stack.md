@@ -10,4 +10,5 @@
 - [Problem 739](../problems/739_daily_temperatures/README.md)
 
 ## Hard
+- [Problem 42](../problems/42_trapping_rain_water/README.md)
 

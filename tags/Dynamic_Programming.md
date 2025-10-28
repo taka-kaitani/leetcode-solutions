@@ -18,4 +18,5 @@
 - [Problem 1493](../problems/1493_longest_subarray_of_1's_after_deleting_one_element/README.md)
 
 ## Hard
+- [Problem 42](../problems/42_trapping_rain_water/README.md)
 

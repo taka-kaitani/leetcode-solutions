@@ -14,4 +14,5 @@
 - [Problem 2390](../problems/2390_removing_stars_from_a_string/README.md)
 
 ## Hard
+- [Problem 42](../problems/42_trapping_rain_water/README.md)
 

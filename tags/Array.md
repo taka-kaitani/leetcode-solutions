@@ -41,4 +41,4 @@
 - [Problem 334](../problems/334_increasing_triplet_subsequence/README.md)
 - [Problem 238](../problems/238_product_of_array_except_self/README.md)
 
-## Hard
+## Hard- [Problem 42](../problems/42_trapping_rain_water/README.md)
