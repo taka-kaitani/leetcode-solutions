@@ -34,10 +34,10 @@
 - [x] 10/23 (Thu): 567 Permutation in String
 - [x] 10/24 (Fri): 496 Next Greater Element I
 - [x] 10/25 (Sat): 503 Next Greater Element II, 402 Remove K Digits
-- [ ] 10/26 (Sun): 42 Trapping Rain Water, Review → 443 / 1004 (from your list)
+- [x] 10/26 (Sun): 42 Trapping Rain Water, Review → 443 / 1004 (from your list)
   - [x] 42
   - [x] 443
-  - [ ] 1004
+  - [x] 1004
 
 ## week 2 (10/30 ~ 11/05) — Binary Search on Answer & DP
 - [ ] 10/30 (Thu): 1011 Capacity to Ship Packages Within D Days
