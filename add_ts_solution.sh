@@ -101,6 +101,16 @@ EOF
  * Solution by Takanori Kaitani
  */
 
+
+/**
+ * # Approach
+ * - 
+ * 
+ * # Complexity
+ * - Time:  O()
+ * - Space: O()
+ */
+
 EOF
     echo "Created $TS_FILE"
 
@@ -162,6 +172,16 @@ else
  * $PROBLEM_URL
  *
  * Solution by Takanori Kaitani
+ */
+
+
+/**
+ * # Approach
+ * - 
+ * 
+ * # Complexity
+ * - Time:  O()
+ * - Space: O()
  */
 
 EOF
