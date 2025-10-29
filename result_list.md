@@ -40,43 +40,43 @@
   - [ ] 1004
 
 ## week 2 (10/30 ~ 11/05) — Binary Search on Answer & DP
-- [ ] 10/30 (Wed): 1011 Capacity to Ship Packages Within D Days
-- [ ] 10/31 (Thu): 875 Koko Eating Bananas (from your list)
-- [ ] 11/01 (Fri): 1552 Magnetic Force Between Two Balls
-- [ ] 11/02 (Sat): 1482 Minimum Days to Make m Bouquets, 198 House Robber
+- [ ] 10/30 (Thu): 1011 Capacity to Ship Packages Within D Days
+- [ ] 10/31 (Fri): 875 Koko Eating Bananas (from your list)
+- [ ] 11/01 (Sat): 1552 Magnetic Force Between Two Balls, 1482 Minimum Days to Make m Bouquets
+  - [ ] 1552
   - [ ] 1482
+- [ ] 11/02 (Sun): 198 House Robber, 213 House Robber II
   - [ ] 198
-- [ ] 11/03 (Sun): 213 House Robber II, 300 LIS
   - [ ] 213
-  - [ ] 300
-- [ ] 11/04 (Mon): 322 Coin Change
-- [ ] 11/05 (Tue): 1143 Longest Common Subsequence (from your list)
+- [ ] 11/03 (Mon): 300 Longest Increasing Subsequence
+- [ ] 11/04 (Tue): 322 Coin Change
+- [ ] 11/05 (Wed): 1143 Longest Common Subsequence (from your list)
 
 ## week 3 (11/06 ~ 11/12) — Trees & Graphs
-- [ ] 11/06 (Wed): 72 Edit Distance (from your list)
-- [ ] 11/07 (Thu): 98 Validate BST
-- [ ] 11/08 (Fri): 230 Kth Smallest in BST
-- [ ] 11/09 (Sat): 235 LCA of BST, 236 LCA of Binary Tree (from your list)
+- [ ] 11/06 (Thu): 72 Edit Distance (from your list)
+- [ ] 11/07 (Fri): 98 Validate BST
+- [ ] 11/08 (Sat): 230 Kth Smallest in BST, 235 LCA of BST
+  - [ ] 230
   - [ ] 235
+- [ ] 11/09 (Sun): 236 LCA of Binary Tree, 112 Path Sum I (from your list)
   - [ ] 236
-- [ ] 11/10 (Sun): 112 Path Sum I, 113 Path Sum II
   - [ ] 112
-  - [ ] 113
-- [ ] 11/11 (Mon): 437 Path Sum III (from your list)
-- [ ] 11/12 (Tue): 200 Number of Islands
+- [ ] 11/10 (Mon): 113 Path Sum II
+- [ ] 11/11 (Tue): 437 Path Sum III (from your list)
+- [ ] 11/12 (Wed): 200 Number of Islands
 
 ## week 4 (11/13 ~ 11/19) — Greedy / Heap & Trie / Prefix
-- [ ] 11/13 (Wed): 450 Delete Node in a BST (from your list)
-- [ ] 11/14 (Thu): 1926 Nearest Exit from Entrance in Maze (from your list)
-- [ ] 11/15 (Fri): 215 Kth Largest Element in Array (from your list)
-- [ ] 11/16 (Sat): 1642 Furthest Building You Can Reach, 373 K Pairs with Smallest Sums
+- [ ] 11/13 (Thu): 450 Delete Node in a BST (from your list)
+- [ ] 11/14 (Fri): 1926 Nearest Exit from Entrance in Maze (from your list)
+- [ ] 11/15 (Sat): 215 Kth Largest Element in Array, 1642 Furthest Building You Can Reach (from your list)
+  - [ ] 215
   - [ ] 1642
+- [ ] 11/16 (Sun): 373 K Pairs with Smallest Sums, 621 Task Scheduler
   - [ ] 373
-- [ ] 11/17 (Sun): 621 Task Scheduler, 208 Implement Trie (from your list)
   - [ ] 621
-  - [ ] 208
-- [ ] 11/18 (Mon): 720 Longest Word in Dictionary (from your list)
-- [ ] 11/19 (Tue): 1268 Search Suggestions System (from your list)
+- [ ] 11/17 (Mon): 208 Implement Trie (from your list)
+- [ ] 11/18 (Tue): 720 Longest Word in Dictionary (from your list)
+- [ ] 11/19 (Wed): 1268 Search Suggestions System (from your list)
 
 
 # 理解が浅い分野
