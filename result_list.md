@@ -40,8 +40,8 @@
   - [x] 1004
 
 ## week 2 (10/30 ~ 11/05) — Binary Search on Answer & DP
-- [] 10/30 (Thu): 1011 Capacity to Ship Packages Within D Days
-- [ ] 10/31 (Fri): 875 Koko Eating Bananas (from your list)
+- [x] 10/30 (Thu): 1011 Capacity to Ship Packages Within D Days
+- [x] 10/31 (Fri): 875 Koko Eating Bananas (from your list)
 - [ ] 11/01 (Sat): 1552 Magnetic Force Between Two Balls, 1482 Minimum Days to Make m Bouquets
   - [ ] 1552
   - [ ] 1482

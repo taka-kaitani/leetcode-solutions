@@ -5,18 +5,21 @@
  * Solution by Takanori Kaitani
  */
 function minEatingSpeed(piles: number[], h: number): number {
-    let low = 1;
-    let high = Math.max(...piles);
-    while (low < high) {
-        let hour = 0;
-        const mid = Math.floor((low + high) / 2);
-        for (const pile of piles) {
-            hour += Math.ceil(pile / mid);
-        }
-
-        if (hour <= h) high = mid;
-        else           low = mid + 1;
+    let left = 1;
+    let right = Math.max(...piles);
+    while (left < right) {
+        const speed = Math.floor((left + right) / 2);
+        if (timeSpent(piles, speed) > h) left = speed + 1;
+        else right = speed;
     }
 
-    return low;
+    return right;
 };
+
+function timeSpent(piles: number[], speed: number): number {
+    let spent = 0;
+    for (const p of piles) {
+        spent += Math.ceil(p / speed);
+    }
+    return spent;
+}
