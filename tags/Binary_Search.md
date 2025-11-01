@@ -4,6 +4,7 @@
 - [Problem 374](../problems/374_guess_number_higher_or_lower/README.md)
 
 ## Medium
+- [Problem 1552](../problems/1552_magnetic_force_between_two_balls/README.md)
 - [Problem 1011](../problems/1011_capacity_to_ship_packages_within_d_days/README.md)
 - [Problem 209](../problems/209_minimum_size_subarray_sum/README.md)
 - [Problem 1268](../problems/1268_search_suggestions_system/README.md)
