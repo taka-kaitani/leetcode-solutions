@@ -7,6 +7,7 @@
 
 ### Code
 - [solution.php](./solution.php)
+- [solution.ts](./solution.ts)
 - We use dynamic programming with constant space to keep track of the max value robbed up to each house.
 
 ### Time & Space Complexity
