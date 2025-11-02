@@ -110,7 +110,6 @@ EOF
  * - Time:  O()
  * - Space: O()
  */
-
 EOF
     echo "Created $TS_FILE"
 
@@ -183,7 +182,6 @@ else
  * - Time:  O()
  * - Space: O()
  */
-
 EOF
     echo "Created $TS_FILE"
 fi
