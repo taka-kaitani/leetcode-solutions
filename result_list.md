@@ -43,8 +43,8 @@
 - [x] 10/30 (Thu): 1011 Capacity to Ship Packages Within D Days
 - [x] 10/31 (Fri): 875 Koko Eating Bananas (from your list)
 - [x] 11/01 (Sat): 1552 Magnetic Force Between Two Balls, 1482 Minimum Days to Make m Bouquets
-  - [ ] 1552
-  - [ ] 1482
+  - [x] 1552
+  - [x] 1482
 - [ ] 11/02 (Sun): 198 House Robber, 213 House Robber II
   - [ ] 198
   - [ ] 213

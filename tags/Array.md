@@ -15,6 +15,7 @@
 - [Problem 11](../problems/11_container_with_most_water/README.md)
 
 ## Medium
+- [Problem 1482](../problems/1482_minimum_number_of_days_to_make_m_bouquets/README.md)
 - [Problem 1552](../problems/1552_magnetic_force_between_two_balls/README.md)
 - [Problem 1011](../problems/1011_capacity_to_ship_packages_within_d_days/README.md)
 - [Problem 503](../problems/503_next_greater_element_ii/README.md)
