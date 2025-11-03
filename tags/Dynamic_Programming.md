@@ -7,6 +7,7 @@
 - [Problem 338](../problems/338_counting_bits/README.md)
 
 ## Medium
+- [Problem 300](../problems/300_longest_increasing_subsequence/README.md)
 - [Problem 213](../problems/213_house_robber_ii/README.md)
 - [Problem 435](../problems/435_non-overlapping_intervals/README.md)
 - [Problem 72](../problems/72_edit_distance/README.md)

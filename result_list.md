@@ -48,7 +48,7 @@
 - [x] 11/02 (Sun): 198 House Robber, 213 House Robber II
   - [x] 198
   - [x] 213
-- [ ] 11/03 (Mon): 300 Longest Increasing Subsequence
+- [x] 11/03 (Mon): 300 Longest Increasing Subsequence
 - [ ] 11/04 (Tue): 322 Coin Change
 - [ ] 11/05 (Wed): 1143 Longest Common Subsequence (from your list)
 
