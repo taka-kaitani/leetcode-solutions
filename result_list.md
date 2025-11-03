@@ -45,9 +45,9 @@
 - [x] 11/01 (Sat): 1552 Magnetic Force Between Two Balls, 1482 Minimum Days to Make m Bouquets
   - [x] 1552
   - [x] 1482
-- [ ] 11/02 (Sun): 198 House Robber, 213 House Robber II
+- [x] 11/02 (Sun): 198 House Robber, 213 House Robber II
   - [x] 198
-  - [ ] 213
+  - [x] 213
 - [ ] 11/03 (Mon): 300 Longest Increasing Subsequence
 - [ ] 11/04 (Tue): 322 Coin Change
 - [ ] 11/05 (Wed): 1143 Longest Common Subsequence (from your list)
