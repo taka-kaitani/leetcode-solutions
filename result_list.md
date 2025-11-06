@@ -49,7 +49,8 @@
   - [x] 198
   - [x] 213
 - [x] 11/03 (Mon): 300 Longest Increasing Subsequence
-- [ ] 11/04 (Tue): 322 Coin Change
+- [x] 11/04 (Tue): 322 Coin Change
+  - with some hints 
 - [ ] 11/05 (Wed): 1143 Longest Common Subsequence (from your list)
 
 ## week 3 (11/06 ~ 11/12) — Trees & Graphs
