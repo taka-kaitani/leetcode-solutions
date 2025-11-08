@@ -54,7 +54,7 @@
 - [x] 11/05 (Wed): 1143 Longest Common Subsequence (from your list)
 
 ## week 3 (11/06 ~ 11/12) — Trees & Graphs
-- [ ] 11/06 (Thu): 72 Edit Distance (from your list)
+- [x] 11/06 (Thu): 72 Edit Distance (from your list)
 - [ ] 11/07 (Fri): 98 Validate BST
 - [ ] 11/08 (Sat): 230 Kth Smallest in BST, 235 LCA of BST
   - [ ] 230
