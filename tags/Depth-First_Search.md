@@ -5,6 +5,7 @@
 - [Problem 104](../problems/104_maximum_depth_of_binary_tree/README.md)
 
 ## Medium
+- [Problem 230](../problems/230_kth_smallest_element_in_a_bst/README.md)
 - [Problem 98](../problems/98_validate_binary_search_tree/README.md)
 - [Problem 399](../problems/399_evaluate_division/README.md)
 - [Problem 1466](../problems/1466_reorder_routes_to_make_all_paths_lead_to_the_city_zero/README.md)

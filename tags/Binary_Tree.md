@@ -6,6 +6,7 @@
 - [Problem 104](../problems/104_maximum_depth_of_binary_tree/README.md)
 
 ## Medium
+- [Problem 230](../problems/230_kth_smallest_element_in_a_bst/README.md)
 - [Problem 98](../problems/98_validate_binary_search_tree/README.md)
 - [Problem 450](../problems/450_delete_node_in_a_bst/README.md)
 - [Problem 1161](../problems/1161_maximum_level_sum_of_a_binary_tree/README.md)
