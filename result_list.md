@@ -56,10 +56,10 @@
 ## week 3 (11/06 ~ 11/12) — Trees & Graphs
 - [x] 11/06 (Thu): 72 Edit Distance (from your list)
 - [x] 11/07 (Fri): 98 Validate BST
-- [ ] 11/08 (Sat): 230 Kth Smallest in BST, 235 LCA of BST
+- [x] 11/08 (Sat): 230 Kth Smallest in BST, 235 LCA of BST
   - [x] 230
     - with some hints
-  - [ ] 235
+  - [x] 235
 - [ ] 11/09 (Sun): 236 LCA of Binary Tree, 112 Path Sum I (from your list)
   - [ ] 236
   - [ ] 112
