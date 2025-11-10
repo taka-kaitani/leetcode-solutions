@@ -1,6 +1,7 @@
 # Breadth-First Search Problems
 
 ## Easy
+- [Problem 112](../problems/112_path_sum/README.md)
 - [Problem 104](../problems/104_maximum_depth_of_binary_tree/README.md)
 
 ## Medium
