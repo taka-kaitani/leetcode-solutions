@@ -7,6 +7,7 @@
 - [Problem 104](../problems/104_maximum_depth_of_binary_tree/README.md)
 
 ## Medium
+- [Problem 113](../problems/113_path_sum_ii/README.md)
 - [Problem 235](../problems/235_lowest_common_ancestor_of_a_binary_search_tree/README.md)
 - [Problem 230](../problems/230_kth_smallest_element_in_a_bst/README.md)
 - [Problem 98](../problems/98_validate_binary_search_tree/README.md)
