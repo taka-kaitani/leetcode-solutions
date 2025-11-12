@@ -4,10 +4,34 @@
  *
  * Solution by Takanori Kaitani
  */
+function pathSum(root: TreeNode | null, targetSum: number): number {
+    const prefixSums = new Map<number, number>();
+    prefixSums.set(0, 1);
+    return dfs(root, targetSum, prefixSums, 0);
+};
+
+function dfs(
+    node: TreeNode | null,
+    targetSum: number,
+    prefixSums: Map<number, number>,
+    currentSum: number
+): number {
+    if (!node) return 0;
+
+    currentSum += node.val;
+    const countHere = prefixSums.get(currentSum - targetSum) ?? 0;
+    prefixSums.set(currentSum, (prefixSums.get(currentSum) ?? 0) + 1);
+
+    const left  = dfs(node.left,  targetSum, prefixSums, currentSum);
+    const right = dfs(node.right, targetSum, prefixSums, currentSum);
+
+    prefixSums.set(currentSum, prefixSums.get(currentSum)! - 1);
+    return countHere + left + right;
+}
 
 /**
  * Definition for a binary tree node.
- */
+*/
 class TreeNode {
     val: number
     left: TreeNode | null
@@ -19,25 +43,23 @@ class TreeNode {
     }
 }
 
-function pathSum(root: TreeNode | null, targetSum: number): number {
-    const prefixCount = new Map<number, number>();
-    prefixCount.set(0, 1);
-
-    function dfs(root: TreeNode | null, currSum: number): number {
-        if (!root) return 0;
-
-        currSum += root.val;
-        let count = prefixCount.get(currSum - targetSum) ?? 0;
-
-        prefixCount.set(currSum, (prefixCount.get(currSum) ?? 0) + 1);
-        count += dfs(root.left, currSum);
-        count += dfs(root.right, currSum);
-
-        // backtrack
-        prefixCount.set(currSum, prefixCount.get(currSum)! - 1);
-
-        return count;
-    }
-
-    return dfs(root, 0);
-};
+/**
+ * # Approach
+ * - Use a Depth-First Search (DFS) to count all paths whose node values sum to `targetSum`.
+ * - Maintain a hash map `prefixSums` where:
+ *     - The key is a cumulative sum from the root to the current node.
+ *     - The value is how many times this sum has occurred along the current traversal path.
+ * - For each node:
+ *     1. Add the current node’s value to the running `currentSum`.
+ *     2. The number of valid paths ending at this node equals
+ *        `prefixSums.get(currentSum - targetSum)` (the number of times a prefix sum existed
+ *        that would make the path sum to `targetSum`).
+ *     3. Record the current sum in `prefixSums`, then recurse to children.
+ *     4. Backtrack (decrement the count of the current sum) before returning
+ *        to avoid polluting sibling subtrees.
+ *
+ * # Complexity
+ * - Time:  O(n), where n is the number of nodes in the tree.
+ * - Space: O(h), where h is the height of the tree
+ *          (O(log n) for balanced, O(n) for skewed trees).
+ */
