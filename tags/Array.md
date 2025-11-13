@@ -15,6 +15,7 @@
 - [Problem 11](../problems/11_container_with_most_water/README.md)
 
 ## Medium
+- [Problem 200](../problems/200_number_of_islands/README.md)
 - [Problem 322](../problems/322_coin_change/README.md)
 - [Problem 300](../problems/300_longest_increasing_subsequence/README.md)
 - [Problem 213](../problems/213_house_robber_ii/README.md)
