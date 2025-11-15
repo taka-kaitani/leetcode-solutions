@@ -68,7 +68,7 @@
 - [x] 11/12 (Wed): 200 Number of Islands
 
 ## week 4 (11/13 ~ 11/19) — Greedy / Heap & Trie / Prefix
-- [ ] 11/13 (Thu): 450 Delete Node in a BST (from your list)
+- [x] 11/13 (Thu): 450 Delete Node in a BST (from your list)
 - [ ] 11/14 (Fri): 1926 Nearest Exit from Entrance in Maze (from your list)
 - [ ] 11/15 (Sat): 215 Kth Largest Element in Array, 1642 Furthest Building You Can Reach (from your list)
   - [ ] 215
