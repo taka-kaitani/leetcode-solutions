@@ -10,31 +10,46 @@ function findKthLargest(nums: number[], k: number): number {
     let low = 0;
     let high = n;
     while (true) {
-        const [lt, gt] = ThreeWayPartition(nums, low, high);
-
-        if      (target < lt) high = lt;
-        else if (target > gt) low = gt + 1;
+        const [lt, gt] = threeWayPartition(nums, low, high);
+        if      (gt < target) low = gt + 1;
+        else if (lt > target) high = lt;
         else return nums[target];
     }
 }
 
-function ThreeWayPartition(nums: number[], low: number, high: number): number[] {
+function threeWayPartition(nums: number[], low: number, high: number): [number, number] {
+    let lt = low, i = low, gt = high - 1;
     const pivot = nums[low];
-    let lt = low;  // nums[lt] < pivot
-    let i  = low;  // nums[i]  = pivot
-    let gt = high; // nums[gt] > pivot
-    while (i < gt) {
+    // `< pivot` | `== pivot` | `> pivot`
+    //           |↑lt      gt↑|
+    while (i <= gt) {
         if (nums[i] < pivot) {
-            [nums[lt], nums[i]] = [nums[i], nums[lt]];
+            [nums[i], nums[lt]] = [nums[lt], nums[i]];
             lt++;
             i++;
         } else if (nums[i] > pivot) {
-            gt--;
             [nums[i], nums[gt]] = [nums[gt], nums[i]];
+            gt--;
         } else {
             i++;
         }
     }
 
-    return [lt, --gt];
+    return [lt, gt];
 }
+
+/**
+ * # Approach
+ * - Use the Quickselect algorithm to find the kth largest element.
+ * - Convert "kth largest" into "nth smallest" by targeting index (n - k).
+ * - Use a Dutch National Flag 3-way partition to split the subarray into:
+ *     1. values < pivot
+ *     2. values = pivot
+ *     3. values > pivot
+ * - If the target index lies inside the equal-pivot region, we are done.
+ * - Otherwise, recurse only into the necessary partition.
+ *
+ * # Complexity
+ * - Time:  Average O(n), Worst-case O(n²)
+ * - Space: O(1) (in-place partitioning)
+ */
