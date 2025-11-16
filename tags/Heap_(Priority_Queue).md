@@ -3,6 +3,7 @@
 ## Easy
 
 ## Medium
+- [Problem 1642](../problems/1642_furthest_building_you_can_reach/README.md)
 - [Problem 1268](../problems/1268_search_suggestions_system/README.md)
 - [Problem 2462](../problems/2462_total_cost_to_hire_k_workers/README.md)
 - [Problem 2542](../problems/2542_maximum_subsequence_score/README.md)

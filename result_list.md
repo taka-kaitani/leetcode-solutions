@@ -73,7 +73,7 @@
 - [ ] 11/15 (Sat): 215 Kth Largest Element in Array, 1642 Furthest Building You Can Reach (from your list)
   - [x] 215
     - with some hints
-  - [ ] 1642
+  - [x] 1642
 - [ ] 11/16 (Sun): 373 K Pairs with Smallest Sums, 621 Task Scheduler
   - [ ] 373
   - [ ] 621
