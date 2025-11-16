@@ -3,6 +3,7 @@
 ## Easy
 
 ## Medium
+- [Problem 373](../problems/373_find_k_pairs_with_smallest_sums/README.md)
 - [Problem 1642](../problems/1642_furthest_building_you_can_reach/README.md)
 - [Problem 1268](../problems/1268_search_suggestions_system/README.md)
 - [Problem 2462](../problems/2462_total_cost_to_hire_k_workers/README.md)

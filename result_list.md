@@ -70,12 +70,14 @@
 ## week 4 (11/13 ~ 11/19) — Greedy / Heap & Trie / Prefix
 - [x] 11/13 (Thu): 450 Delete Node in a BST (from your list)
 - [x] 11/14 (Fri): 1926 Nearest Exit from Entrance in Maze (from your list)
-- [ ] 11/15 (Sat): 215 Kth Largest Element in Array, 1642 Furthest Building You Can Reach (from your list)
+- [x] 11/15 (Sat): 215 Kth Largest Element in Array, 1642 Furthest Building You Can Reach (from your list)
   - [x] 215
     - with some hints
   - [x] 1642
+    - with some hints
 - [ ] 11/16 (Sun): 373 K Pairs with Smallest Sums, 621 Task Scheduler
-  - [ ] 373
+  - [x] 373
+    - with some hints
   - [ ] 621
 - [ ] 11/17 (Mon): 208 Implement Trie (from your list)
 - [ ] 11/18 (Tue): 720 Longest Word in Dictionary (from your list)
