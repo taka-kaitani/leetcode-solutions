@@ -5,6 +5,7 @@
 - [Problem 11](../problems/11_container_with_most_water/README.md)
 
 ## Medium
+- [Problem 621](../problems/621_task_scheduler/README.md)
 - [Problem 1642](../problems/1642_furthest_building_you_can_reach/README.md)
 - [Problem 402](../problems/402_remove_k_digits/README.md)
 - [Problem 452](../problems/452_minimum_number_of_arrows_to_burst_balloons/README.md)

@@ -75,10 +75,10 @@
     - with some hints
   - [x] 1642
     - with some hints
-- [ ] 11/16 (Sun): 373 K Pairs with Smallest Sums, 621 Task Scheduler
+- [x] 11/16 (Sun): 373 K Pairs with Smallest Sums, 621 Task Scheduler
   - [x] 373
     - with some hints
-  - [ ] 621
+  - [x] 621
 - [ ] 11/17 (Mon): 208 Implement Trie (from your list)
 - [ ] 11/18 (Tue): 720 Longest Word in Dictionary (from your list)
 - [ ] 11/19 (Wed): 1268 Search Suggestions System (from your list)

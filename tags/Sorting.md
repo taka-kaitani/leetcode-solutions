@@ -3,6 +3,7 @@
 ## Easy
 
 ## Medium
+- [Problem 621](../problems/621_task_scheduler/README.md)
 - [Problem 1552](../problems/1552_magnetic_force_between_two_balls/README.md)
 - [Problem 452](../problems/452_minimum_number_of_arrows_to_burst_balloons/README.md)
 - [Problem 435](../problems/435_non-overlapping_intervals/README.md)

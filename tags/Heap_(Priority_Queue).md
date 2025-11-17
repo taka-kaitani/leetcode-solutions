@@ -3,6 +3,7 @@
 ## Easy
 
 ## Medium
+- [Problem 621](../problems/621_task_scheduler/README.md)
 - [Problem 373](../problems/373_find_k_pairs_with_smallest_sums/README.md)
 - [Problem 1642](../problems/1642_furthest_building_you_can_reach/README.md)
 - [Problem 1268](../problems/1268_search_suggestions_system/README.md)
