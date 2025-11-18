@@ -1,61 +1,60 @@
 /**
  * LeetCode Problem: 208. Implement Trie (Prefix Tree)
- * https://leetcode.com/problems/implement-root-prefix-tree/
+ * https://leetcode.com/problems/implement-trie-prefix-tree/
  *
  * Solution by Takanori Kaitani
  */
-class TrieNode {
-    children: (TrieNode | null)[];
-    isEnd: boolean;
-    constructor() {
-        this.children = new Array(26).fill(null);
-        this.isEnd = false;
-    }
-}
-
 class Trie {
-    root: TrieNode;
-    constructor() {
-        this.root = new TrieNode();
-    }
+    private trie = new Map<string, any>();
 
     insert(word: string): void {
-        let node = this.root;
+        let curr = this.trie;
         for (const ch of word) {
-            const idx = ch.charCodeAt(0) - 'a'.charCodeAt(0);
-            if (!node.children[idx]) {
-                node.children[idx] = new TrieNode();
-            }
-            node = node.children[idx]!;
+            if (!curr.has(ch)) curr.set(ch, new Map());
+            curr = curr.get(ch);
         }
-        node.isEnd = true;
+        curr.set('isEnd', true);
     }
 
     search(word: string): boolean {
-        let node = this.root;
+        let curr = this.trie;
         for (const ch of word) {
-            const idx = ch.charCodeAt(0) - 'a'.charCodeAt(0);
-            if (!node.children[idx]) return false;
-            node = node.children[idx]!;
+            if (!curr.has(ch)) return false;
+            curr = curr.get(ch)!;
         }
-        return node.isEnd;
+        return curr.get('isEnd') === true;
     }
 
     startsWith(prefix: string): boolean {
-        let node = this.root;
+        let curr = this.trie;
         for (const ch of prefix) {
-            const idx = ch.charCodeAt(0) - 'a'.charCodeAt(0);
-            if (!node.children[idx]) return false;
-            node = node.children[idx]!;
+            if (!curr.has(ch)) return false;
+            curr = curr.get(ch)!;
         }
         return true;
     }
 }
 
 /**
- * Your Trie object will be instantiated and called as such:
- * var obj = new Trie()
- * obj.insert(word)
- * var param_2 = obj.search(word)
- * var param_3 = obj.startsWith(prefix)
+ * # Approach
+ * - Use a nested Map structure to represent a Trie (prefix tree).
+ *   - Each character maps to another Map, representing the next node.
+ *   - A special key `"isEnd"` marks the end of a complete word.
+ *
+ * - Operations:
+ *   - insert(word)
+ *     - Traverse/create nodes for each character.
+ *     - After the final character, set `isEnd = true` to mark a full word.
+ *
+ *   - search(word)
+ *     - Traverse the Trie following each character.
+ *     - Return true only if all characters exist **and** `isEnd === true`.
+ *
+ *   - startsWith(prefix)
+ *     - Traverse the Trie following each character.
+ *     - Return true if all prefix characters exist (no need to check `isEnd`).
+ *
+ * # Complexity
+ * - Time:  O(n) per operation, where n is the length of the input string.
+ * - Space: O(total number of inserted characters)
  */

@@ -1,7 +1,7 @@
 # LeetCode 208 - Implement Trie (Prefix Tree)
 
 ## Problem  
-- [LeetCode Link](https://leetcode.com/problems/implement-trie-(prefix-tree)/)
+- [LeetCode Link](https://leetcode.com/problems/implement-trie-prefix-tree/)
 
 ## My Solution
 
