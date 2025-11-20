@@ -80,7 +80,7 @@
     - with some hints
   - [x] 621
 - [x] 11/17 (Mon): 208 Implement Trie (from your list)
-- [ ] 11/18 (Tue): 720 Longest Word in Dictionary (from your list)
+- [x] 11/18 (Tue): 720 Longest Word in Dictionary (from your list)
 - [ ] 11/19 (Wed): 1268 Search Suggestions System (from your list)
 
 

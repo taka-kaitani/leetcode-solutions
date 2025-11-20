@@ -15,6 +15,7 @@
 - [Problem 11](../problems/11_container_with_most_water/README.md)
 
 ## Medium
+- [Problem 720](../problems/720_longest_word_in_dictionary/README.md)
 - [Problem 621](../problems/621_task_scheduler/README.md)
 - [Problem 373](../problems/373_find_k_pairs_with_smallest_sums/README.md)
 - [Problem 1642](../problems/1642_furthest_building_you_can_reach/README.md)

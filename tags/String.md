@@ -7,6 +7,7 @@
 - [Problem 345](../problems/345_reverse_vowels_of_a_string/README.md)
 
 ## Medium
+- [Problem 720](../problems/720_longest_word_in_dictionary/README.md)
 - [Problem 402](../problems/402_remove_k_digits/README.md)
 - [Problem 567](../problems/567_permutation_in_string/README.md)
 - [Problem 438](../problems/438_find_all_anagrams_in_a_string/README.md)
