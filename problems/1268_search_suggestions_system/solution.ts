@@ -5,33 +5,71 @@
  * Solution by Takanori Kaitani
  */
 function suggestedProducts(products: string[], searchWord: string): string[][] {
+    const trie = new Trie();
     products.sort();
+    for (const p of products) trie.insert(p);
 
-    let res: string[][] = [];
-    let prefix = '';
-    for (const ch of searchWord) {
-        prefix += ch;
+    const n = searchWord.length;
+    const code_a = 'a'.charCodeAt(0);
+    let res: string[][] = Array.from({ length : n }, () => []);
+    let node = trie.root;
 
-        // Binary search lower bound
-        let left = 0;
-        let right = products.length - 1;
-        while (left < right) {
-            const mid = Math.floor((left + right) / 2);
-            if (products[mid].localeCompare(prefix) < 0) left = mid + 1;
-            else right = mid;
-        }
+    for (let i = 0; i < n; i++) {
+        const idx = searchWord.charCodeAt(i) - code_a;
+        if (!node || !node.children[idx]) break;
 
-        // Collect up to 3 suggestions
-        let suggest: string[] = [];
-        for (let i = 0; i < 3 && left + i < products.length; i++) {
-            if (products[left + i].startsWith(prefix)) {
-                suggest.push(products[left + i]);
-            } else {
-                break;
-            }
-        }
-        res.push(suggest);
+        node = node.children[idx]!;
+        res[i] = node.suggestions;
     }
 
     return res;
 }
+
+class TrieNode {
+    children: Array<TrieNode | null> = new Array(26).fill(null);
+    suggestions: string[] = []; // store up to 3 smallest lexicographical words
+}
+class Trie {
+    root = new TrieNode();
+
+    insert(word: string): void {
+        const code_a = 'a'.charCodeAt(0);
+        let node = this.root;
+        for (const ch of word) {
+            const idx = ch.charCodeAt(0) - code_a;
+            if (!node.children[idx]) node.children[idx] = new TrieNode();
+            node = node.children[idx];
+
+            if (node.suggestions.length < 3) node.suggestions.push(word);
+        }
+    }
+}
+
+/**
+ * # Approach
+ * - Use a Trie to efficiently retrieve up to 3 lexicographically smallest
+ *   product names for each prefix of `searchWord`.
+ *
+ * - Sort `products` first so that when inserting into the Trie,
+ *   each node’s `suggestions` list naturally receives words in
+ *   lexicographical order.
+ *
+ * - Each TrieNode stores:
+ *   - `children`: an array of 26 nodes for 'a'–'z'
+ *   - `suggestions`: up to 3 smallest products that share this prefix
+ *
+ * - While inserting a word, at each character’s node:
+ *     if the `suggestions` list contains < 3 items, append the word.
+ *
+ * - To answer the query, traverse the trie following the prefix characters.
+ *   For each character:
+ *     - If the child node exists, append its `suggestions`.
+ *     - If not, the rest of the results are empty lists.
+ *
+ * # Complexity
+ * - Time:
+ *     Insertion:  O(sum of all characters in `products`)
+ *     Query:      O(length of searchWord)
+ * - Space:
+ *     O(sum of all characters in `products`)
+ */

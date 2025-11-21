@@ -80,9 +80,33 @@
     - with some hints
   - [x] 621
 - [x] 11/17 (Mon): 208 Implement Trie (from your list)
+  - with some hints
 - [x] 11/18 (Tue): 720 Longest Word in Dictionary (from your list)
-- [ ] 11/19 (Wed): 1268 Search Suggestions System (from your list)
+  - performance improvements
+- [x] 11/19 (Wed): 1268 Search Suggestions System (from your list)
+  - performance improvements
 
+- [ ] 11/22 (Sat) 206
+- [ ] 11/23 (Sun) 338
+- [ ] 11/24 (Mon) 345
+- [ ] 11/25 (Tue) 72
+- [ ] 11/26 (Wed) 208
+- [ ] 11/27 (Thu) 215
+- [ ] 11/28 (Fri) 236
+- [ ] 11/29 (Sat) 334
+- [ ] 11/30 (Sun) 399
+- [ ] 12/01 (Mon) 437
+- [ ] 12/02 (Tue) 443
+- [ ] 12/03 (Wed) 450
+- [ ] 12/04 (Thu) 875
+- [ ] 12/05 (Fri) 1004
+- [ ] 12/06 (Sat) 1143
+- [ ] 12/07 (Sun) 1268
+- [ ] 12/08 (Mon) 1466
+- [ ] 12/09 (Tue) 1679
+- [ ] 12/10 (Wed) 1926
+- [ ] 12/11 (Thu) 2462
+- [ ] 12/12 (Fri) 2542
 
 # 理解が浅い分野
 - graph
