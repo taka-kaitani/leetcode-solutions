@@ -86,7 +86,8 @@
 - [x] 11/19 (Wed): 1268 Search Suggestions System (from your list)
   - performance improvements
 
-- [ ] 11/22 (Sat) 206
+- [x] 11/22 (Sat) 206
+  - with hints
 - [ ] 11/23 (Sun) 338
 - [ ] 11/24 (Mon) 345
 - [ ] 11/25 (Tue) 72
