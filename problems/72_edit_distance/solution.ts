@@ -5,51 +5,52 @@
  * Solution by Takanori Kaitani
  */
 function minDistance(word1: string, word2: string): number {
-    const dp = Array.from({ length: word1.length + 1 }, () => Array(word2.length + 1).fill(0));
-    for (let i = 0; i <= word1.length; i++) dp[i][0] = i;
-    for (let j = 0; j <= word2.length; j++) dp[0][j] = j;
+    const m = word1.length;
+    const n = word2.length;
+    const dp = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0));
+    for (let i = 0; i <= m; i++) dp[i][0] = i;
+    for (let i = 1; i <= n; i++) dp[0][i] = i;
 
-    for (let i = 0; i < word1.length; i++) {
-        const ch1 = word1[i];
-        for (let j = 0; j < word2.length; j++) {
-            const ch2 = word2[j];
-            if (ch1 === ch2) {
-                dp[i + 1][j + 1] = dp[i][j];
-            } else {
-                dp[i + 1][j + 1] = Math.min(
-                    dp[i][j] + 1,     // Replace
-                    dp[i][j + 1] + 1, // Delete
-                    dp[i + 1][j] + 1, // Insert
+    for (let i = 1; i <= m; i++) {
+        for (let j = 1; j <= n; j++) {
+            if (word1[i - 1] === word2[j - 1]) dp[i][j] = dp[i - 1][j - 1];
+            else {
+                dp[i][j] = 1 + Math.min(
+                    dp[i][j - 1],    // insert
+                    dp[i - 1][j],    // delete
+                    dp[i - 1][j - 1] // replace
                 );
             }
         }
     }
 
-    return dp[word1.length][word2.length];
-};
+    return dp[m][n];
+}
 
 /**
  * # Approach
  * - Use dynamic programming to compute the minimum number of operations
- *   required to convert `word1` to `word2`.
- * - Allowed operations:
- *   - Insert a character
- *   - Delete a character
- *   - Replace a character
- * - Maintain a 2D array `dp`, where `dp[i][j]` represents the minimum operations
- *   to convert `word1[0...i-1]` to `word2[0...j-1]`.
- * - Initialization:
- *   - `dp[i][0] = i`  (delete all `i` chars)
- *   - `dp[0][j] = j`  (insert all `j` chars)
+ *   needed to convert `word1` into `word2`.
+ * 
+ * - Define a 2D array `dp` where:
+ *   - `dp[i][j]` = minimum number of operations to convert `word1[0..i-1]` into `word2[0..j-1]`
+ * 
+ * - Base cases:
+ *   - `dp[i][0] = i`: Converting a non-empty prefix of `word1` to an empty string requires `i` deletions.
+ *   - `dp[0][j] = j`: Converting an empty string to a non-empty prefix of `word2` requires `j` insertions.
+ * 
  * - Transition:
- *   - If `word[i] === word[j]`, `dp[i+1][j+1] = dp[i][j]`.
- *   - Otherwise, `dp[i + 1][j + 1]` is the minimum of the 3 operations:
- *     - `dp[i][j] + 1` as replacement
- *     - `dp[i][j + 1] + 1` as deletion
- *     - `dp[i + 1][j] + 1` as insertion
- * - Return `dp[word1.length][word2.length]` as the final result.
+ *   - If `word1[i-1] === word2[j-1]`, no operation is needed:
+ *     - `dp[i][j] = dp[i - 1][j - 1]`
+ *   - Otherwise, consider one operation plus the best previous result:
+ *     - insert:  dp[i][j] = 1 + dp[i][j - 1]
+ *     - delete:  dp[i][j] = 1 + dp[i - 1][j]
+ *     - replace: dp[i][j] = 1 + dp[i - 1][j - 1]
+ *     - Take the minimum of these three.
+ * 
+ * - The answer is `dp[m][n]`, the cost to convert all of `word1` into all of `word2`.
  * 
  * # Complexity
- * - Time:  O(m × n)
+ * - Time: O(m × n)
  * - Space: O(m × n)
  */
