@@ -5,51 +5,70 @@
  * Solution by Takanori Kaitani
  */
 function findKthLargest(nums: number[], k: number): number {
-    const n = nums.length;
-    const target = n - k;
-    let low = 0;
-    let high = n;
+    const target = k - 1;
+    let left = 0;
+    let right = nums.length;
+
     while (true) {
-        const [lt, gt] = threeWayPartition(nums, low, high);
-        if      (gt < target) low = gt + 1;
-        else if (lt > target) high = lt;
+        const [gt, lt] = threeWayDescPartition(nums, left, right);
+        if (target < gt)     right = gt;
+        else if (lt < target) left = lt + 1;
         else return nums[target];
     }
 }
 
-function threeWayPartition(nums: number[], low: number, high: number): [number, number] {
-    let lt = low, i = low, gt = high - 1;
-    const pivot = nums[low];
-    // `< pivot` | `== pivot` | `> pivot`
-    //           |↑lt      gt↑|
-    while (i <= gt) {
-        if (nums[i] < pivot) {
-            [nums[i], nums[lt]] = [nums[lt], nums[i]];
-            lt++;
-            i++;
-        } else if (nums[i] > pivot) {
+/**
+ * Three way partition (Dutch Flag Partition) for descending order.
+ * 
+ * It partitions nums[left..right-1] into:
+ *   1. nums[left .. gt-1]    > pivot
+ *   2. nums[gt   .. lt]      == pivot
+ *   3. nums[lt+1 .. right-1] < pivot
+ */
+function threeWayDescPartition(nums: number[], left: number, right: number): [number, number] {
+    let gt = left, i = left, lt = right - 1;
+    const pivot = nums[left];
+
+    while (i <= lt) {
+        if (nums[i] > pivot) {
             [nums[i], nums[gt]] = [nums[gt], nums[i]];
-            gt--;
-        } else {
             i++;
+            gt++;
+        } else if (nums[i] === pivot) {
+            i++;
+        } else {
+            [nums[i], nums[lt]] = [nums[lt], nums[i]];
+            lt--;
         }
     }
 
-    return [lt, gt];
+    return [gt, lt];
 }
 
 /**
  * # Approach
- * - Use the Quickselect algorithm to find the kth largest element.
- * - Convert "kth largest" into "nth smallest" by targeting index (n - k).
- * - Use a Dutch National Flag 3-way partition to split the subarray into:
- *     1. values < pivot
- *     2. values = pivot
- *     3. values > pivot
- * - If the target index lies inside the equal-pivot region, we are done.
- * - Otherwise, recurse only into the necessary partition.
+ * - Use Quickselect with a three-way (Dutch National Flag) partition to find
+ *   the kth largest element in-place.
+ *
+ * - We work with a target index `target = k - 1`, which corresponds to the
+ *   kth largest element if the array were sorted in descending order.
+ *
+ * - The helper `threeWayDescPartition(nums, left, right)` chooses a pivot and
+ *   partitions the subarray `nums[left..right-1]` into three regions:
+ *   1. Elements greater than the pivot.
+ *   2. Elements equal to the pivot.
+ *   3. Elements less than the pivot.
+ *   It returns `[gt, lt]`, the start and end indices of the "equal" region.
+ *
+ * - After partitioning:
+ *   - If `target < gt`, the kth largest lies in the "greater than pivot" part.
+ *   - If `target > lt`, it lies in the "less than pivot" part.
+ *   - Otherwise, the target index lies inside the equal region, and any
+ *     element there is the answer.
  *
  * # Complexity
- * - Time:  Average O(n), Worst-case O(n²)
- * - Space: O(1) (in-place partitioning)
+ * - Let n be the length of `nums`.
+ * - Average Time: O(n)  (Quickselect expected complexity)
+ * - Worst-case Time: O(n^2)  (when pivots are consistently poor)
+ * - Space: O(1) extra space (in-place)
  */
