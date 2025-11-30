@@ -5,52 +5,67 @@
  * Solution by Takanori Kaitani
  */
 function calcEquation(equations: string[][], values: number[], queries: string[][]): number[] {
-    let map = new Map<string, Map<string, number>>();
-    const n = equations.length;
-    for (let i = 0; i < n; i++) {
-        const a = equations[i][0];
-        const b = equations[i][1];
-        if (!map.has(a)) map.set(a, new Map());
-        if (!map.has(b)) map.set(b, new Map());
-        map.get(a)!.set(b, values[i]);
-        map.get(b)!.set(a, 1 / values[i]);
+    const graph = new Map<string, Map<string, number>>();
+    for (let i = 0; i < values.length; i++) {
+        const [a, b] = equations[i];
+        const v = values[i];
+        if (!graph.has(a)) graph.set(a, new Map());
+        if (!graph.has(b)) graph.set(b, new Map());
+        graph.get(a)!.set(b, v);     // a/b = v
+        graph.get(b)!.set(a, 1 / v); // b/a = 1/v
     }
 
-    let res: number[] = [];
-    for (const [q0, q1] of queries) {
-        res.push(division(map, new Set(), q0, q1));
+    function dfs(curr: string, target: string, visited: Set<string>): number | undefined {
+        if (visited.has(curr) || !graph.has(curr)) return;
+        if (curr === target) return 1;
+        visited.add(curr);
+
+        const neighbor = graph.get(curr)!;
+        if (neighbor.has(target)) return neighbor.get(target)!;
+
+        for (const [next, weight] of neighbor) {
+            const nextRes = dfs(next, target, visited);
+            if (nextRes !== undefined) return weight * nextRes; // curr/target = curr/next * next/target
+        }
+    }
+
+    const res: number[] = [];
+    for (const [a, b] of queries) {
+        const value = dfs(a, b, new Set<string>());
+        res.push(value === undefined ? -1 : value);
     }
 
     return res;
-};
-
-/**
- * Compute the division `q0 / q1`.
- * If the answer cannot be determined, return -1.
- */
-function division(map: Map<string, Map<string, number>>, visited: Set<string>, a: string, b: string): number {
-    if (!map.has(a) || !map.has(b)) return -1;
-
-    if (a === b) return 1;
-
-    const inner = map.get(a)!;
-    if (inner.has(b)) {
-        return inner.get(b)!;
-    }
-
-    visited.add(a);
-    for (const [key, val] of inner) {
-        if (visited.has(key)) continue;
-
-        const div = division(map, visited, key, b);
-        if (div > 0) return val * div;
-    }
-
-    return -1;
 }
 
-// test
-const e = [["x1","x2"],["x2","x3"],["x3","x4"],["x4","x5"]];
-const v = [3.0,4.0,5.0,6.0];
-const q = [["x5","x2"],["x2","x4"]];
-calcEquation(e,v,q);
+/**
+ * # Approach
+ * - Model each variables as a node in a graph, and each equation `a/b = v` as two directed edges:
+ *   - `a -> b` with weight `v`
+ *   - `b -> a` with weight `1/v`
+ * 
+ * - To anser a query `a/b`:
+ *   - Perform a depth-first search (DFS) starting from `a`.
+ *   - While traversing a path `a -> x1 -> ... -> b`, we maintain the product of edge weights along the path,
+ *     which represents the ratio `a/b`.
+ *   - If we reach `b`, the accumulated product is the answer.
+ *   - If `a` or `b` does not exist in the graph, or there is no path from `a` to `b`, return -1.
+ * 
+ * - DFS details:
+ *   - Use a `visited` set to avoid cycles in the graph.
+ *   - Base cases:
+ *     - If `curr` is not in the graph, return `undefined`.
+ *     - If `curr === target`, return `1` (since `x/x = 1`).
+ *   - For each neighbor `next` of `curr` with weight `w`:
+ *     - Recursively compute `next/target`.
+ *     - If that result if defined, then:
+ *       `curr/target = curr/next * next/target = w * result`.
+ * 
+ * # Complexity
+ * - Let:
+ *   - V = number of distinct variables,
+ *   - E = number of equations,
+ *   - Q = number of queries.
+ * - Time: O(Q × (V + E)) in the worst case, since each query may DFS over over the entire graph.
+ * - Space; O(V + E) for the graph plus O(V) for the recursion stack and visited set in the worst case.
+ */
