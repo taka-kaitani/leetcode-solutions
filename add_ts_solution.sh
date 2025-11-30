@@ -186,4 +186,4 @@ EOF
     echo "Created $TS_FILE"
 fi
 
-echo "Successfully added TypeScript solution template for problem $PROBLEM_NUM"
+echo "Successfully added TypeScript solution template for problem $PROBLEM_NUM at $TS_FILE"
