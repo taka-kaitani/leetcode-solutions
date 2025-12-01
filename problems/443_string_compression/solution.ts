@@ -5,47 +5,47 @@
  * Solution by Takanori Kaitani
  */
 function compress(chars: string[]): number {
-    const n = chars.length;
-    let seen: string = chars[0];
-    let count = 1;
-    let left = 1;
+    // Init by first element
+    let left = 0;
+    let top = chars[0];
+    let freq = 1;
 
-    for (let right = 1; right < n; right++) {
-        const ch = chars[right];
-        if (ch === seen) count++;
-        else {
-            if (count > 1) {
-                for (const digit of String(count)) {
-                    chars[left++] = digit;
-                }
-            }
-            chars[left++] = ch;
-            seen = ch;
-            count = 1;
+    function writeChars(): void {
+        chars[left++] = top;
+        if (freq >= 2) {
+            const freqStr = String(freq);
+            for (const digit of freqStr) chars[left++] = digit;
         }
     }
 
-    if (count > 1) {
-        for (const digit of String(count)) {
-            chars[left++] = digit;
+    for (let i = 1; i < chars.length; i++) {
+        const ch = chars[i]
+        if (ch === top) {
+            freq++;
+        } else {
+            writeChars();
+            top = ch;
+            freq = 1;
         }
     }
+    writeChars();
 
     return left;
-};
+}
 
 /**
  * # Approach
- * - Use two pointers to compress the array in-place without extra space.
- *   - `left` points to the next position to write to.
- *   - `right` scans the array from left to right.
- * - During traversal;
- *   - Count consecutive identical characters.
- *   - When the current character starts a new group,
- *     write the previous group's result and its count (if greater than 1) to `chars`.
- * - After the loop, handle the last group in the same way.
+ * - Compress the character array in-place using a single pass.
+ * - Group consecutive identical characters:
+ *   - If the group's length is 1, write just the character.
+ *   - Otherwise, write the character followed by the group's length in digits.
+ * - During traversal, maintain three pieces of state:
+ *   - `left`: the next write index in `chars`.
+ *   - `top`: the character of the current group.
+ *   - `freq`: how many times we've seen `top` consecutively.
+ * - After processing all groups, return `left` as the new length of the array.
  * 
  * # Complexity
- * - Time:  O(n)
+ * - Time: O(n)
  * - Space: O(1)
  */
