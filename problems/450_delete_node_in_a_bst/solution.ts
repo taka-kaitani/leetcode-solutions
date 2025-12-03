@@ -7,27 +7,22 @@
 function deleteNode(root: TreeNode | null, key: number): TreeNode | null {
     if (!root) return null;
 
-    if      (root.val > key) root.left = deleteNode(root.left, key);
-    else if (root.val < key) root.right = deleteNode(root.right, key);
+    if (root.val < key)     root.right = deleteNode(root.right, key);
+    else if (root.val > key) root.left = deleteNode(root.left, key);
     else {
-        // Delete this node
         if (!root.left) return root.right;
         if (!root.right) return root.left;
 
-        // Find inorder successor
-        let succ = root.right;
+        let succ = root.right!;
         while (succ.left) succ = succ.left;
-
-        root.val = succ.val;
-        root.right = deleteNode(root.right, succ.val);
+        const accVal = succ.val;
+        root.val = accVal;
+        root.right = deleteNode(root.right, accVal);
     }
 
     return root;
 }
 
-/**
- * Definition for a binary tree node.
- */
 class TreeNode {
     val: number
     left: TreeNode | null
@@ -41,15 +36,30 @@ class TreeNode {
 
 /**
  * # Approach
- * - Use recursion to locate and delete the node with value `key`.
- * - Once the node is found:
- *   - If it has only one child, return that child directly.
- *   - If it has two children, replace its value with its inorder successor
- *     (the smallest value in its right subtree), then delete the successor.
- * - Ensure each recursive call returns the updated subtree so parent pointers remain correct.
+ * - Use a recursive approach to delete the target node from the BST while
+ *   preserving the BST property.
+ *
+ * - Base case:
+ *   - If `root` is null, there is nothing to delete; return null.
+ *
+ * - Recursive cases:
+ *   - If `root.val < key`, the target node (if it exists) must be in the right subtree,
+ *     so recursively delete from `root.right`.
+ *   - If `root.val > key`, the target node must be in the left subtree,
+ *     so recursively delete from `root.left`.
+ *   - If `root.val === key`, we have found the node to delete:
+ *     - If the node has at most one child:
+ *       - If `root.left` is null, return `root.right`.
+ *       - If `root.right` is null, return `root.left`.
+ *     - If the node has two children:
+ *       - Find the in-order successor by taking the leftmost node in the right subtree.
+ *       - Copy the successor's value into the current node (`root.val`).
+ *       - Recursively delete the successor node from the right subtree.
  *
  * # Complexity
- * - Time:  O(h), where h is the height of the BST.
- *          O(log n) for balanced trees, O(n) for skewed trees.
- * - Space: O(h) recursion stack.
+ * - Let `h` be the height of the tree and `n` the number of nodes.
+ * - Time:  O(h), because we follow at most one path down the tree.
+ *          O(log n) for a balanced tree, O(n) for a skewed tree.
+ * - Space: O(h) due to recursion stack.
+ *          O(log n) for a balanced tree, O(n) for a skewed tree.
  */
