@@ -5,23 +5,23 @@
  * Solution by Takanori Kaitani
  */
 function maxOperations(nums: number[], k: number): number {
-    let freq = new Map<number, number>();
+    const remain = new Map<number, number>();
+    let count = 0;
     for (const n of nums) {
-        freq.set(n, (freq.get(n) ?? 0) + 1);
-    }
+        const need = k - n;
+        const needCount = remain.get(need) ?? 0;
 
-    let res = 0;
-    // Snapshot the keys to avoid modifying the map while iterating
-    for (const [i, count] of [...freq]) {
-        const target = k - i;
-        if (i === target) {
-            res += Math.floor(count / 2);
-        } else if (freq.has(target)) {
-            res += Math.min(count, freq.get(target)!);
-            freq.set(i, 0);
-            freq.set(target, 0);
+        if (needCount > 0) {
+            remain.set(need, needCount - 1);
+            count++;
+        } else {
+            remain.set(n, (remain.get(n) ?? 0) + 1);
         }
     }
 
-    return res;
-};
+    return count;
+}
+
+/**
+ * 
+ */
