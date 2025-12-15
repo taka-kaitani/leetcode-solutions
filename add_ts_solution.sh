@@ -87,7 +87,6 @@ if [ -z "$PROBLEM_DIR" ] || [ ! -d "$PROBLEM_DIR" ]; then
 
 ## My Solution
 - [solution.ts](./solution.ts)
-
 EOF
     echo "Created $README_FILE"
 
