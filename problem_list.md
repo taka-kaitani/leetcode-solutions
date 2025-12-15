@@ -136,4 +136,6 @@
 - [ ] 03/04 (Wed): 1343 Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold
 - [ ] 03/05 (Thu): 1642
 - [ ] 03/06 (Fri): 1639 Number of Ways to Form a Target String Given a Dictionary
-- [ ] 03/07 (Sat): 1679
+- [ ] 03/07 (Sat):
+  - 1679
+  - 2542
