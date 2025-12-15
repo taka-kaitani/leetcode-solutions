@@ -1,126 +1,139 @@
-# 2週目解けなかった問題
-## Easy
-- 206
-- 338
-- 345
+# Problem List
 
-## Medium
-- 72
-- 208
-- 215
-- 236
-- 334
-- 399
-- 437
-- 443
-- 450
-- 875
-- 1004
-- 1143
-- 1268
-- 1466
-- 1679
-- 1926
-- 2462
-- 2542
-
-
-# 問題リスト
-
-## week 1 (10/20 ~ 10/26) — Sliding Window & Monotonic Stack
-- [x] 10/20 (Mon): 209 Minimum Size Subarray Sum
-- [x] 10/21 (Tue): 3 Longest Substring Without Repeating Characters
-- [x] 10/22 (Wed): 438 Find All Anagrams in a String
-- [x] 10/23 (Thu): 567 Permutation in String
-- [x] 10/24 (Fri): 496 Next Greater Element I
-- [x] 10/25 (Sat): 503 Next Greater Element II, 402 Remove K Digits
-- [x] 10/26 (Sun): 42 Trapping Rain Water, Review → 443 / 1004 (from your list)
-  - [x] 42
-  - [x] 443
-  - [x] 1004
-
-## week 2 (10/30 ~ 11/05) — Binary Search on Answer & DP
-- [x] 10/30 (Thu): 1011 Capacity to Ship Packages Within D Days
-- [x] 10/31 (Fri): 875 Koko Eating Bananas (from your list)
-- [x] 11/01 (Sat): 1552 Magnetic Force Between Two Balls, 1482 Minimum Days to Make m Bouquets
-  - [x] 1552
-  - [x] 1482
-- [x] 11/02 (Sun): 198 House Robber, 213 House Robber II
-  - [x] 198
-  - [x] 213
-- [x] 11/03 (Mon): 300 Longest Increasing Subsequence
-- [x] 11/04 (Tue): 322 Coin Change
-  - with some hints
-- [x] 11/05 (Wed): 1143 Longest Common Subsequence (from your list)
-
-## week 3 (11/06 ~ 11/12) — Trees & Graphs
-- [x] 11/06 (Thu): 72 Edit Distance (from your list)
-- [x] 11/07 (Fri): 98 Validate BST
-- [x] 11/08 (Sat): 230 Kth Smallest in BST, 235 LCA of BST
-  - [x] 230
-    - with some hints
-  - [x] 235
-- [ ] 11/09 (Sun): 236 LCA of Binary Tree, 112 Path Sum I (from your list)
-  - [x] 236
-  - [x] 112
-- [x] 11/10 (Mon): 113 Path Sum II
-- [x] 11/11 (Tue): 437 Path Sum III (from your list)
-- [x] 11/12 (Wed): 200 Number of Islands
-
-## week 4 (11/13 ~ 11/19) — Greedy / Heap & Trie / Prefix
-- [x] 11/13 (Thu): 450 Delete Node in a BST (from your list)
-- [x] 11/14 (Fri): 1926 Nearest Exit from Entrance in Maze (from your list)
-- [x] 11/15 (Sat): 215 Kth Largest Element in Array, 1642 Furthest Building You Can Reach (from your list)
-  - [x] 215
-    - with some hints
-  - [x] 1642
-    - with some hints
-- [x] 11/16 (Sun): 373 K Pairs with Smallest Sums, 621 Task Scheduler
-  - [x] 373
-    - with some hints
-  - [x] 621
-- [x] 11/17 (Mon): 208 Implement Trie (from your list)
-  - with some hints
-- [x] 11/18 (Tue): 720 Longest Word in Dictionary (from your list)
-  - performance improvements
-- [x] 11/19 (Wed): 1268 Search Suggestions System (from your list)
-  - performance improvements
-
-- [x] 11/22 (Sat) 206
-  - with hints
-- [x] 11/23 (Sun) 338
-- [x] 11/24 (Mon) 345
-- [x] 11/25 (Tue) 72
-- [x] 11/26 (Wed) 208
-- [x] 11/27 (Thu) 215
-- [x] 11/28 (Fri) 236
-- [x] 11/29 (Sat) 334
-- [x] 11/30 (Sun) 399
-- [x] 12/01 (Mon) 437
-  - performance improvement
-- [x] 12/02 (Tue) 443
-- [x] 12/03 (Wed) 450
-- [x] 12/04 (Thu) 875
-- [x] 12/05 (Fri) 1004
-- [x] 12/06 (Sat) 1143
-- [x] 12/07 (Sun) 1268
-- [x] 12/08 (Mon) 1466
-- [x] 12/09 (Tue) 1679
-  - performance improvement
-- [x] 12/10 (Wed) 1926
-- [x] 12/11 (Thu) 2462
-- [ ] 12/12 (Fri) 2542
-
-# 理解が浅い分野
-- graph
-- queue
-  - FIFO
-- heap
-  - includes my own `MinHeap` class since there is no built-in in ts
-- trie
-- binary search
-- DP(multidimensional)
-- Bit operations
-- quicksort, partition
-- prefixSum
-
+- [ ] 12/15 (Mon): 6 Zigzag Conversion
+- [ ] 12/16 (Tue): 12 Integer to Roman
+- [ ] 12/17 (Wed): 22 Generate Parentheses
+- [ ] 12/18 (Thu): 39 Combination Sum
+- [ ] 12/19 (Fri): 45 Jump Game II
+- [ ] 12/20 (Sat):
+  - 46 Permutations
+  - 48 Rotate Image
+- [ ] 12/21 (Sun):
+  - 49 Group Anagrams
+  - 50 Pow(x, n)
+- [ ] 12/22 (Mon): 53 Maximum Subarray
+- [ ] 12/23 (Tue): 55 Jump Game
+- [ ] 12/24 (Wed): 56 Merge Intervals
+- [ ] 12/25 (Thu): 57 Insert Interval
+- [ ] 12/26 (Fri): 61 Rotate List
+- [ ] 12/27 (Sat):
+  - 71 Simplify Path
+  - 73 Set Matrix Zeroes
+- [ ] 12/28 (Sun):
+  - 74 Search a 2D Matrix
+  - 77 Combinations
+- [ ] 12/29 (Mon):
+  - 79 Word Search
+  - 80 Remove Duplicates from Sorted Array II
+- [ ] 12/30 (Tue):
+  - 82 Remove Duplicates from Sorted List II
+  - 86 Partition List
+- [ ] 12/31 (Wed):
+  - 92 Reverse Linked List II
+  - 97 Interleaving String
+- [ ] 01/01 (Thu):
+  - 100 Same Tree
+  - 101 Symmetric Tree
+- [ ] 01/02 (Fri):
+  - 102 Binary Tree Level Order Traversal
+  - 103 Binary Tree Zigzag Level Order Traversal
+- [ ] 01/03 (Sat):
+  - 105 Construct Binary Tree from Preorder and Inorder Traversal
+  - 106 Construct Binary Tree from Inorder and Postorder Traversal
+- [ ] 01/04 (Sun):
+  - 114 Flatten Binary Tree to Linked List
+  - 117 Populating Next Right Pointers in Each Node II
+- [ ] 01/05 (Mon): 120 Triangle
+- [ ] 01/06 (Tue): 121 Best Time to Buy and Sell Stock
+- [ ] 01/07 (Wed): 122 Best Time to Buy and Sell Stock II
+- [ ] 01/08 (Thu): 124 Binary Tree Maximum Path Sum
+- [ ] 01/09 (Fri): 128 Longest Consecutive Sequence
+- [ ] 01/10 (Sat):
+  - 129 Sum Root to Leaf Numbers
+  - 130 Surrounded Regions
+- [ ] 01/11 (Sun):
+  - 134 Gas Station
+  - 137 Single Number II
+- [ ] 01/12 (Mon): 138 Copy List with Random Pointer
+- [ ] 01/13 (Tue): 139 Word Break
+- [ ] 01/14 (Wed): 146 LRU Cache
+- [ ] 01/15 (Thu): 148 Sort List
+- [ ] 01/16 (Fri): 150 Evaluate Reverse Polish Notation
+- [ ] 01/17 (Sat):
+  - 153 Find Minimum in Rotated Sorted Array
+  - 155 Min Stack
+- [ ] 01/18 (Sun):
+  - 167 Two Sum II - Input Array Is Sorted
+  - 172 Factorial Trailing Zeroes
+- [ ] 01/19 (Mon): 173 Binary Search Tree Iterator
+- [ ] 01/20 (Tue): 189 Rotate Array
+- [ ] 01/21 (Wed): 190 Reverse Bits
+- [ ] 01/22 (Thu): 191 Number of 1 Bits
+- [ ] 01/23 (Fri): 201 Bitwise AND of Numbers Range
+- [ ] 01/24 (Sat):
+  - 202 Happy Number
+  - 205 Isomorphic Strings
+- [ ] 01/25 (Sun):
+  - 206
+  - 207 Course Schedule
+- [ ] 01/26 (Mon): 208 Implement Trie
+- [ ] 01/27 (Tue): 210 Course Schedule II
+- [ ] 01/28 (Wed): 211 Design Add and Search Words Data Structure
+- [ ] 01/29 (Thu): 215
+- [ ] 01/30 (Fri): 221 Maximal Square
+- [ ] 01/31 (Sat):
+  - 222 Count Complete Tree Nodes
+  - 228 Summary Ranges
+- [ ] 02/01 (Sun):
+  - 230
+  - 233 Number of Digit One
+- [ ] 02/02 (Mon): 242 Valid Anagram
+- [ ] 02/03 (Tue): 274 H-Index
+- [ ] 02/04 (Wed): 275 H-Index II
+- [ ] 02/05 (Thu): 279 Perfect Squares
+- [ ] 02/06 (Fri): 289 Game of Life
+- [ ] 02/07 (Sat):
+  - 295 Find Median from Data Stream
+  - 309 Best Time to Buy and Sell Stock with Cooldown
+- [ ] 02/08 (Sun):
+  - 322 Coin Change
+  - 326 Power of Three
+- [ ] 02/09 (Mon): 344 Reverse String
+- [ ] 02/10 (Tue): 347 Top K Frequent Elements
+- [ ] 02/11 (Wed): 373
+- [ ] 02/12 (Thu): 380 Insert Delete GetRandom O(1)
+- [ ] 02/13 (Fri): 383 Ransom Note
+- [ ] 02/14 (Sat):
+  - 387 First Unique Character in a String
+  - 409 Longest Palindrome
+- [ ] 02/15 (Sun):
+  - 412 Fizz Buzz
+  - 430 Flatten a Multilevel Doubly Linked List
+- [ ] 02/16 (Mon): 437
+- [ ] 02/17 (Tue): 445 Add Two Numbers II
+- [ ] 02/18 (Wed): 448 Find All Numbers Disappeared in an Array
+- [ ] 02/19 (Thu): 461 Hamming Distance
+- [ ] 02/20 (Fri): 494 Target Sum
+- [ ] 02/21 (Sat):
+  - 509 Fibonacci Number
+  - 518 Coin Change 2
+- [ ] 02/22 (Sun):
+  - 542 01 Matrix
+  - 560 Subarray Sum Equals K
+- [ ] 02/23 (Mon): 581 Shortest Unsorted Continuous Subarray
+- [ ] 02/24 (Tue): 617 Merge Two Binary Trees
+- [ ] 02/25 (Wed): 647 Palindromic Substrings
+- [ ] 02/26 (Thu): 695 Max Area of Island
+- [ ] 02/27 (Fri): 720 Longest Word in Dictionary
+- [ ] 02/28 (Sat):
+  - 763 Partition Labels
+  - 785 Is Graph Bipartite?
+- [ ] 03/01 (Sun):
+  - 1020 Number of Enclaves
+  - 1288 Remove Covered Intervals
+- [ ] 03/02 (Mon): 1268 Search Suggestions System
+- [ ] 03/03 (Tue): 1337 The K Weakest Rows in a Matrix
+- [ ] 03/04 (Wed): 1343 Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold
+- [ ] 03/05 (Thu): 1642
+- [ ] 03/06 (Fri): 1639 Number of Ways to Form a Target String Given a Dictionary
+- [ ] 03/07 (Sat): 1679
