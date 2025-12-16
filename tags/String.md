@@ -23,5 +23,6 @@
 - [Problem 1456](../problems/1456_maximum_number_of_vowels_in_a_substring_of_given_length/README.md)
 - [Problem 443](../problems/443_string_compression/README.md)
 - [Problem 151](../problems/151_reverse_words_in_a_string/README.md)
+- [Problem 6](../problems/6_zigzag_conversion/README.md)
 
 ## Hard
