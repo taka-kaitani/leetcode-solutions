@@ -1,7 +1,7 @@
 # Problem List
 
-- [ ] 12/15 (Mon): 6 Zigzag Conversion
-- [ ] 12/16 (Tue): 12 Integer to Roman
+- [x] 12/15 (Mon): 6 Zigzag Conversion
+- [x] 12/16 (Tue): 12 Integer to Roman
 - [ ] 12/17 (Wed): 22 Generate Parentheses
 - [ ] 12/18 (Thu): 39 Combination Sum
 - [ ] 12/19 (Fri): 45 Jump Game II

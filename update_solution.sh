@@ -23,7 +23,7 @@ fi
 # Git 操作
 git add "$FOLDER_PATH"
 git add "tags/"  # タグファイルも追加
-git add "result_list.md"  # 結果リストも追加
+git add "problem_list.md"  # 結果リストも追加
 git commit -m "Add solution and README for ${PROBLEM_NUMBER}"
 git push
 
