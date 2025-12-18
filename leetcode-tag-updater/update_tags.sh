@@ -72,7 +72,7 @@ update_tag_md() {
     fi
 
     # Check if the problem is already in the file
-    if grep -q "Problem ${PROBLEM_NUMBER}" "$tag_md"; then
+    if grep -q "\[Problem ${PROBLEM_NUMBER}\]" "$tag_md"; then
         echo "Problem ${PROBLEM_NUMBER} already exists in ${tag} tag file"
         return
     fi
