@@ -51,5 +51,7 @@
 - [Problem 1004](../problems/1004_max_consecutive_ones_iii/README.md)
 - [Problem 334](../problems/334_increasing_triplet_subsequence/README.md)
 - [Problem 238](../problems/238_product_of_array_except_self/README.md)
+- [Problem 45](../problems/45_jump_game_ii/README.md)
 
-## Hard- [Problem 42](../problems/42_trapping_rain_water/README.md)
+## Hard
+- [Problem 42](../problems/42_trapping_rain_water/README.md)

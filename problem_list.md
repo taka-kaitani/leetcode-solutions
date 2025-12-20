@@ -6,7 +6,8 @@
   - with hints
 - [x] 12/18 (Thu): 39 Combination Sum
   - with hints
-- [ ] 12/19 (Fri): 45 Jump Game II
+- [x] 12/19 (Fri): 45 Jump Game II
+  - with hints
 - [ ] 12/20 (Sat):
   - 46 Permutations
   - 48 Rotate Image
