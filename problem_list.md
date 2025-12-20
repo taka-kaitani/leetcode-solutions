@@ -3,12 +3,12 @@
 - [x] 12/15 (Mon): 6 Zigzag Conversion
 - [x] 12/16 (Tue): 12 Integer to Roman
 - [x] 12/17 (Wed): 22 Generate Parentheses
-  - with hints
+  -  with hints
 - [x] 12/18 (Thu): 39 Combination Sum
   - with hints
 - [x] 12/19 (Fri): 45 Jump Game II
   - with hints
-- [ ] 12/20 (Sat):
+- [x] 12/20 (Sat):
   - 46 Permutations
   - 48 Rotate Image
 - [ ] 12/21 (Sun):
