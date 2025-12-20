@@ -3,6 +3,7 @@
 ## Easy
 
 ## Medium
+- [Problem 46](../problems/46_permutations/README.md)
 - [Problem 39](../problems/39_combination_sum/README.md)
 - [Problem 22](../problems/22_generate_parentheses/README.md)
 - [Problem 113](../problems/113_path_sum_ii/README.md)

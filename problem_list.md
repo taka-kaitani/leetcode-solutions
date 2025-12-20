@@ -27,7 +27,7 @@
   - 77 Combinations
 - [ ] 12/29 (Mon):
   - 79 Word Search
-  - 80 Remove Duplicates from Sorted Array II
+  - 80 Remove Duplicates from Sor
 - [ ] 12/30 (Tue):
   - 82 Remove Duplicates from Sorted List II
   - 86 Partition List
@@ -63,13 +63,13 @@
 - [ ] 01/15 (Thu): 148 Sort List
 - [ ] 01/16 (Fri): 150 Evaluate Reverse Polish Notation
 - [ ] 01/17 (Sat):
-  - 153 Find Minimum in Rotated Sorted Array
+  - 153 Find Minimum in Rota
   - 155 Min Stack
 - [ ] 01/18 (Sun):
-  - 167 Two Sum II - Input Array Is Sorted
+  - 167 Two Sum II - Input Ar
   - 172 Factorial Trailing Zeroes
 - [ ] 01/19 (Mon): 173 Binary Search Tree Iterator
-- [ ] 01/20 (Tue): 189 Rotate Array
+- [ ] 01/20 (Tue): 
 - [ ] 01/21 (Wed): 190 Reverse Bits
 - [ ] 01/22 (Thu): 191 Number of 1 Bits
 - [ ] 01/23 (Fri): 201 Bitwise AND of Numbers Range
@@ -114,7 +114,7 @@
   - 430 Flatten a Multilevel Doubly Linked List
 - [ ] 02/16 (Mon): 437
 - [ ] 02/17 (Tue): 445 Add Two Numbers II
-- [ ] 02/18 (Wed): 448 Find All Numbers Disappeared in an Array
+- [ ] 02/18 (Wed): 448 Find All Numbers Disappeared
 - [ ] 02/19 (Thu): 461 Hamming Distance
 - [ ] 02/20 (Fri): 494 Target Sum
 - [ ] 02/21 (Sat):
