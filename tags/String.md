@@ -7,6 +7,7 @@
 - [Problem 345](../problems/345_reverse_vowels_of_a_string/README.md)
 
 ## Medium
+- [Problem 49](../problems/49_group_anagrams/README.md)
 - [Problem 22](../problems/22_generate_parentheses/README.md)
 - [Problem 720](../problems/720_longest_word_in_dictionary/README.md)
 - [Problem 402](../problems/402_remove_k_digits/README.md)
