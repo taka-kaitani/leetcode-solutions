@@ -5,6 +5,7 @@
 - [Problem 1071](../problems/1071_greatest_common_divisor_of_strings/README.md)
 
 ## Medium
+- [Problem 50](../problems/50_pow(x,n)/README.md)
 - [Problem 48](../problems/48_rotate_image/README.md)
 - [Problem 12](../problems/12_integer_to_roman/README.md)
 - [Problem 62](../problems/62_unique_paths/README.md)

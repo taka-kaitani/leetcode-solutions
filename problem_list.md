@@ -11,7 +11,7 @@
 - [x] 12/20 (Sat):
   - 46 Permutations
   - 48 Rotate Image
-- [ ] 12/21 (Sun):
+- [x] 12/21 (Sun):
   - 49 Group Anagrams
   - 50 Pow(x, n)
 - [ ] 12/22 (Mon): 53 Maximum Subarray
