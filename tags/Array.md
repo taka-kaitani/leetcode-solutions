@@ -15,6 +15,8 @@
 - [Problem 11](../problems/11_container_with_most_water/README.md)
 
 ## Medium
+- [Problem 55](../problems/55_jump_game/README.md)
+- [Problem 53](../problems/53_maximum_subarray/README.md)
 - [Problem 49](../problems/49_group_anagrams/README.md)
 - [Problem 48](../problems/48_rotate_image/README.md)
 - [Problem 46](../problems/46_permutations/README.md)

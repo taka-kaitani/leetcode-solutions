@@ -7,6 +7,8 @@
 - [Problem 338](../problems/338_counting_bits/README.md)
 
 ## Medium
+- [Problem 55](../problems/55_jump_game/README.md)
+- [Problem 53](../problems/53_maximum_subarray/README.md)
 - [Problem 45](../problems/45_jump_game_ii/README.md)
 - [Problem 22](../problems/22_generate_parentheses/README.md)
 - [Problem 322](../problems/322_coin_change/README.md)
