@@ -15,7 +15,7 @@
   - 49 Group Anagrams
   - 50 Pow(x, n)
 - [x] 12/22 (Mon): 53 Maximum Subarray
-  - with hints
+  - with hints (not accepted!)
 - [x] 12/23 (Tue): 55 Jump Game
 - [ ] 12/24 (Wed): 56 Merge Intervals
 - [ ] 12/25 (Thu): 57 Insert Interval
