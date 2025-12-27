@@ -19,7 +19,8 @@
 - [x] 12/23 (Tue): 55 Jump Game
 - [x] 12/24 (Wed): 56 Merge Intervals
 - [x] 12/25 (Thu): 57 Insert Interval
-- [ ] 12/26 (Fri): 61 Rotate List
+- [x] 12/26 (Fri): 61 Rotate List
+  - with hints (good problem)
 - [ ] 12/27 (Sat):
   - 71 Simplify Path
   - 73 Set Matrix Zeroes
