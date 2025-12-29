@@ -21,9 +21,10 @@
 - [x] 12/25 (Thu): 57 Insert Interval
 - [x] 12/26 (Fri): 61 Rotate List
   - with hints (good problem)
-- [ ] 12/27 (Sat):
+- [x] 12/27 (Sat):
   - 71 Simplify Path
   - 73 Set Matrix Zeroes
+    - needs performance improvement
 - [ ] 12/28 (Sun):
   - 74 Search a 2D Matrix
   - 77 Combinations

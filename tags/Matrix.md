@@ -3,6 +3,7 @@
 ## Easy
 
 ## Medium
+- [Problem 73](../problems/73_set_matrix_zeroes/README.md)
 - [Problem 48](../problems/48_rotate_image/README.md)
 - [Problem 200](../problems/200_number_of_islands/README.md)
 - [Problem 994](../problems/994_rotting_oranges/README.md)

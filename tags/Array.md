@@ -15,6 +15,7 @@
 - [Problem 11](../problems/11_container_with_most_water/README.md)
 
 ## Medium
+- [Problem 73](../problems/73_set_matrix_zeroes/README.md)
 - [Problem 57](../problems/57_insert_interval/README.md)
 - [Problem 56](../problems/56_merge_intervals/README.md)
 - [Problem 55](../problems/55_jump_game/README.md)
