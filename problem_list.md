@@ -1,5 +1,6 @@
 # Problem List
 
+## Dec
 - [x] 12/15 (Mon): 6 Zigzag Conversion
 - [x] 12/16 (Tue): 12 Integer to Roman
 - [x] 12/17 (Wed): 22 Generate Parentheses
@@ -25,10 +26,10 @@
   - 71 Simplify Path
   - 73 Set Matrix Zeroes
     - needs performance improvement
-- [ ] 12/28 (Sun):
+- [x] 12/28 (Sun):
   - 74 Search a 2D Matrix
   - 77 Combinations
-- [ ] 12/29 (Mon):
+- [x] 12/29 (Mon):Array String Backtracking 'Depth-First Search' Matrix
   - 79 Word Search
   - 80 Remove Duplicates from Sor
 - [ ] 12/30 (Tue):
@@ -37,6 +38,8 @@
 - [ ] 12/31 (Wed):
   - 92 Reverse Linked List II
   - 97 Interleaving String
+
+## Jan
 - [ ] 01/01 (Thu):
   - 100 Same Tree
   - 101 Symmetric Tree
@@ -90,6 +93,8 @@
 - [ ] 01/31 (Sat):
   - 222 Count Complete Tree Nodes
   - 228 Summary Ranges
+
+## Feb
 - [ ] 02/01 (Sun):
   - 230
   - 233 Number of Digit One
@@ -134,6 +139,8 @@
 - [ ] 02/28 (Sat):
   - 763 Partition Labels
   - 785 Is Graph Bipartite?
+
+## Mar
 - [ ] 03/01 (Sun):
   - 1020 Number of Enclaves
   - 1288 Remove Covered Intervals

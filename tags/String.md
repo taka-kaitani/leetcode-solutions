@@ -7,6 +7,7 @@
 - [Problem 345](../problems/345_reverse_vowels_of_a_string/README.md)
 
 ## Medium
+- [Problem 79](../problems/79_word_search/README.md)
 - [Problem 71](../problems/71_simplify_path/README.md)
 - [Problem 49](../problems/49_group_anagrams/README.md)
 - [Problem 22](../problems/22_generate_parentheses/README.md)

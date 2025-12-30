@@ -3,6 +3,7 @@
 ## Easy
 
 ## Medium
+- [Problem 79](../problems/79_word_search/README.md)
 - [Problem 74](../problems/74_search_a_2d_matrix/README.md)
 - [Problem 73](../problems/73_set_matrix_zeroes/README.md)
 - [Problem 48](../problems/48_rotate_image/README.md)
