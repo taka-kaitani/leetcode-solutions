@@ -8,6 +8,7 @@
 - [Problem 11](../problems/11_container_with_most_water/README.md)
 
 ## Medium
+- [Problem 86](../problems/86_partition_list/README.md)
 - [Problem 82](../problems/82_remove_duplicates_from_sorted_list_ii/README.md)
 - [Problem 61](../problems/61_rotate_list/README.md)
 - [Problem 567](../problems/567_permutation_in_string/README.md)
