@@ -34,6 +34,7 @@
   - 80 Remove Duplicates from Sor
 - [ ] 12/30 (Tue):
   - 82 Remove Duplicates from Sorted List II
+    - with hints to make it interview standard
   - 86 Partition List
 - [ ] 12/31 (Wed):
   - 92 Reverse Linked List II

@@ -4,6 +4,7 @@
 - [Problem 206](../problems/206_reverse_linked_list/README.md)
 
 ## Medium
+- [Problem 82](../problems/82_remove_duplicates_from_sorted_list_ii/README.md)
 - [Problem 61](../problems/61_rotate_list/README.md)
 - [Problem 2130](../problems/2130_maximum_twin_sum_of_a_linked_list/README.md)
 - [Problem 328](../problems/328_odd_even_linked_list/README.md)
