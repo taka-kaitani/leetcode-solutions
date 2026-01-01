@@ -36,9 +36,10 @@
   - 82 Remove Duplicates from Sorted List II
     - with hints to make it interview standard
   - 86 Partition List
-- [ ] 12/31 (Wed):
+- [x] 12/31 (Wed):
   - 92 Reverse Linked List II
   - 97 Interleaving String
+    - with hints (approach was close)
 
 ## Jan
 - [ ] 01/01 (Thu):
