@@ -4,6 +4,7 @@
 - [Problem 206](../problems/206_reverse_linked_list/README.md)
 
 ## Medium
+- [Problem 92](../problems/92_reverse_linked_list_ii/README.md)
 - [Problem 86](../problems/86_partition_list/README.md)
 - [Problem 82](../problems/82_remove_duplicates_from_sorted_list_ii/README.md)
 - [Problem 61](../problems/61_rotate_list/README.md)
