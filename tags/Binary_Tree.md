@@ -1,6 +1,7 @@
 # Binary Tree Problems
 
 ## Easy
+- [Problem 100](../problems/100_same_tree/README.md)
 - [Problem 112](../problems/112_path_sum/README.md)
 - [Problem 872](../problems/872_leaf-similar_trees/README.md)
 - [Problem 700](../problems/700_search_in_a_binary_search_tree/README.md)
