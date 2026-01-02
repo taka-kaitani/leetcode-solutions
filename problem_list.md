@@ -42,7 +42,7 @@
     - with hints (approach was close)
 
 ## Jan
-- [ ] 01/01 (Thu):
+- [x] 01/01 (Thu):
   - 100 Same Tree
   - 101 Symmetric Tree
 - [ ] 01/02 (Fri):
