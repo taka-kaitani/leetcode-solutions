@@ -45,7 +45,7 @@
 - [x] 01/01 (Thu):
   - 100 Same Tree
   - 101 Symmetric Tree
-- [ ] 01/02 (Fri):
+- [x] 01/02 (Fri):
   - 102 Binary Tree Level Order Traversal
   - 103 Binary Tree Zigzag Level Order Traversal
 - [ ] 01/03 (Sat):
