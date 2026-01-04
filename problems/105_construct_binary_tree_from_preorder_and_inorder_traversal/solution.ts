@@ -48,11 +48,14 @@ class TreeNode {
 
 /**
  * # Approach
- * - The first element of preorder is the root.
- * - Find that root value in inorder to split the tree into left and right subtrees.
- * - Recursively build left and right subtrees using the corresponding subarrays.
+ * - Preorder visits: root -> left -> right.
+ * - Inorder visits: left -> root -> right.
+ * - The next unused element in preorder is always the current subtree root.
+ * - Use a hash map from node value to its index in inorder to split the inorder range
+ *   into left and right subtrees in O(1).
+ * - Recursively build subtrees using inorder index ranges (no array slicing).
  *
  * # Complexity
- * - Time:  O(n^2) worst case (linear search in inorder per recursion + slicing)
- * - Space: O(n^2) worst case due to creating subarrays (plus recursion stack)
+ * - Time:  O(n)  (each node is processed once; inorder index lookup is O(1))
+ * - Space: O(n)  for the hash map + O(h) recursion stack (h = tree height)
  */
