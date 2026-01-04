@@ -48,10 +48,11 @@
 - [x] 01/02 (Fri):
   - 102 Binary Tree Level Order Traversal
   - 103 Binary Tree Zigzag Level Order Traversal
-- [x] 01/03 (Sat): 105 Construct Binary Tree from Preorder and Inorder Traversal
-  - needs performance improvements
-- [ ] 01/04 (Sun):
+- [x] 01/03 (Sat):
+  - 105 Construct Binary Tree from Preorder and Inorder Traversal
+    - needs performance improvements
   - 106 Construct Binary Tree from Inorder and Postorder Traversal
+- [ ] 01/04 (Sun):
   - 114 Flatten Binary Tree to Linked List
   - 117 Populating Next Right Pointers in Each Node II
 - [ ] 01/05 (Mon): 120 Triangle
@@ -154,3 +155,17 @@
 - [ ] 03/07 (Sat):
   - 1679
   - 2542
+
+# Retry List
+## Dec
+- [ ] 22
+- [ ] 39
+- [ ] 45
+- [ ] 53
+- [ ] 61
+- [ ] 73
+- [ ] 82
+- [ ] 97
+
+## Jan
+- [ ] 105

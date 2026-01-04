@@ -15,6 +15,7 @@
 - [Problem 11](../problems/11_container_with_most_water/README.md)
 
 ## Medium
+- [Problem 106](../problems/106_construct_binary_tree_from_inorder_and_postorder_traversal/README.md)
 - [Problem 105](../problems/105_construct_binary_tree_from_preorder_and_inorder_traversal/README.md)
 - [Problem 79](../problems/79_word_search/README.md)
 - [Problem 74](../problems/74_search_a_2d_matrix/README.md)

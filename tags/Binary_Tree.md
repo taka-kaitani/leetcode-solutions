@@ -9,6 +9,7 @@
 - [Problem 104](../problems/104_maximum_depth_of_binary_tree/README.md)
 
 ## Medium
+- [Problem 106](../problems/106_construct_binary_tree_from_inorder_and_postorder_traversal/README.md)
 - [Problem 105](../problems/105_construct_binary_tree_from_preorder_and_inorder_traversal/README.md)
 - [Problem 103](../problems/103_binary_tree_zigzag_level_order_traversal/README.md)
 - [Problem 102](../problems/102_binary_tree_level_order_traversal/README.md)
