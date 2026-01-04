@@ -6,6 +6,7 @@
 - [Problem 1207](../problems/1207_unique_number_of_occurrences/README.md)
 
 ## Medium
+- [Problem 105](../problems/105_construct_binary_tree_from_preorder_and_inorder_traversal/README.md)
 - [Problem 73](../problems/73_set_matrix_zeroes/README.md)
 - [Problem 49](../problems/49_group_anagrams/README.md)
 - [Problem 720](../problems/720_longest_word_in_dictionary/README.md)
