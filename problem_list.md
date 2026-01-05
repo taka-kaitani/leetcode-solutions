@@ -52,7 +52,7 @@
   - 105 Construct Binary Tree from Preorder and Inorder Traversal
     - needs performance improvements
   - 106 Construct Binary Tree from Inorder and Postorder Traversal
-- [ ] 01/04 (Sun):
+- [x] 01/04 (Sun):
   - 114 Flatten Binary Tree to Linked List
     - needs performance improvements
   - 117 Populating Next Right Pointers in Each Node II

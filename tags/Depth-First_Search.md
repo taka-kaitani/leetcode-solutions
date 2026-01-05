@@ -8,6 +8,7 @@
 - [Problem 104](../problems/104_maximum_depth_of_binary_tree/README.md)
 
 ## Medium
+- [Problem 117](../problems/117_populating_next_right_pointers_in_each_node_ii/README.md)
 - [Problem 114](../problems/114_flatten_binary_tree_to_linked_list/README.md)
 - [Problem 79](../problems/79_word_search/README.md)
 - [Problem 200](../problems/200_number_of_islands/README.md)
