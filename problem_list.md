@@ -54,6 +54,7 @@
   - 106 Construct Binary Tree from Inorder and Postorder Traversal
 - [ ] 01/04 (Sun):
   - 114 Flatten Binary Tree to Linked List
+    - needs performance improvements
   - 117 Populating Next Right Pointers in Each Node II
 - [ ] 01/05 (Mon): 120 Triangle
 - [ ] 01/06 (Tue): 121 Best Time to Buy and Sell Stock
@@ -169,3 +170,4 @@
 
 ## Jan
 - [ ] 105
+- [ ] 114
