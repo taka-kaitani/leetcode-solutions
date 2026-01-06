@@ -1,6 +1,7 @@
 # Array Problems
 
 ## Easy
+- [Problem 121](../problems/121_best_time_to_buy_and_sell_stock/README.md)
 - [Problem 496](../problems/496_next_greater_element_i/README.md)
 - [Problem 2215](../problems/2215_find_the_difference_of_two_arrays/README.md)
 - [Problem 1732](../problems/1732_find_the_highest_altitude/README.md)

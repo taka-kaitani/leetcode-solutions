@@ -1,6 +1,7 @@
 # Dynamic Programming Problems
 
 ## Easy
+- [Problem 121](../problems/121_best_time_to_buy_and_sell_stock/README.md)
 - [Problem 1137](../problems/1137_n-th_tribonacci_number/README.md)
 - [Problem 746](../problems/746_min_cost_climbing_stairs/README.md)
 - [Problem 392](../problems/392_is_subsequence/README.md)
