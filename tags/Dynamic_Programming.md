@@ -7,6 +7,7 @@
 - [Problem 338](../problems/338_counting_bits/README.md)
 
 ## Medium
+- [Problem 120](../problems/120_triangle/README.md)
 - [Problem 97](../problems/97_interleaving_string/README.md)
 - [Problem 55](../problems/55_jump_game/README.md)
 - [Problem 53](../problems/53_maximum_subarray/README.md)
