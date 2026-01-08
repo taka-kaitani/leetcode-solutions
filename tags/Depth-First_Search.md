@@ -28,4 +28,5 @@
 - [Problem 1448](../problems/1448_count_good_nodes_in_binary_tree/README.md)
 
 ## Hard
+- [Problem 124](../problems/124_binary_tree_maximum_path_sum/README.md)
 

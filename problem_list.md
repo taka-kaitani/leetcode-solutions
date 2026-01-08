@@ -59,7 +59,7 @@
 - [x] 01/05 (Mon): 120 Triangle
 - [x] 01/06 (Tue): 121 Best Time to Buy and Sell Stock
 - [x] 01/07 (Wed): 122 Best Time to Buy and Sell Stock II
-- [ ] 01/08 (Thu): 124 Binary Tree Maximum Path Sum
+- [x] 01/08 (Thu): 124 Binary Tree Maximum Path Sum
 - [ ] 01/09 (Fri): 128 Longest Consecutive Sequence
 - [ ] 01/10 (Sat):
   - 129 Sum Root to Leaf Numbers
