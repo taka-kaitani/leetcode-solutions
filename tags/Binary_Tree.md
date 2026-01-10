@@ -9,6 +9,7 @@
 - [Problem 104](../problems/104_maximum_depth_of_binary_tree/README.md)
 
 ## Medium
+- [Problem 129](../problems/129_sum_root_to_leaf_numbers/README.md)
 - [Problem 117](../problems/117_populating_next_right_pointers_in_each_node_ii/README.md)
 - [Problem 114](../problems/114_flatten_binary_tree_to_linked_list/README.md)
 - [Problem 106](../problems/106_construct_binary_tree_from_inorder_and_postorder_traversal/README.md)
