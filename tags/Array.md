@@ -16,6 +16,7 @@
 - [Problem 11](../problems/11_container_with_most_water/README.md)
 
 ## Medium
+- [Problem 130](../problems/130_surrounded_regions/README.md)
 - [Problem 128](../problems/128_longest_consecutive_sequence/README.md)
 - [Problem 122](../problems/122_best_time_to_buy_and_sell_stock_ii/README.md)
 - [Problem 120](../problems/120_triangle/README.md)

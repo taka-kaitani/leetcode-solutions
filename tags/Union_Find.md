@@ -3,6 +3,7 @@
 ## Easy
 
 ## Medium
+- [Problem 130](../problems/130_surrounded_regions/README.md)
 - [Problem 128](../problems/128_longest_consecutive_sequence/README.md)
 - [Problem 200](../problems/200_number_of_islands/README.md)
 - [Problem 399](../problems/399_evaluate_division/README.md)
