@@ -65,9 +65,10 @@
 - [x] 01/10 (Sat):
   - 129 Sum Root to Leaf Numbers
   - 130 Surrounded Regions
-- [ ] 01/11 (Sun):
+- [x] 01/11 (Sun):
   - 134 Gas Station
   - 137 Single Number II
+    - Nice problem. Can't solve it without hints.
 - [ ] 01/12 (Mon): 138 Copy List with Random Pointer
 - [ ] 01/13 (Tue): 139 Word Break
 - [ ] 01/14 (Wed): 146 LRU Cache
