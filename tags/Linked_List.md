@@ -4,6 +4,7 @@
 - [Problem 206](../problems/206_reverse_linked_list/README.md)
 
 ## Medium
+- [Problem 138](../problems/138_copy_list_with_random_pointer/README.md)
 - [Problem 117](../problems/117_populating_next_right_pointers_in_each_node_ii/README.md)
 - [Problem 114](../problems/114_flatten_binary_tree_to_linked_list/README.md)
 - [Problem 92](../problems/92_reverse_linked_list_ii/README.md)

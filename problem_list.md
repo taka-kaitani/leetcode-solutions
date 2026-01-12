@@ -69,7 +69,8 @@
   - 134 Gas Station
   - 137 Single Number II
     - Nice problem. Can't solve it without hints.
-- [ ] 01/12 (Mon): 138 Copy List with Random Pointer
+- [x] 01/12 (Mon): 138 Copy List with Random Pointer
+  - hard to solve by myself
 - [ ] 01/13 (Tue): 139 Word Break
 - [ ] 01/14 (Wed): 146 LRU Cache
 - [ ] 01/15 (Thu): 148 Sort List

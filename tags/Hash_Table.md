@@ -6,6 +6,7 @@
 - [Problem 1207](../problems/1207_unique_number_of_occurrences/README.md)
 
 ## Medium
+- [Problem 138](../problems/138_copy_list_with_random_pointer/README.md)
 - [Problem 128](../problems/128_longest_consecutive_sequence/README.md)
 - [Problem 106](../problems/106_construct_binary_tree_from_inorder_and_postorder_traversal/README.md)
 - [Problem 105](../problems/105_construct_binary_tree_from_preorder_and_inorder_traversal/README.md)
