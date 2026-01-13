@@ -73,10 +73,10 @@
   - [x] 138 Copy List with Random Pointer
     - hard to solve by myself
   - [x] 139 Word Break
-- [ ] 01/13 (Tue):
-- [ ] 01/14 (Wed): 146 LRU Cache
-- [ ] 01/15 (Thu): 148 Sort List
-- [ ] 01/16 (Fri): 150 Evaluate Reverse Polish Notation
+- [x] 01/13 (Tue): 146 LRU Cache
+- [ ] 01/14 (Wed): 148 Sort List
+- [ ] 01/15 (Thu): 150 Evaluate Reverse Polish Notation
+- [ ] 01/16 (Fri): 
 - [ ] 01/17 (Sat):
   - 153 Find Minimum in Rota
   - 155 Min Stack

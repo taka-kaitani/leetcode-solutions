@@ -6,6 +6,7 @@
 - [Problem 1207](../problems/1207_unique_number_of_occurrences/README.md)
 
 ## Medium
+- [Problem 146](../problems/146_lru_cache/README.md)
 - [Problem 139](../problems/139_word_break/README.md)
 - [Problem 138](../problems/138_copy_list_with_random_pointer/README.md)
 - [Problem 128](../problems/128_longest_consecutive_sequence/README.md)
