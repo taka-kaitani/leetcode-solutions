@@ -16,6 +16,7 @@
 - [Problem 11](../problems/11_container_with_most_water/README.md)
 
 ## Medium
+- [Problem 150](../problems/150_evaluate_reverse_polish_notation/README.md)
 - [Problem 139](../problems/139_word_break/README.md)
 - [Problem 137](../problems/137_single_number_ii/README.md)
 - [Problem 134](../problems/134_gas_station/README.md)
