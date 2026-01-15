@@ -31,7 +31,7 @@
   - 77 Combinations
 - [x] 12/29 (Mon):Array String Backtracking 'Depth-First Search' Matrix
   - 79 Word Search
-  - 80 Remove Duplicates from Sor
+  - 80 Remove Duplicates from Sorted Array II
 - [x] 12/30 (Tue):
   - 82 Remove Duplicates from Sorted List II
     - with hints to make it interview standard
@@ -77,91 +77,91 @@
 - [x] 01/14 (Wed): 148 Sort List
   - hard to solve by myself
 - [x] 01/15 (Thu): 150 Evaluate Reverse Polish Notation
-- [ ] 01/16 (Fri): 
+- [ ] 01/16 (Fri): 153 Find Minimum in Rotated Sorted Array
 - [ ] 01/17 (Sat):
-  - 153 Find Minimum in Rota
   - 155 Min Stack
+  - 167 Two Sum II - Input Array Is Sorted
 - [ ] 01/18 (Sun):
-  - 167 Two Sum II - Input Ar
   - 172 Factorial Trailing Zeroes
-- [ ] 01/19 (Mon): 173 Binary Search Tree Iterator
-- [ ] 01/20 (Tue): 
-- [ ] 01/21 (Wed): 190 Reverse Bits
-- [ ] 01/22 (Thu): 191 Number of 1 Bits
-- [ ] 01/23 (Fri): 201 Bitwise AND of Numbers Range
+  - 173 Binary Search Tree Iterator
+- [ ] 01/19 (Mon): 189 Rotate Array
+- [ ] 01/20 (Tue): 190 Reverse Bits
+- [ ] 01/21 (Wed): 191 Number of 1 Bits
+- [ ] 01/22 (Thu): 201 Bitwise AND of Numbers Range
+- [ ] 01/23 (Fri): 202 Happy Number
 - [ ] 01/24 (Sat):
-  - 202 Happy Number
   - 205 Isomorphic Strings
-- [ ] 01/25 (Sun):
   - 206
+- [ ] 01/25 (Sun):
   - 207 Course Schedule
-- [ ] 01/26 (Mon): 208 Implement Trie
-- [ ] 01/27 (Tue): 210 Course Schedule II
-- [ ] 01/28 (Wed): 211 Design Add and Search Words Data Structure
-- [ ] 01/29 (Thu): 215
-- [ ] 01/30 (Fri): 221 Maximal Square
+  - 208 Implement Trie
+- [ ] 01/26 (Mon): 210 Course Schedule II
+- [ ] 01/27 (Tue): 211 Design Add and Search Words Data Structure
+- [ ] 01/28 (Wed): 215
+- [ ] 01/29 (Thu): 221 Maximal Square
+- [ ] 01/30 (Fri): 222 Count Complete Tree Nodes
 - [ ] 01/31 (Sat):
-  - 222 Count Complete Tree Nodes
   - 228 Summary Ranges
+  - 230
 
 ## Feb
 - [ ] 02/01 (Sun):
-  - 230
   - 233 Number of Digit One
-- [ ] 02/02 (Mon): 242 Valid Anagram
-- [ ] 02/03 (Tue): 274 H-Index
-- [ ] 02/04 (Wed): 275 H-Index II
-- [ ] 02/05 (Thu): 279 Perfect Squares
-- [ ] 02/06 (Fri): 289 Game of Life
+  - 242 Valid Anagram
+- [ ] 02/02 (Mon): 274 H-Index
+- [ ] 02/03 (Tue): 275 H-Index II
+- [ ] 02/04 (Wed): 279 Perfect Squares
+- [ ] 02/05 (Thu): 289 Game of Life
+- [ ] 02/06 (Fri): 295 Find Median from Data Stream
 - [ ] 02/07 (Sat):
-  - 295 Find Median from Data Stream
   - 309 Best Time to Buy and Sell Stock with Cooldown
-- [ ] 02/08 (Sun):
   - 322 Coin Change
+- [ ] 02/08 (Sun):
   - 326 Power of Three
-- [ ] 02/09 (Mon): 344 Reverse String
-- [ ] 02/10 (Tue): 347 Top K Frequent Elements
-- [ ] 02/11 (Wed): 373
-- [ ] 02/12 (Thu): 380 Insert Delete GetRandom O(1)
-- [ ] 02/13 (Fri): 383 Ransom Note
+  - 344 Reverse String
+- [ ] 02/09 (Mon): 347 Top K Frequent Elements
+- [ ] 02/10 (Tue): 373
+- [ ] 02/11 (Wed):
+  - 380 Insert Delete GetRandom O(1)
+  - 383 Ransom Note
+- [ ] 02/12 (Thu): 387 First Unique Character in a String
+- [ ] 02/13 (Fri): 409 Longest Palindrome
 - [ ] 02/14 (Sat):
-  - 387 First Unique Character in a String
-  - 409 Longest Palindrome
-- [ ] 02/15 (Sun):
   - 412 Fizz Buzz
   - 430 Flatten a Multilevel Doubly Linked List
-- [ ] 02/16 (Mon): 437
-- [ ] 02/17 (Tue): 445 Add Two Numbers II
-- [ ] 02/18 (Wed): 448 Find All Numbers Disappeared
-- [ ] 02/19 (Thu): 461 Hamming Distance
-- [ ] 02/20 (Fri): 494 Target Sum
+- [ ] 02/15 (Sun):
+  - 437
+  - 445 Add Two Numbers II
+- [ ] 02/16 (Mon): 448 Find All Numbers Disappeared in an Array
+- [ ] 02/17 (Tue): 461 Hamming Distance
+- [ ] 02/18 (Wed): 494 Target Sum
+- [ ] 02/19 (Thu): 509 Fibonacci Number
+- [ ] 02/20 (Fri): 518 Coin Change 2
 - [ ] 02/21 (Sat):
-  - 509 Fibonacci Number
-  - 518 Coin Change 2
-- [ ] 02/22 (Sun):
   - 542 01 Matrix
   - 560 Subarray Sum Equals K
-- [ ] 02/23 (Mon): 581 Shortest Unsorted Continuous Subarray
-- [ ] 02/24 (Tue): 617 Merge Two Binary Trees
-- [ ] 02/25 (Wed): 647 Palindromic Substrings
-- [ ] 02/26 (Thu): 695 Max Area of Island
-- [ ] 02/27 (Fri): 720 Longest Word in Dictionary
+- [ ] 02/22 (Sun):
+  - 581 Shortest Unsorted Continuous Subarray
+  - 617 Merge Two Binary Trees
+- [ ] 02/23 (Mon):
+  - 647 Palindromic Substrings
+  - 695 Max Area of Island
+- [ ] 02/24 (Tue): 720 Longest Word in Dictionary
+- [ ] 02/25 (Wed): 763 Partition Labels
+- [ ] 02/26 (Thu): 785 Is Graph Bipartite?
+- [ ] 02/27 (Fri): 1020 Number of Enclaves
 - [ ] 02/28 (Sat):
-  - 763 Partition Labels
-  - 785 Is Graph Bipartite?
+  - 1288 Remove Covered Intervals
+  - 1268 Search Suggestions System
 
 ## Mar
 - [ ] 03/01 (Sun):
-  - 1020 Number of Enclaves
-  - 1288 Remove Covered Intervals
-- [ ] 03/02 (Mon): 1268 Search Suggestions System
-- [ ] 03/03 (Tue): 1337 The K Weakest Rows in a Matrix
-- [ ] 03/04 (Wed): 1343 Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold
-- [ ] 03/05 (Thu): 1642
-- [ ] 03/06 (Fri): 1639 Number of Ways to Form a Target String Given a Dictionary
-- [ ] 03/07 (Sat):
-  - 1679
-  - 2542
+  - 1337 The K Weakest Rows in a Matrix
+  - 1343 Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold
+- [ ] 03/02 (Mon): 1642
+- [ ] 03/03 (Tue): 1639 Number of Ways to Form a Target String Given a Dictionary
+- [ ] 03/04 (Wed): 1679
+- [ ] 03/05 (Thu): 2542
 
 # Retry List
 ## Dec
