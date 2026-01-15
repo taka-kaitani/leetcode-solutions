@@ -77,7 +77,7 @@
 - [x] 01/14 (Wed): 148 Sort List
   - hard to solve by myself
 - [x] 01/15 (Thu): 150 Evaluate Reverse Polish Notation
-- [ ] 01/16 (Fri): 153 Find Minimum in Rotated Sorted Array
+- [x] 01/16 (Fri): 153 Find Minimum in Rotated Sorted Array
 - [ ] 01/17 (Sat):
   - 155 Min Stack
   - 167 Two Sum II - Input Array Is Sorted
