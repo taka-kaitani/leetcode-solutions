@@ -5,6 +5,7 @@
 - [Problem 1071](../problems/1071_greatest_common_divisor_of_strings/README.md)
 
 ## Medium
+- [Problem 172](../problems/172_factorial_trailing_zeroes/README.md)
 - [Problem 150](../problems/150_evaluate_reverse_polish_notation/README.md)
 - [Problem 50](../problems/50_pow(x,n)/README.md)
 - [Problem 48](../problems/48_rotate_image/README.md)
