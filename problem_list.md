@@ -78,8 +78,9 @@
   - hard to solve by myself
 - [x] 01/15 (Thu): 150 Evaluate Reverse Polish Notation
 - [x] 01/16 (Fri): 153 Find Minimum in Rotated Sorted Array
-- [ ] 01/17 (Sat):
+- [x] 01/17 (Sat):
   - 155 Min Stack
+    - Uses a hint
   - 167 Two Sum II - Input Array Is Sorted
 - [ ] 01/18 (Sun):
   - 172 Factorial Trailing Zeroes
@@ -91,7 +92,6 @@
 - [ ] 01/23 (Fri): 202 Happy Number
 - [ ] 01/24 (Sat):
   - 205 Isomorphic Strings
-    - Uses a hint
   - 206
 - [ ] 01/25 (Sun):
   - 207 Course Schedule

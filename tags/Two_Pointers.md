@@ -8,6 +8,7 @@
 - [Problem 11](../problems/11_container_with_most_water/README.md)
 
 ## Medium
+- [Problem 167](../problems/167_two_sum_ii_-_input_array_is_sorted/README.md)
 - [Problem 86](../problems/86_partition_list/README.md)
 - [Problem 82](../problems/82_remove_duplicates_from_sorted_list_ii/README.md)
 - [Problem 61](../problems/61_rotate_list/README.md)
