@@ -91,6 +91,7 @@
 - [ ] 01/23 (Fri): 202 Happy Number
 - [ ] 01/24 (Sat):
   - 205 Isomorphic Strings
+    - Uses a hint
   - 206
 - [ ] 01/25 (Sun):
   - 207 Course Schedule
@@ -175,5 +176,10 @@
 - [ ] 97
 
 ## Jan
-- [ ] 105
-- [ ] 114
+- 105
+- 114
+- 128
+- 137
+- 138
+- 148
+- 
