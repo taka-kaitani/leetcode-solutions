@@ -82,9 +82,10 @@
   - 155 Min Stack
     - Uses a hint
   - 167 Two Sum II - Input Array Is Sorted
-- [ ] 01/18 (Sun):
+- [x] 01/18 (Sun):
   - 172 Factorial Trailing Zeroes
   - 173 Binary Search Tree Iterator
+    - Need to modify it into interview standard
 - [ ] 01/19 (Mon): 189 Rotate Array
 - [ ] 01/20 (Tue): 190 Reverse Bits
 - [ ] 01/21 (Wed): 191 Number of 1 Bits

@@ -4,6 +4,7 @@
 - [Problem 496](../problems/496_next_greater_element_i/README.md)
 
 ## Medium
+- [Problem 173](../problems/173_binary_search_tree_iterator/README.md)
 - [Problem 155](../problems/155_min_stack/README.md)
 - [Problem 150](../problems/150_evaluate_reverse_polish_notation/README.md)
 - [Problem 114](../problems/114_flatten_binary_tree_to_linked_list/README.md)

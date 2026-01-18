@@ -4,6 +4,7 @@
 - [Problem 933](../problems/933_number_of_recent_calls/README.md)
 
 ## Medium
+- [Problem 173](../problems/173_binary_search_tree_iterator/README.md)
 - [Problem 155](../problems/155_min_stack/README.md)
 - [Problem 146](../problems/146_lru_cache/README.md)
 - [Problem 901](../problems/901_online_stock_span/README.md)
