@@ -89,7 +89,7 @@
 - [x] 01/19 (Mon): 189 Rotate Array
   - reduce extra space
 - [x] 01/20 (Tue): 190 Reverse Bits
-- [ ] 01/21 (Wed): 191 Number of 1 Bits
+- [x] 01/21 (Wed): 191 Number of 1 Bits
 - [ ] 01/22 (Thu): 201 Bitwise AND of Numbers Range
 - [ ] 01/23 (Fri): 202 Happy Number
 - [ ] 01/24 (Sat):

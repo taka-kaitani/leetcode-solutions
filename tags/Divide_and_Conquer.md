@@ -1,6 +1,7 @@
 # Divide and Conquer Problems
 
 ## Easy
+- [Problem 191](../problems/191_number_of_1_bits/README.md)
 - [Problem 190](../problems/190_reverse_bits/README.md)
 
 ## Medium

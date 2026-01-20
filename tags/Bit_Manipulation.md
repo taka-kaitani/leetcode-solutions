@@ -1,6 +1,7 @@
 # Bit Manipulation Problems
 
 ## Easy
+- [Problem 191](../problems/191_number_of_1_bits/README.md)
 - [Problem 190](../problems/190_reverse_bits/README.md)
 - [Problem 338](../problems/338_counting_bits/README.md)
 - [Problem 136](../problems/136_single_number/README.md)
