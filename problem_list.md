@@ -90,7 +90,7 @@
   - reduce extra space
 - [x] 01/20 (Tue): 190 Reverse Bits
 - [x] 01/21 (Wed): 191 Number of 1 Bits
-- [ ] 01/22 (Thu): 201 Bitwise AND of Numbers Range
+- [x] 01/22 (Thu): 201 Bitwise AND of Numbers Range
 - [ ] 01/23 (Fri): 202 Happy Number
 - [ ] 01/24 (Sat):
   - 205 Isomorphic Strings
