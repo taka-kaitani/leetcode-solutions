@@ -1,6 +1,7 @@
 # Hash Table Problems
 
 ## Easy
+- [Problem 205](../problems/205_isomorphic_strings/README.md)
 - [Problem 202](../problems/202_happy_number/README.md)
 - [Problem 496](../problems/496_next_greater_element_i/README.md)
 - [Problem 2215](../problems/2215_find_the_difference_of_two_arrays/README.md)
