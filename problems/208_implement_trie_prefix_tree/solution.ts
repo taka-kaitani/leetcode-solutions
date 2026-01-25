@@ -5,12 +5,14 @@
  * Solution by Takanori Kaitani
  */
 class Trie {
-    root = new TrieNode();
+    private root = new TrieNode();
 
     insert(word: string): void {
         let node = this.root;
         for (const ch of word) {
-            if (!node.children.has(ch)) node.children.set(ch, new TrieNode());
+            if (!node.children.has(ch)) {
+                node.children.set(ch, new TrieNode());
+            }
             node = node.children.get(ch)!;
         }
         node.isEnd = true;
@@ -44,28 +46,25 @@ class TrieNode {
 
 /**
  * # Approach
- * - Implement a Trie (prefix tree) where each node represents a prefix.
- * - Each `TrieNode` stores:
- *   - `children`: a map from character to the next `TrieNode`.
- *   - `isEnd`: a boolean flag indicating whether this node marks the end of a word.
+ * - Implement a Trie (prefix tree) where each node represents one character.
+ * - Each TrieNode stores:
+ *   - `children`: map from character -> next TrieNode
+ *   - `isEnd`: whether a complete word ends at this node
  *
- * - `insert(word)`:
- *   - Starting from the root, iterate over each character in `word`.
- *   - For each character, move to the corresponding child node, creating it if it does not exist.
- *   - After processing all characters, mark the final node’s `isEnd` as `true`.
+ * - insert(word):
+ *   - Walk from the root, creating missing child nodes for each character.
+ *   - Mark `isEnd = true` at the final node.
  *
- * - `search(word)`:
- *   - Traverse the trie following the characters of `word`.
- *   - If at any point the next character does not exist in `children`, return `false`.
- *   - After the traversal, return `true` only if the final node’s `isEnd` flag is `true`.
+ * - search(word):
+ *   - Walk the trie following each character.
+ *   - Return true only if the path exists and the final node has `isEnd = true`.
  *
- * - `startsWith(prefix)`:
- *   - Similar to `search`, but we only need to verify that we can traverse
- *     all characters in `prefix`.
- *   - If traversal succeeds, return `true` regardless of `isEnd`.
+ * - startsWith(prefix):
+ *   - Walk the trie following each character in `prefix`.
+ *   - Return true if the path exists (no need to check `isEnd`).
  *
  * # Complexity
- * - Let `L` be the length of the input string (`word` or `prefix`).
- * - Time:  O(L) for `insert`, `search`, and `startsWith`.
- * - Space: O(T) where `T` is the total number of characters stored across all inserted words.
+ * - Time: insert/search/startsWith: O(L) where L is the length of the query word/prefix
+ * - Space: O(C) where C is the total number of characters inserted into the trie
+ *     (i.e., total nodes created across all inserted words).
  */

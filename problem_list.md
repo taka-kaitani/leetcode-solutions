@@ -94,10 +94,10 @@
 - [x] 01/23 (Fri): 202 Happy Number
 - [x] 01/24 (Sat):
   - 205 Isomorphic Strings
-    - with hints
   - 206
-- [ ] 01/25 (Sun):
+- [x] 01/25 (Sun):
   - 207 Course Schedule
+    - with hints
   - 208 Implement Trie
 - [ ] 01/26 (Mon): 210 Course Schedule II
 - [ ] 01/27 (Tue): 211 Design Add and Search Words Data Structure
