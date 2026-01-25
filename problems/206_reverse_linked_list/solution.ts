@@ -8,7 +8,7 @@ function reverseList(head: ListNode | null): ListNode | null {
     let prev: ListNode | null = null;
     let curr: ListNode | null = head;
     while (curr) {
-        let next = curr.next;
+        const next = curr.next;
         curr.next = prev;
         prev = curr;
         curr = next;
@@ -28,20 +28,18 @@ class ListNode {
 
 /**
  * # Approach
- * - Reverse the linked list in-place by re-wiring the `next` pointers.
- * - Maintain two pointers during traversal:
- *    - `prev`: the node that should come *after* the current node in the reversed list
- *    - `curr`: the node currently being processed
- *
+ * - Iterative one-pass reversal.
+ * - Maintain three pointers:
+ *   - `prev`: head of the already-reversed part
+ *   - `curr`: current node being processed
+ *   - `next`: saved next node (so we don't lose the rest of the list)
  * - For each node:
- *    1. Temporarily store the next node (`next`)
- *    2. Reverse the link: make `curr.next` point to `prev`
- *    3. Move `prev` forward to `curr`
- *    4. Move `curr` forward to `next`
- *
- * - When traversal finishes, `prev` will be the new head of the reversed list.
+ *   1) Save `next = curr.next`
+ *   2) Reverse the link: `curr.next = prev`
+ *   3) Advance: `prev = curr`, `curr = next`
+ * - At the end, `prev` is the new head.
  *
  * # Complexity
- * - Time:  O(n), because each node is processed exactly once.
- * - Space: O(1), because reversal is done in-place using only a few pointers.
+ * - Time:  O(n)
+ * - Space: O(1)
  */
