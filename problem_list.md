@@ -99,7 +99,7 @@
   - 207 Course Schedule
     - with hints
   - 208 Implement Trie
-- [ ] 01/26 (Mon): 210 Course Schedule II
+- [x] 01/26 (Mon): 210 Course Schedule II
 - [ ] 01/27 (Tue): 211 Design Add and Search Words Data Structure
 - [ ] 01/28 (Wed): 215
 - [ ] 01/29 (Thu): 221 Maximal Square
