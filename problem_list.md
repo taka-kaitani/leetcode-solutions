@@ -100,7 +100,7 @@
     - with hints
   - 208 Implement Trie
 - [x] 01/26 (Mon): 210 Course Schedule II
-- [ ] 01/27 (Tue): 211 Design Add and Search Words Data Structure
+- [x] 01/27 (Tue): 211 Design Add and Search Words Data Structure
 - [ ] 01/28 (Wed): 215
 - [ ] 01/29 (Thu): 221 Maximal Square
 - [ ] 01/30 (Fri): 222 Count Complete Tree Nodes

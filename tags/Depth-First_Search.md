@@ -8,6 +8,7 @@
 - [Problem 104](../problems/104_maximum_depth_of_binary_tree/README.md)
 
 ## Medium
+- [Problem 211](../problems/211_design_add_and_search_words_data_structure/README.md)
 - [Problem 210](../problems/210_course_schedule_ii/README.md)
 - [Problem 207](../problems/207_course_schedule/README.md)
 - [Problem 130](../problems/130_surrounded_regions/README.md)
