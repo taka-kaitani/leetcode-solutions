@@ -5,40 +5,35 @@
  * Solution by Takanori Kaitani
  */
 function findKthLargest(nums: number[], k: number): number {
-    const target = k - 1;
-    let left = 0;
-    let right = nums.length;
-
+    let left = 0, right = nums.length - 1;
+    const target = k - 1; // 0-indexed
     while (true) {
-        const [gt, lt] = threeWayDescPartition(nums, left, right);
-        if (target < gt)     right = gt;
+        const [gt, lt] = partition(nums, left, right);
+        if      (gt > target) right = gt - 1;
         else if (lt < target) left = lt + 1;
+
         else return nums[target];
     }
 }
 
 /**
- * Three way partition (Dutch Flag Partition) for descending order.
- * 
- * It partitions nums[left..right-1] into:
- *   1. nums[left .. gt-1]    > pivot
- *   2. nums[gt   .. lt]      == pivot
- *   3. nums[lt+1 .. right-1] < pivot
+ * divide [start..end] into 3 part; [num > pivot][num === pivot][num < pivot]
+ * [gt, lt]: boundaries of [num === pivot]
  */
-function threeWayDescPartition(nums: number[], left: number, right: number): [number, number] {
-    let gt = left, i = left, lt = right - 1;
-    const pivot = nums[left];
+function partition(nums: number[], start: number, end: number): [number, number] {
+    const pivot = nums[start];
+    let i = start, gt = start, lt = end;
 
     while (i <= lt) {
         if (nums[i] > pivot) {
-            [nums[i], nums[gt]] = [nums[gt], nums[i]];
-            i++;
+            [nums[gt], nums[i]] = [nums[i], nums[gt]];
             gt++;
-        } else if (nums[i] === pivot) {
             i++;
-        } else {
+        } else if (nums[i] < pivot) {
             [nums[i], nums[lt]] = [nums[lt], nums[i]];
             lt--;
+        } else {
+            i++;
         }
     }
 
@@ -47,28 +42,28 @@ function threeWayDescPartition(nums: number[], left: number, right: number): [nu
 
 /**
  * # Approach
- * - Use Quickselect with a three-way (Dutch National Flag) partition to find
- *   the kth largest element in-place.
+ * - Quickselect with 3-way partition (Dutch National Flag) to find the k-th largest element.
+ *   - We want the element that would be at index `target = k - 1` if the array were sorted in descending order.
  *
- * - We work with a target index `target = k - 1`, which corresponds to the
- *   kth largest element if the array were sorted in descending order.
+ * - `partition(nums, start, end)` (3-way):
+ *   - Pick a pivot value and rearrange nums[start..end] into:
+ *       [ > pivot ][ == pivot ][ < pivot ]
+ *   - It returns `[gt, lt]`, the inclusive boundaries of the `== pivot` block.
+ *   - Invariants while scanning with pointer `i`:
+ *     - nums[start .. gt-1]  > pivot
+ *     - nums[gt .. i-1]      == pivot
+ *     - nums[i .. lt]        unknown (to be processed)
+ *     - nums[lt+1 .. end]    < pivot
+ *   - When nums[i] > pivot: swap into the front and advance `gt` and `i`.
+ *   - When nums[i] < pivot: swap into the back and decrement `lt` (do not advance `i` because the swapped value is unprocessed).
+ *   - When nums[i] == pivot: just advance `i`.
  *
- * - The helper `threeWayDescPartition(nums, left, right)` chooses a pivot and
- *   partitions the subarray `nums[left..right-1]` into three regions:
- *   1. Elements greater than the pivot.
- *   2. Elements equal to the pivot.
- *   3. Elements less than the pivot.
- *   It returns `[gt, lt]`, the start and end indices of the "equal" region.
- *
- * - After partitioning:
- *   - If `target < gt`, the kth largest lies in the "greater than pivot" part.
- *   - If `target > lt`, it lies in the "less than pivot" part.
- *   - Otherwise, the target index lies inside the equal region, and any
- *     element there is the answer.
+ * - Quickselect loop:
+ *   - After partitioning, if `target < gt`, the answer is in the left side → shrink `right`.
+ *   - If `target > lt`, the answer is in the right side → grow `left`.
+ *   - Otherwise `target` lies in [gt..lt], so `nums[target]` is the k-th largest.
  *
  * # Complexity
- * - Let n be the length of `nums`.
- * - Average Time: O(n)  (Quickselect expected complexity)
- * - Worst-case Time: O(n^2)  (when pivots are consistently poor)
- * - Space: O(1) extra space (in-place)
+ * - Time: Average O(n), worst-case O(n^2) (depends on pivot choice)
+ * - Space: O(1) extra (in-place)
  */
