@@ -8,6 +8,7 @@
 - [Problem 338](../problems/338_counting_bits/README.md)
 
 ## Medium
+- [Problem 221](../problems/221_maximal_square/README.md)
 - [Problem 139](../problems/139_word_break/README.md)
 - [Problem 122](../problems/122_best_time_to_buy_and_sell_stock_ii/README.md)
 - [Problem 120](../problems/120_triangle/README.md)

@@ -3,6 +3,7 @@
 ## Easy
 
 ## Medium
+- [Problem 221](../problems/221_maximal_square/README.md)
 - [Problem 130](../problems/130_surrounded_regions/README.md)
 - [Problem 79](../problems/79_word_search/README.md)
 - [Problem 74](../problems/74_search_a_2d_matrix/README.md)
