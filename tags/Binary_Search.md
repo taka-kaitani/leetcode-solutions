@@ -1,6 +1,7 @@
 # Binary Search Problems
 
 ## Easy
+- [Problem 222](../problems/222_count_complete_tree_nodes/README.md)
 - [Problem 374](../problems/374_guess_number_higher_or_lower/README.md)
 
 ## Medium

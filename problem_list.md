@@ -104,7 +104,8 @@
 - [x] 01/28 (Wed): 215
 - [x] 01/29 (Thu): 221 Maximal Square
   - used much time
-- [ ] 01/30 (Fri): 222 Count Complete Tree Nodes
+- [x] 01/30 (Fri): 222 Count Complete Tree Nodes
+  - Performance improvement (O((log n)^2) time complexity)
 - [ ] 01/31 (Sat):
   - 228 Summary Ranges
   - 230
@@ -186,4 +187,9 @@
 - 137
 - 138
 - 148
-- 
+- 155
+- 173
+- 189
+- 207
+- 221
+- 222

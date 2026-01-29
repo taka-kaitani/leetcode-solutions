@@ -1,6 +1,7 @@
 # Binary Tree Problems
 
 ## Easy
+- [Problem 222](../problems/222_count_complete_tree_nodes/README.md)
 - [Problem 101](../problems/101_symmetric_tree/README.md)
 - [Problem 100](../problems/100_same_tree/README.md)
 - [Problem 112](../problems/112_path_sum/README.md)
