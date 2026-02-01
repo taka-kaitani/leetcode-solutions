@@ -4,10 +4,32 @@
  *
  * Solution by Takanori Kaitani
  */
+function kthSmallest(root: TreeNode | null, k: number): number {
+    let counter = 0;
+    let stack: TreeNode[] = [];
+    let curr = root;
+
+    while (stack.length > 0 || curr) {
+        // leftmost node
+        while (curr) {
+            stack.push(curr);
+            curr = curr.left;
+        }
+
+        curr = stack.pop()!;
+        counter++;
+        if (counter === k) return curr.val;
+
+        // explore right subtree
+        curr = curr.right;
+    }
+
+    return -1; // this does't occur
+}
 
 /**
  * Definition for a binary tree node.
-*/
+ */
 class TreeNode {
     val: number
     left: TreeNode | null
@@ -18,30 +40,6 @@ class TreeNode {
         this.right = (right===undefined ? null : right)
     }
 }
-
-function kthSmallest(root: TreeNode | null, k: number): number {
-    let count = 0;
-    let stack: TreeNode[] = [];
-    let curr = root;
-
-    while (stack.length || curr) {
-        // Go left as far as possible
-        while (curr) {
-            stack.push(curr);
-            curr = curr.left;
-        }
-
-        // Visit node
-        curr = stack.pop()!;
-        count++;
-        if (count === k) return curr.val;
-
-        // Move to right subtree
-        curr = curr.right;
-    }
-
-    return -1; // This won't occur
-};
 
 /**
  * # Approach

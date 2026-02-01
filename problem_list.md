@@ -106,9 +106,10 @@
   - used much time
 - [x] 01/30 (Fri): 222 Count Complete Tree Nodes
   - Performance improvement (O((log n)^2) time complexity)
-- [ ] 01/31 (Sat):
+- [x] 01/31 (Sat):
   - 228 Summary Ranges
   - 230
+    - with hints
 
 ## Feb
 - [ ] 02/01 (Sun):
@@ -193,3 +194,4 @@
 - 207
 - 221
 - 222
+- 230

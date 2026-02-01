@@ -145,16 +145,15 @@ echo "Found problem directory: $PROBLEM_DIR"
 # Create solution.ts file based on solution.php structure
 TS_FILE="$PROBLEM_DIR/solution.ts"
 
-# Read the PHP file to extract problem info
-PHP_FILE="$PROBLEM_DIR/solution.php"
-if [ ! -f "$PHP_FILE" ]; then
-    echo "Error: solution.php not found in $PROBLEM_DIR"
+# Extract problem info from README.md
+README_FILE="$PROBLEM_DIR/README.md"
+if [ ! -f "$README_FILE" ]; then
+    echo "Error: README.md not found in $PROBLEM_DIR"
     exit 1
 fi
 
-# Extract problem number and title from PHP file
-PROBLEM_TITLE=$(grep -o "LeetCode Problem: [0-9]*\. [^*]*" "$PHP_FILE" | sed 's/LeetCode Problem: [0-9]*\. //')
-PROBLEM_URL=$(grep -o "https://leetcode.com/problems/[^/]*/" "$PHP_FILE")
+PROBLEM_TITLE=$(grep -o "^# LeetCode $PROBLEM_NUM - .*" "$README_FILE" | sed "s/^# LeetCode $PROBLEM_NUM - //")
+PROBLEM_URL=$(grep -o "https://leetcode.com/problems/[^)]*" "$README_FILE")
 
 # Create or update TypeScript solution file
 if [ -f "$TS_FILE" ]; then
