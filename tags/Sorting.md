@@ -1,6 +1,7 @@
 # Sorting Problems
 
 ## Easy
+- [Problem 242](../problems/242_valid_anagram/README.md)
 
 ## Medium
 - [Problem 56](../problems/56_merge_intervals/README.md)

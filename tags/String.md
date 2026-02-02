@@ -1,6 +1,7 @@
 # String Problems
 
 ## Easy
+- [Problem 242](../problems/242_valid_anagram/README.md)
 - [Problem 205](../problems/205_isomorphic_strings/README.md)
 - [Problem 1768](../problems/1768_merge_strings_alternately/README.md)
 - [Problem 1071](../problems/1071_greatest_common_divisor_of_strings/README.md)

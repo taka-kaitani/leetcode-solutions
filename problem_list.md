@@ -112,9 +112,9 @@
     - with hints
 
 ## Feb
-- [ ] 02/01 (Sun): (予定のためスキップ)
-- [ ] 02/02 (Mon): 233 Number of Digit One
-- [ ] 02/03 (Tue): 242 Valid Anagram
+- [x] 02/02 (Mon): 233 Number of Digit One
+  - couldn't be solved
+- [x] 02/03 (Tue): 242 Valid Anagram
 - [ ] 02/04 (Wed): 274 H-Index
 - [ ] 02/05 (Thu): 275 H-Index II
 - [ ] 02/06 (Fri): 279 Perfect Squares
