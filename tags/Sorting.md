@@ -4,6 +4,7 @@
 - [Problem 242](../problems/242_valid_anagram/README.md)
 
 ## Medium
+- [Problem 274](../problems/274_h-index/README.md)
 - [Problem 56](../problems/56_merge_intervals/README.md)
 - [Problem 49](../problems/49_group_anagrams/README.md)
 - [Problem 720](../problems/720_longest_word_in_dictionary/README.md)

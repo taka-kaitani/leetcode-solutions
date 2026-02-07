@@ -115,7 +115,7 @@
 - [x] 02/02 (Mon): 233 Number of Digit One
   - couldn't be solved
 - [x] 02/03 (Tue): 242 Valid Anagram
-- [ ] 02/04 (Wed): 274 H-Index
+- [x] 02/04 (Wed): 274 H-Index
 - [ ] 02/05 (Thu): 275 H-Index II
 - [ ] 02/06 (Fri): 279 Perfect Squares
 - [ ] 02/07 (Sat):
@@ -195,3 +195,6 @@
 - 221
 - 222
 - 230
+
+## Feb
+- 233

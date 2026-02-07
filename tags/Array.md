@@ -17,6 +17,7 @@
 - [Problem 11](../problems/11_container_with_most_water/README.md)
 
 ## Medium
+- [Problem 274](../problems/274_h-index/README.md)
 - [Problem 221](../problems/221_maximal_square/README.md)
 - [Problem 189](../problems/189_rotate_array/README.md)
 - [Problem 167](../problems/167_two_sum_ii_-_input_array_is_sorted/README.md)
