@@ -116,7 +116,7 @@
   - couldn't be solved
 - [x] 02/03 (Tue): 242 Valid Anagram
 - [x] 02/04 (Wed): 274 H-Index
-- [ ] 02/05 (Thu): 275 H-Index II
+- [x] 02/05 (Thu): 275 H-Index II
 - [ ] 02/06 (Fri): 279 Perfect Squares
 - [ ] 02/07 (Sat):
   - 289 Game of Life
