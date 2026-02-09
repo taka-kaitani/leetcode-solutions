@@ -7,6 +7,7 @@
 - [Problem 104](../problems/104_maximum_depth_of_binary_tree/README.md)
 
 ## Medium
+- [Problem 279](../problems/279_perfect_squares/README.md)
 - [Problem 210](../problems/210_course_schedule_ii/README.md)
 - [Problem 207](../problems/207_course_schedule/README.md)
 - [Problem 130](../problems/130_surrounded_regions/README.md)

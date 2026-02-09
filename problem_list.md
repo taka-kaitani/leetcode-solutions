@@ -117,7 +117,8 @@
 - [x] 02/03 (Tue): 242 Valid Anagram
 - [x] 02/04 (Wed): 274 H-Index
 - [x] 02/05 (Thu): 275 H-Index II
-- [ ] 02/06 (Fri): 279 Perfect Squares
+- [x] 02/06 (Fri): 279 Perfect Squares
+  - with a hint
 - [ ] 02/07 (Sat):
   - 289 Game of Life
   - 295 Find Median from Data Stream
@@ -198,3 +199,4 @@
 
 ## Feb
 - 233
+- 279
