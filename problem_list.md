@@ -120,8 +120,8 @@
 - [x] 02/06 (Fri): 279 Perfect Squares
   - with a hint
 - [ ] 02/07 (Sat):
-  - 289 Game of Life
-  - 295 Find Median from Data Stream
+  - [x] 289 Game of Life
+  - [ ] 295 Find Median from Data Stream
 - [ ] 02/08 (Sun):
   - 309 Best Time to Buy and Sell Stock with Cooldown
   - 322 Coin Change

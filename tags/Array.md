@@ -17,6 +17,7 @@
 - [Problem 11](../problems/11_container_with_most_water/README.md)
 
 ## Medium
+- [Problem 289](../problems/289_game_of_life/README.md)
 - [Problem 275](../problems/275_h-index_ii/README.md)
 - [Problem 274](../problems/274_h-index/README.md)
 - [Problem 221](../problems/221_maximal_square/README.md)
