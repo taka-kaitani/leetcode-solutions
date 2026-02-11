@@ -1,0 +1,6 @@
+{
+  "model": "sonnet",
+  "permissionMode": "auto",
+  "fastMode": false,
+  "cleanupPeriodDays": 7
+}
