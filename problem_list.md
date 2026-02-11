@@ -119,57 +119,56 @@
 - [x] 02/05 (Thu): 275 H-Index II
 - [x] 02/06 (Fri): 279 Perfect Squares
   - with a hint
-- [ ] 02/07 (Sat):
+- [x] 02/07 (Sat):
   - [x] 289 Game of Life
-  - [ ] 295 Find Median from Data Stream
-- [ ] 02/08 (Sun):
-  - 309 Best Time to Buy and Sell Stock with Cooldown
-  - 322 Coin Change
-- [ ] 02/09 (Mon): 326 Power of Three
-- [ ] 02/10 (Tue): 344 Reverse String
-- [ ] 02/11 (Wed/祝):
-  - 347 Top K Frequent Elements
-  - 373
-- [ ] 02/12 (Thu): 380 Insert Delete GetRandom O(1)
-- [ ] 02/13 (Fri): 383 Ransom Note
+  - [x] 295 Find Median from Data Stream
+    - with hints and much time
+- [ ] 02/13 (Fri): 309 Best Time to Buy and Sell Stock with Cooldown
 - [ ] 02/14 (Sat):
-  - 387 First Unique Character in a String
-  - 409 Longest Palindrome
+  - [ ] 322 Coin Change
+  - [ ] 326 Power of Three
 - [ ] 02/15 (Sun):
-  - 412 Fizz Buzz
-  - 430 Flatten a Multilevel Doubly Linked List
-- [ ] 02/16 (Mon): 437
-- [ ] 02/17 (Tue): 445 Add Two Numbers II
-- [ ] 02/18 (Wed): 448 Find All Numbers Disappeared in an Array
-- [ ] 02/19 (Thu): 461 Hamming Distance
-- [ ] 02/20 (Fri): 494 Target Sum
+  - [ ] 344 Reverse String
+  - [ ] 347 Top K Frequent Elements
+- [ ] 02/16 (Mon): 373
+- [ ] 02/17 (Tue): 380 Insert Delete GetRandom O(1)
+- [ ] 02/18 (Wed): 383 Ransom Note
+- [ ] 02/19 (Thu): 387 First Unique Character in a String
+- [ ] 02/20 (Fri): 409 Longest Palindrome
 - [ ] 02/21 (Sat):
-  - 509 Fibonacci Number
-  - 518 Coin Change 2
+  - [ ] 412 Fizz Buzz
+  - [ ] 430 Flatten a Multilevel Doubly Linked List
 - [ ] 02/22 (Sun):
-  - 542 01 Matrix
-  - 560 Subarray Sum Equals K
+  - [ ] 437
+  - [ ] 445 Add Two Numbers II
 - [ ] 02/23 (Mon/祝):
-  - 581 Shortest Unsorted Continuous Subarray
-  - 617 Merge Two Binary Trees
-- [ ] 02/24 (Tue): 647 Palindromic Substrings
-- [ ] 02/25 (Wed): 695 Max Area of Island
-- [ ] 02/26 (Thu): 720 Longest Word in Dictionary
-- [ ] 02/27 (Fri): 763 Partition Labels
+  - [ ] 448 Find All Numbers Disappeared in an Array
+  - [ ] 461 Hamming Distance
+- [ ] 02/24 (Tue): 494 Target Sum
+- [ ] 02/25 (Wed): 509 Fibonacci Number
+- [ ] 02/26 (Thu): 518 Coin Change 2
+- [ ] 02/27 (Fri): 542 01 Matrix
 - [ ] 02/28 (Sat):
-  - 785 Is Graph Bipartite?
-  - 1020 Number of Enclaves
+  - [ ] 560 Subarray Sum Equals K
+  - [ ] 581 Shortest Unsorted Continuous Subarray
 
 ## Mar
 - [ ] 03/01 (Sun):
-  - 1288 Remove Covered Intervals
-  - 1268 Search Suggestions System
-- [ ] 03/02 (Mon): 1337 The K Weakest Rows in a Matrix
-- [ ] 03/03 (Tue): 1343 Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold
-- [ ] 03/04 (Wed): 1642
-- [ ] 03/05 (Thu): 1639 Number of Ways to Form a Target String Given a Dictionary
-- [ ] 03/06 (Fri): 1679
-- [ ] 03/07 (Sat): 2542
+  - [ ] 617 Merge Two Binary Trees
+  - [ ] 647 Palindromic Substrings
+- [ ] 03/02 (Mon): 695 Max Area of Island
+- [ ] 03/03 (Tue): 720 Longest Word in Dictionary
+- [ ] 03/04 (Wed): 763 Partition Labels
+- [ ] 03/05 (Thu): 785 Is Graph Bipartite?
+- [ ] 03/06 (Fri): 1020 Number of Enclaves
+- [ ] 03/07 (Sat): 1288 Remove Covered Intervals
+- [ ] 03/08 (Sun): 1268 Search Suggestions System
+- [ ] 03/09 (Mon): 1337 The K Weakest Rows in a Matrix
+- [ ] 03/10 (Tue): 1343 Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold
+- [ ] 03/11 (Wed): 1642
+- [ ] 03/12 (Thu): 1639 Number of Ways to Form a Target String Given a Dictionary
+- [ ] 03/13 (Fri): 1679
+- [ ] 03/14 (Sat): 2542
 
 # Retry List
 ## Dec

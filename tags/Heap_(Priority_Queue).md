@@ -13,4 +13,5 @@
 - [Problem 215](../problems/215_kth_largest_element_in_an_array/README.md)
 
 ## Hard
+- [Problem 295](../problems/295_find_median_from_data_stream/README.md)
 

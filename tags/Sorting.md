@@ -20,4 +20,5 @@
 - [Problem 1657](../problems/1657_determine_if_two_strings_are_close/README.md)
 
 ## Hard
+- [Problem 295](../problems/295_find_median_from_data_stream/README.md)
 

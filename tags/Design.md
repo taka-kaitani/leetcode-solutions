@@ -13,4 +13,5 @@
 - [Problem 2336](../problems/2336_smallest_number_in_infinite_set/README.md)
 
 ## Hard
+- [Problem 295](../problems/295_find_median_from_data_stream/README.md)
 

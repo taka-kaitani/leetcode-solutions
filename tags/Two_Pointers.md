@@ -24,5 +24,6 @@
 - [Problem 151](../problems/151_reverse_words_in_a_string/README.md)
 
 ## Hard
+- [Problem 295](../problems/295_find_median_from_data_stream/README.md)
 - [Problem 42](../problems/42_trapping_rain_water/README.md)
 
