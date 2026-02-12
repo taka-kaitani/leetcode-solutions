@@ -123,7 +123,7 @@
   - [x] 289 Game of Life
   - [x] 295 Find Median from Data Stream
     - with hints and much time
-- [ ] 02/13 (Fri): 309 Best Time to Buy and Sell Stock with Cooldown
+- [x] 02/13 (Fri): 309 Best Time to Buy and Sell Stock with Cooldown
 - [ ] 02/14 (Sat):
   - [ ] 322 Coin Change
   - [ ] 326 Power of Three
