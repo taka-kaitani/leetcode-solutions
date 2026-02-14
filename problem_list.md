@@ -124,10 +124,10 @@
   - [x] 295 Find Median from Data Stream
     - with hints and much time
 - [x] 02/13 (Fri): 309 Best Time to Buy and Sell Stock with Cooldown
-- [ ] 02/14 (Sat):
+- [x] 02/14 (Sat):
   - [x] 322 Coin Change
     - close bub can't solve it without hints
-  - [ ] 326 Power of Three
+  - [x] 326 Power of Three
 - [ ] 02/15 (Sun):
   - [ ] 344 Reverse String
   - [ ] 347 Top K Frequent Elements

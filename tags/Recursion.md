@@ -1,6 +1,7 @@
 # Recursion Problems
 
 ## Easy
+- [Problem 326](../problems/326_power_of_three/README.md)
 - [Problem 206](../problems/206_reverse_linked_list/README.md)
 
 ## Medium
