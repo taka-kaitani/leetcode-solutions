@@ -129,7 +129,7 @@
     - close bub can't solve it without hints
   - [x] 326 Power of Three
 - [ ] 02/15 (Sun):
-  - [ ] 344 Reverse String
+  - [x] 344 Reverse String
   - [ ] 347 Top K Frequent Elements
 - [ ] 02/16 (Mon): 373
 - [ ] 02/17 (Tue): 380 Insert Delete GetRandom O(1)
