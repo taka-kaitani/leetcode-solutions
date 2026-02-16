@@ -5,6 +5,7 @@
 - [Problem 190](../problems/190_reverse_bits/README.md)
 
 ## Medium
+- [Problem 347](../problems/347_top_k_frequent_elements/README.md)
 - [Problem 106](../problems/106_construct_binary_tree_from_inorder_and_postorder_traversal/README.md)
 - [Problem 105](../problems/105_construct_binary_tree_from_preorder_and_inorder_traversal/README.md)
 - [Problem 53](../problems/53_maximum_subarray/README.md)

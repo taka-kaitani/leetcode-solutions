@@ -128,9 +128,10 @@
   - [x] 322 Coin Change
     - close bub can't solve it without hints
   - [x] 326 Power of Three
-- [ ] 02/15 (Sun):
+- [x] 02/15 (Sun):
   - [x] 344 Reverse String
-  - [ ] 347 Top K Frequent Elements
+  - [x] 347 Top K Frequent Elements
+    - Approach was close but can't solve it without hints
 - [ ] 02/16 (Mon): 373
 - [ ] 02/17 (Tue): 380 Insert Delete GetRandom O(1)
 - [ ] 02/18 (Wed): 383 Ransom Note
@@ -200,3 +201,5 @@
 ## Feb
 - 233
 - 279
+- 322
+- 347
