@@ -4,6 +4,7 @@
 - [Problem 933](../problems/933_number_of_recent_calls/README.md)
 
 ## Medium
+- [Problem 380](../problems/380_insert_delete_getrandom_o(1)/README.md)
 - [Problem 211](../problems/211_design_add_and_search_words_data_structure/README.md)
 - [Problem 173](../problems/173_binary_search_tree_iterator/README.md)
 - [Problem 155](../problems/155_min_stack/README.md)

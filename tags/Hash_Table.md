@@ -9,6 +9,7 @@
 - [Problem 1207](../problems/1207_unique_number_of_occurrences/README.md)
 
 ## Medium
+- [Problem 380](../problems/380_insert_delete_getrandom_o(1)/README.md)
 - [Problem 347](../problems/347_top_k_frequent_elements/README.md)
 - [Problem 146](../problems/146_lru_cache/README.md)
 - [Problem 139](../problems/139_word_break/README.md)
