@@ -5,24 +5,31 @@
  * Solution by Takanori Kaitani
  */
 function kSmallestPairs(nums1: number[], nums2: number[], k: number): number[][] {
-    const heap = new MyMinHeap(); // [nums1[i]+nums2[j], i, j]
+    const heap = new MyMinHeap();
     const end = Math.min(nums1.length, k);
     for (let i = 0; i < end; i++) {
-        heap.push([nums1[i] + nums2[0], i, 0]);
+        heap.push(nums1[i] + nums2[0], i, 0);
     }
 
-    const res: number[][] = [];
-    while (res.length < k && heap.size()) {
-        const [_, i, j] = heap.popMin()!;
-        res.push([nums1[i], nums2[j]]);
-        if (j + 1 < nums2.length) {
-            heap.push([nums1[i] + nums2[j + 1], i, j + 1]);
+    const res: [number, number][] = [];
+    while (res.length < k) {
+        const [idx1, idx2] = heap.pop()!;
+        res.push([nums1[idx1], nums2[idx2]]);
+        if (idx2 + 1 < nums2.length) {
+            heap.push(nums1[idx1] + nums2[idx2 + 1], idx1, idx2 + 1);
         }
     }
 
     return res;
 }
 
+/**
+ * heap: [
+ *   nums1[idx1] + nums2[idx2],
+ *   idx1,
+ *   idx2
+ * ][]
+ */
 class MyMinHeap {
     private heap: [number, number, number][] = [];
 
@@ -30,7 +37,7 @@ class MyMinHeap {
         [this.heap[i], this.heap[j]] = [this.heap[j], this.heap[i]];
     }
 
-    private bubbleUp(i: number) {
+    private bubbleUp(i: number): void {
         while (i > 0) {
             const parent = Math.floor((i - 1) / 2);
             if (this.heap[i][0] >= this.heap[parent][0]) return;
@@ -39,38 +46,47 @@ class MyMinHeap {
         }
     }
 
-    private bubbleDown(i: number) {
-        const n = this.heap.length;
+    private bubbleDown(): void {
+        let i = 0;
         while (true) {
-            const left  = i * 2 + 1;
-            const right = i * 2 + 2;
+            const left = (i * 2) + 1
+            const right = (i * 2) + 2
             let smallest = i;
+            if (
+                left < this.heap.length &&
+                this.heap[left][0] < this.heap[smallest][0]
+            ) {
+                smallest = left;
+            }
+            if (
+                right < this.heap.length &&
+                this.heap[right][0] < this.heap[smallest][0]
+            ) {
+                smallest = right;
+            }
 
-            if (left < n && this.heap[left][0] < this.heap[smallest][0]) smallest = left;
-            if (right < n && this.heap[right][0] < this.heap[smallest][0]) smallest = right;
-
-            if (smallest === i) return;
+            if (i === smallest) return;
             this.swap(i, smallest);
             i = smallest;
         }
     }
 
-    push(val: [number, number, number]): void {
-        this.heap.push(val);
+    push(sum: number, idx1: number, idx2: number): void {
+        this.heap.push([sum, idx1, idx2]);
         this.bubbleUp(this.heap.length - 1);
     }
 
-    popMin(): [number, number, number] | undefined {
+    pop(): [number, number] | undefined {
         if (this.heap.length === 0) return undefined;
-        if (this.heap.length === 1) return this.heap.pop()!;
-        const top = this.heap[0];
-        this.heap[0] = this.heap.pop()!;
-        this.bubbleDown(0);
-        return top;
-    }
+        if (this.heap.length === 1) {
+            const [_, idx1, idx2] = this.heap.pop()!;
+            return [idx1, idx2];
+        }
 
-    size(): number {
-        return this.heap.length;
+        const [_, idx1, idx2] = this.heap[0];
+        this.heap[0] = this.heap.pop()!;
+        this.bubbleDown();
+        return [idx1, idx2];
     }
 }
 

@@ -132,7 +132,8 @@
   - [x] 344 Reverse String
   - [x] 347 Top K Frequent Elements
     - Approach was close but can't solve it without hints
-- [ ] 02/16 (Mon): 373
+- [x] 02/16 (Mon): 373
+  - with hints
 - [ ] 02/17 (Tue): 380 Insert Delete GetRandom O(1)
 - [ ] 02/18 (Wed): 383 Ransom Note
 - [ ] 02/19 (Thu): 387 First Unique Character in a String
@@ -203,3 +204,4 @@
 - 279
 - 322
 - 347
+- 373
