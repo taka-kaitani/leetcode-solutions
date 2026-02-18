@@ -135,7 +135,7 @@
 - [x] 02/16 (Mon): 373
   - with hints
 - [x] 02/17 (Tue): 380 Insert Delete GetRandom O(1)
-- [ ] 02/18 (Wed): 383 Ransom Note
+- [x] 02/18 (Wed): 383 Ransom Note
 - [ ] 02/19 (Thu): 387 First Unique Character in a String
 - [ ] 02/20 (Fri): 409 Longest Palindrome
 - [ ] 02/21 (Sat):

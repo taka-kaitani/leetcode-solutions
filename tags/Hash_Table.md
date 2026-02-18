@@ -1,6 +1,7 @@
 # Hash Table Problems
 
 ## Easy
+- [Problem 383](../problems/383_ransom_note/README.md)
 - [Problem 242](../problems/242_valid_anagram/README.md)
 - [Problem 205](../problems/205_isomorphic_strings/README.md)
 - [Problem 202](../problems/202_happy_number/README.md)

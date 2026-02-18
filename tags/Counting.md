@@ -1,6 +1,7 @@
 # Counting Problems
 
 ## Easy
+- [Problem 383](../problems/383_ransom_note/README.md)
 
 ## Medium
 - [Problem 347](../problems/347_top_k_frequent_elements/README.md)
