@@ -1,6 +1,7 @@
 # Hash Table Problems
 
 ## Easy
+- [Problem 387](../problems/387_first_unique_character_in_a_string/README.md)
 - [Problem 383](../problems/383_ransom_note/README.md)
 - [Problem 242](../problems/242_valid_anagram/README.md)
 - [Problem 205](../problems/205_isomorphic_strings/README.md)
