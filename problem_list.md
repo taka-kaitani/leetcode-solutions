@@ -137,7 +137,7 @@
 - [x] 02/17 (Tue): 380 Insert Delete GetRandom O(1)
 - [x] 02/18 (Wed): 383 Ransom Note
 - [x] 02/19 (Thu): 387 First Unique Character in a String
-- [ ] 02/20 (Fri): 409 Longest Palindrome
+- [x] 02/20 (Fri): 409 Longest Palindrome
 - [ ] 02/21 (Sat):
   - [ ] 412 Fizz Buzz
   - [ ] 430 Flatten a Multilevel Doubly Linked List
