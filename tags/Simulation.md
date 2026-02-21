@@ -1,6 +1,7 @@
 # Simulation Problems
 
 ## Easy
+- [Problem 412](../problems/412_fizz_buzz/README.md)
 
 ## Medium
 - [Problem 289](../problems/289_game_of_life/README.md)

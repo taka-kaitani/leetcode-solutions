@@ -139,7 +139,7 @@
 - [x] 02/19 (Thu): 387 First Unique Character in a String
 - [x] 02/20 (Fri): 409 Longest Palindrome
 - [ ] 02/21 (Sat):
-  - [ ] 412 Fizz Buzz
+  - [x] 412 Fizz Buzz
   - [ ] 430 Flatten a Multilevel Doubly Linked List
 - [ ] 02/22 (Sun):
   - [ ] 437

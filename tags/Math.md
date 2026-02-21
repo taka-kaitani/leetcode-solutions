@@ -1,6 +1,7 @@
 # Math Problems
 
 ## Easy
+- [Problem 412](../problems/412_fizz_buzz/README.md)
 - [Problem 326](../problems/326_power_of_three/README.md)
 - [Problem 202](../problems/202_happy_number/README.md)
 - [Problem 1137](../problems/1137_n-th_tribonacci_number/README.md)
