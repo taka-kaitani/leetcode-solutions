@@ -5,35 +5,35 @@
  * Solution by Takanori Kaitani
  */
 function pathSum(root: TreeNode | null, targetSum: number): number {
-    const prefixCount = new Map<number, number>();
-    prefixCount.set(0, 1);
-    let res = 0;
+    let currSum: number = 0;
+    const prefixSumMap = new Map<number, number>(); // sum -> freq
+    prefixSumMap.set(0, 1);
+    let count = 0;
 
-    /**
-     * count up `res` when find the path which equals `targetSum`
-     */
-    function dfs(node: TreeNode | null, currSum: number): void {
+    function dfs(node: TreeNode | null): void {
         if (!node) return;
+
+        // Check all paths that end at this node
         currSum += node.val;
+        count += (prefixSumMap.get(currSum - targetSum) ?? 0)
 
-        res += prefixCount.get(currSum - targetSum) ?? 0;
+        // Explore subtree
+        prefixSumMap.set(currSum, (prefixSumMap.get(currSum) ?? 0) + 1);
+        dfs(node.left);
+        dfs(node.right);
 
-        prefixCount.set(currSum, (prefixCount.get(currSum) ?? 0) + 1);
-
-        if (node.left) dfs(node.left, currSum);
-        if (node.right) dfs(node.right, currSum);
-
-        // Backtracking
-        prefixCount.set(currSum, prefixCount.get(currSum)! - 1);
+        // backtrack
+        prefixSumMap.set(currSum, prefixSumMap.get(currSum)! - 1);
+        currSum -= node.val;
     }
 
-    dfs(root, 0);
-    return res;
+    dfs(root);
+    return count;
 }
 
 /**
  * Definition for a binary tree node.
-*/
+ */
 class TreeNode {
     val: number
     left: TreeNode | null
@@ -47,25 +47,13 @@ class TreeNode {
 
 /**
  * # Approach
- * - Use depth-first search (DFS) to count all downward paths whose sums equal `targetSum`.
- *
- * - Maintain a map `prefixCount`:
- *   - key: prefix sum along the current root-to-node path
- *   - value: how many times this prefix sum has appeared on that path
- *
- * - DFS:
- *   - `currSum` represents the sum of values from the root to the current node.
- *   - Any path ending at the current node with sum `targetSum` satisfies
- *     `currSum - prevSum = targetSum`, so `prevSum = currSum - targetSum`.
- *   - If `prefixCount` contains `currSum - targetSum`, add its count to the result.
- *   - Increment the count for `currSum` in `prefixCount` before exploring children.
- *   - Recursively explore left and right subtrees with the updated `currSum`.
- *   - After returning from the children, decrement the count for `currSum`
- *     in `prefixCount` to backtrack and restore the state for other paths.
+ * - Use DFS with a prefix sum map (sum -> frequency on current path).
+ * - Initialize map with {0: 1} to handle paths starting from the root.
+ * - At each node, `prefixSumMap.get(currSum - targetSum)` gives the number of
+ *   valid paths ending at this node.
+ * - Backtrack by decrementing the map entry on the way up.
  *
  * # Complexity
- * - Let n be the number of nodes and h be the height of the tree.
- * - Time:  O(n), each node is visited once and we do O(1) work per node.
- * - Space: O(h) for recursion and prefix sums on the current path:
- *          O(log n) for a balanced tree, O(n) for a skewed tree.
+ * - Time: O(n)
+ * - Space: O(n)
  */
