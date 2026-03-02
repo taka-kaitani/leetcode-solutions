@@ -141,9 +141,10 @@
 - [x] 02/21 (Sat):
   - [x] 412 Fizz Buzz
   - [x] 430 Flatten a Multilevel Doubly Linked List
-- [ ] 02/22 (Sun):
+- [x] 02/22 (Sun):
   - [x] 437
-  - [ ] 445 Add Two Numbers II
+  - [x] 445 Add Two Numbers II
+    - Use a hint to solve it
 - [ ] 02/23 (Mon/祝):
   - [ ] 448 Find All Numbers Disappeared in an Array
   - [ ] 461 Hamming Distance

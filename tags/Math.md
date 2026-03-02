@@ -8,6 +8,7 @@
 - [Problem 1071](../problems/1071_greatest_common_divisor_of_strings/README.md)
 
 ## Medium
+- [Problem 445](../problems/445_add_two_numbers_ii/README.md)
 - [Problem 380](../problems/380_insert_delete_getrandom_o(1)/README.md)
 - [Problem 279](../problems/279_perfect_squares/README.md)
 - [Problem 189](../problems/189_rotate_array/README.md)
