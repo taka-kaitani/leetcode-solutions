@@ -145,9 +145,9 @@
   - [x] 437
   - [x] 445 Add Two Numbers II
     - Use a hint to solve it
-- [ ] 02/23 (Mon/祝):
+- [x] 02/23 (Mon/祝):
   - [x] 448 Find All Numbers Disappeared in an Array
-  - [ ] 461 Hamming Distance
+  - [x] 461 Hamming Distance
 - [ ] 02/24 (Tue): 494 Target Sum
 - [ ] 02/25 (Wed): 509 Fibonacci Number
 - [ ] 02/26 (Thu): 518 Coin Change 2
