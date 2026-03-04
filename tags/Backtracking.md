@@ -3,6 +3,7 @@
 ## Easy
 
 ## Medium
+- [Problem 494](../problems/494_target_sum/README.md)
 - [Problem 79](../problems/79_word_search/README.md)
 - [Problem 46](../problems/46_permutations/README.md)
 - [Problem 39](../problems/39_combination_sum/README.md)

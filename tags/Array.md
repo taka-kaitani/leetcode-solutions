@@ -18,6 +18,7 @@
 - [Problem 11](../problems/11_container_with_most_water/README.md)
 
 ## Medium
+- [Problem 494](../problems/494_target_sum/README.md)
 - [Problem 380](../problems/380_insert_delete_getrandom_o(1)/README.md)
 - [Problem 347](../problems/347_top_k_frequent_elements/README.md)
 - [Problem 309](../problems/309_best_time_to_buy_and_sell_stock_with_cooldown/README.md)

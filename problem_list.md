@@ -148,7 +148,8 @@
 - [x] 02/23 (Mon/祝):
   - [x] 448 Find All Numbers Disappeared in an Array
   - [x] 461 Hamming Distance
-- [ ] 02/24 (Tue): 494 Target Sum
+- [x] 02/24 (Tue): 494 Target Sum
+  - difficult to solve by myself, used hints
 - [ ] 02/25 (Wed): 509 Fibonacci Number
 - [ ] 02/26 (Thu): 518 Coin Change 2
 - [ ] 02/27 (Fri): 542 01 Matrix
@@ -206,3 +207,5 @@
 - 322
 - 347
 - 373
+- 445
+- 494
