@@ -1,6 +1,7 @@
 # Recursion Problems
 
 ## Easy
+- [Problem 509](../problems/509_fibonacci_number/README.md)
 - [Problem 326](../problems/326_power_of_three/README.md)
 - [Problem 206](../problems/206_reverse_linked_list/README.md)
 

@@ -150,7 +150,7 @@
   - [x] 461 Hamming Distance
 - [x] 02/24 (Tue): 494 Target Sum
   - difficult to solve by myself, used hints
-- [ ] 02/25 (Wed): 509 Fibonacci Number
+- [x] 02/25 (Wed): 509 Fibonacci Number
 - [ ] 02/26 (Thu): 518 Coin Change 2
 - [ ] 02/27 (Fri): 542 01 Matrix
 - [ ] 02/28 (Sat):
