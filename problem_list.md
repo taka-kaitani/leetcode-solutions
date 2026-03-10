@@ -151,7 +151,8 @@
 - [x] 02/24 (Tue): 494 Target Sum
   - difficult to solve by myself, used hints
 - [x] 02/25 (Wed): 509 Fibonacci Number
-- [ ] 02/26 (Thu): 518 Coin Change 2
+- [x] 02/26 (Thu): 518 Coin Change 2
+  - With hints, can't solve it by myself
 - [ ] 02/27 (Fri): 542 01 Matrix
 - [ ] 02/28 (Sat):
   - [ ] 560 Subarray Sum Equals K
@@ -209,3 +210,4 @@
 - 373
 - 445
 - 494
+- 518
