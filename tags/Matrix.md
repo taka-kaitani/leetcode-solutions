@@ -3,6 +3,7 @@
 ## Easy
 
 ## Medium
+- [Problem 542](../problems/542_01_matrix/README.md)
 - [Problem 289](../problems/289_game_of_life/README.md)
 - [Problem 221](../problems/221_maximal_square/README.md)
 - [Problem 130](../problems/130_surrounded_regions/README.md)

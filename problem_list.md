@@ -153,7 +153,8 @@
 - [x] 02/25 (Wed): 509 Fibonacci Number
 - [x] 02/26 (Thu): 518 Coin Change 2
   - With hints, can't solve it by myself
-- [ ] 02/27 (Fri): 542 01 Matrix
+- [x] 02/27 (Fri): 542 01 Matrix
+  - with hints to improve performance
 - [ ] 02/28 (Sat):
   - [ ] 560 Subarray Sum Equals K
   - [ ] 581 Shortest Unsorted Continuous Subarray
@@ -211,3 +212,4 @@
 - 445
 - 494
 - 518
+- 542

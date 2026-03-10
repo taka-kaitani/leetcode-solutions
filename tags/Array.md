@@ -18,6 +18,7 @@
 - [Problem 11](../problems/11_container_with_most_water/README.md)
 
 ## Medium
+- [Problem 542](../problems/542_01_matrix/README.md)
 - [Problem 518](../problems/518_coin_change_ii/README.md)
 - [Problem 494](../problems/494_target_sum/README.md)
 - [Problem 380](../problems/380_insert_delete_getrandom_o(1)/README.md)
