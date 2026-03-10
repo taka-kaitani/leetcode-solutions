@@ -156,7 +156,7 @@
 - [x] 02/27 (Fri): 542 01 Matrix
   - with hints to improve performance
 - [ ] 02/28 (Sat):
-  - [ ] 560 Subarray Sum Equals K
+  - [x] 560 Subarray Sum Equals K
   - [ ] 581 Shortest Unsorted Continuous Subarray
 
 ## Mar

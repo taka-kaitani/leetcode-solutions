@@ -18,6 +18,7 @@
 - [Problem 11](../problems/11_container_with_most_water/README.md)
 
 ## Medium
+- [Problem 560](../problems/560_subarray_sum_equals_k/README.md)
 - [Problem 542](../problems/542_01_matrix/README.md)
 - [Problem 518](../problems/518_coin_change_ii/README.md)
 - [Problem 494](../problems/494_target_sum/README.md)
