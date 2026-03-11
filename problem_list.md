@@ -157,7 +157,8 @@
   - with hints to improve performance
 - [ ] 02/28 (Sat):
   - [x] 560 Subarray Sum Equals K
-  - [ ] 581 Shortest Unsorted Continuous Subarray
+  - [x] 581 Shortest Unsorted Continuous Subarray
+    - with hints to solve it
 
 ## Mar
 - [ ] 03/01 (Sun):
@@ -213,3 +214,4 @@
 - 494
 - 518
 - 542
+- 581
