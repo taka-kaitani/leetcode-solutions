@@ -1,6 +1,7 @@
 # Depth-First Search Problems
 
 ## Easy
+- [Problem 617](../problems/617_merge_two_binary_trees/README.md)
 - [Problem 101](../problems/101_symmetric_tree/README.md)
 - [Problem 100](../problems/100_same_tree/README.md)
 - [Problem 112](../problems/112_path_sum/README.md)

@@ -155,14 +155,14 @@
   - With hints, can't solve it by myself
 - [x] 02/27 (Fri): 542 01 Matrix
   - with hints to improve performance
-- [ ] 02/28 (Sat):
+- [x] 02/28 (Sat):
   - [x] 560 Subarray Sum Equals K
   - [x] 581 Shortest Unsorted Continuous Subarray
     - with hints to solve it
 
 ## Mar
 - [ ] 03/01 (Sun):
-  - [ ] 617 Merge Two Binary Trees
+  - [x] 617 Merge Two Binary Trees
   - [ ] 647 Palindromic Substrings
 - [ ] 03/02 (Mon): 695 Max Area of Island
 - [ ] 03/03 (Tue): 720 Longest Word in Dictionary
