@@ -14,6 +14,7 @@
 - [Problem 345](../problems/345_reverse_vowels_of_a_string/README.md)
 
 ## Medium
+- [Problem 647](../problems/647_palindromic_substrings/README.md)
 - [Problem 211](../problems/211_design_add_and_search_words_data_structure/README.md)
 - [Problem 139](../problems/139_word_break/README.md)
 - [Problem 97](../problems/97_interleaving_string/README.md)

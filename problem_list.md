@@ -161,9 +161,9 @@
     - with hints to solve it
 
 ## Mar
-- [ ] 03/01 (Sun):
+- [x] 03/01 (Sun):
   - [x] 617 Merge Two Binary Trees
-  - [ ] 647 Palindromic Substrings
+  - [x] 647 Palindromic Substrings
 - [ ] 03/02 (Mon): 695 Max Area of Island
 - [ ] 03/03 (Tue): 720 Longest Word in Dictionary
 - [ ] 03/04 (Wed): 763 Partition Labels
@@ -209,7 +209,7 @@
 - 279
 - 322
 - 347
-- 373
+- 373 <!-- need to retry from this ↓ -->
 - 445
 - 494
 - 518

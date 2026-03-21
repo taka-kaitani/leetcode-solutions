@@ -9,6 +9,7 @@
 - [Problem 338](../problems/338_counting_bits/README.md)
 
 ## Medium
+- [Problem 647](../problems/647_palindromic_substrings/README.md)
 - [Problem 542](../problems/542_01_matrix/README.md)
 - [Problem 518](../problems/518_coin_change_ii/README.md)
 - [Problem 494](../problems/494_target_sum/README.md)
