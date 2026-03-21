@@ -3,6 +3,7 @@
 ## Easy
 
 ## Medium
+- [Problem 695](../problems/695_max_area_of_island/README.md)
 - [Problem 542](../problems/542_01_matrix/README.md)
 - [Problem 289](../problems/289_game_of_life/README.md)
 - [Problem 221](../problems/221_maximal_square/README.md)

@@ -164,7 +164,7 @@
 - [x] 03/01 (Sun):
   - [x] 617 Merge Two Binary Trees
   - [x] 647 Palindromic Substrings
-- [ ] 03/02 (Mon): 695 Max Area of Island
+- [x] 03/02 (Mon): 695 Max Area of Island
 - [ ] 03/03 (Tue): 720 Longest Word in Dictionary
 - [ ] 03/04 (Wed): 763 Partition Labels
 - [ ] 03/05 (Thu): 785 Is Graph Bipartite?
