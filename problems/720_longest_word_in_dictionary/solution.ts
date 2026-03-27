@@ -5,63 +5,32 @@
  * Solution by Takanori Kaitani
  */
 function longestWord(words: string[]): string {
-    const trie = new Trie();
-    for (const word of words) trie.insert(word);
+    words.sort();
 
-    let best = '';
-
-    function dfs(node: TrieNode, path: string): void {
-        if (
-            path.length > best.length ||
-            (path.length === best.length && path < best)
-        ) {
-            best = path;
-        }
-
-        for (const ch of [...node.children.keys()]) {
-            const child = node.children.get(ch)!;
-            if (child.isEnd) dfs(child, path + ch);
+    let longest = '';
+    const built = new Set(['']);
+    for (const word of words) {
+        if (built.has(word.slice(0, -1))) {
+            built.add(word);
+            if (word.length > longest.length) longest = word;
         }
     }
 
-    dfs(trie.root, '');
-
-    return best;
-}
-
-class Trie {
-    root = new TrieNode();
-
-    insert(word: string): void {
-        let node = this.root;
-        for (const ch of word) {
-            if (!node.children.has(ch)) node.children.set(ch, new TrieNode());
-            node = node.children.get(ch)!;
-        }
-        node.isEnd = true;
-    }
-}
-
-class TrieNode {
-    public children = new Map<string, TrieNode>();
-    public isEnd = false;
+    return longest;
 }
 
 /**
  * # Approach
- * - Insert all words into a Trie, marking the end of each word with `isEnd = true`.
- * - Perform a depth-first search (DFS) on the Trie to find the longest valid word.
- * - A word is valid only if **every prefix** is also a complete word.
- *   This is naturally enforced by exploring only child nodes where `child.isEnd === true`.
- * - During DFS:
- *   - Maintain a string `path` representing the current word we are building.
- *   - Whenever `path` becomes longer than the current `best` (or equal length but lexicographically smaller),
- *     update `best`.
- *   - Explore child nodes.
- * - Return the longest valid word found (`best`).
+ * - Sort `words` for these reasons:
+ *   - We process shorter words first (e.g. 'a' -> 'ap' -> 'app' ...).
+ *   - We return the longest word with the smallest lexicographical order.
+ * - Use a Set to track words that can be built one character at a time.
+ *   - Initialize with '' so single-character words are always buildable.
+ *   - For each word, if word[0..length - 2] is in the set, the word can be built.
+ *     - Update longest if the word is strictly longer (strict > gives smallest lexicographical order).
  *
  * # Complexity
- * - Time:  O(n · m)
- *   where n is the number of words and m is the maximum length of a word.
- * - Space: O(total characters in all words) for the Trie.
+ * - Let c be total characters in words
+ * - Time: O(n log n + c)
+ * - Space: O(c)
  */

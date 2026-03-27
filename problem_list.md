@@ -165,18 +165,20 @@
   - [x] 617 Merge Two Binary Trees
   - [x] 647 Palindromic Substrings
 - [x] 03/02 (Mon): 695 Max Area of Island
-- [ ] 03/03 (Tue): 720 Longest Word in Dictionary
-- [ ] 03/04 (Wed): 763 Partition Labels
-- [ ] 03/05 (Thu): 785 Is Graph Bipartite?
-- [ ] 03/06 (Fri): 1020 Number of Enclaves
-- [ ] 03/07 (Sat): 1288 Remove Covered Intervals
-- [ ] 03/08 (Sun): 1268 Search Suggestions System
-- [ ] 03/09 (Mon): 1337 The K Weakest Rows in a Matrix
-- [ ] 03/10 (Tue): 1343 Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold
-- [ ] 03/11 (Wed): 1642
-- [ ] 03/12 (Thu): 1639 Number of Ways to Form a Target String Given a Dictionary
-- [ ] 03/13 (Fri): 1679
-- [ ] 03/14 (Sat): 2542
+- [x] 03/27 (Fri): 720 Longest Word in Dictionary
+- [ ] 03/28 (Sat): 763 Partition Labels
+- [ ] 03/29 (Sun): 785 Is Graph Bipartite?
+- [ ] 03/30 (Mon): 1020 Number of Enclaves
+- [ ] 03/31 (Tue): 1288 Remove Covered Intervals
+
+## Apr
+- [ ] 04/01 (Wed): 1268 Search Suggestions System
+- [ ] 04/02 (Thu): 1337 The K Weakest Rows in a Matrix
+- [ ] 04/03 (Fri): 1343 Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold
+- [ ] 04/04 (Sat): 1642
+- [ ] 04/05 (Sun): 1639 Number of Ways to Form a Target String Given a Dictionary
+- [ ] 04/06 (Mon): 1679
+- [ ] 04/07 (Tue): 2542
 
 # Retry List
 ## Dec
