@@ -166,7 +166,8 @@
   - [x] 647 Palindromic Substrings
 - [x] 03/02 (Mon): 695 Max Area of Island
 - [x] 03/27 (Fri): 720 Longest Word in Dictionary
-- [ ] 03/28 (Sat): 763 Partition Labels
+- [x] 03/28 (Sat): 763 Partition Labels
+  - with hints to solve it with simpler approach
 - [ ] 03/29 (Sun): 785 Is Graph Bipartite?
 - [ ] 03/30 (Mon): 1020 Number of Enclaves
 - [ ] 03/31 (Tue): 1288 Remove Covered Intervals
@@ -217,3 +218,4 @@
 - 518
 - 542
 - 581
+- 763

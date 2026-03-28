@@ -10,6 +10,7 @@
 - [Problem 11](../problems/11_container_with_most_water/README.md)
 
 ## Medium
+- [Problem 763](../problems/763_partition_labels/README.md)
 - [Problem 647](../problems/647_palindromic_substrings/README.md)
 - [Problem 581](../problems/581_shortest_unsorted_continuous_subarray/README.md)
 - [Problem 189](../problems/189_rotate_array/README.md)

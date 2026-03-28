@@ -13,6 +13,7 @@
 - [Problem 1207](../problems/1207_unique_number_of_occurrences/README.md)
 
 ## Medium
+- [Problem 763](../problems/763_partition_labels/README.md)
 - [Problem 560](../problems/560_subarray_sum_equals_k/README.md)
 - [Problem 380](../problems/380_insert_delete_getrandom_o(1)/README.md)
 - [Problem 347](../problems/347_top_k_frequent_elements/README.md)
