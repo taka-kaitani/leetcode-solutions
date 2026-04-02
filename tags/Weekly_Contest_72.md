@@ -1,10 +1,9 @@
-# Union-Find Problems
+# Weekly Contest 72 Problems
 
 ## Easy
 
 ## Medium
 - [Problem 785](../problems/785_is_graph_bipartite/README.md)
-- [Problem 695](../problems/695_max_area_of_island/README.md)
 
 ## Hard
 

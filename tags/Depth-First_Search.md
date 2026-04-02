@@ -9,6 +9,7 @@
 - [Problem 104](../problems/104_maximum_depth_of_binary_tree/README.md)
 
 ## Medium
+- [Problem 785](../problems/785_is_graph_bipartite/README.md)
 - [Problem 695](../problems/695_max_area_of_island/README.md)
 - [Problem 430](../problems/430_flatten_a_multilevel_doubly_linked_list/README.md)
 - [Problem 211](../problems/211_design_add_and_search_words_data_structure/README.md)

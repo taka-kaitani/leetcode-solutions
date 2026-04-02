@@ -8,6 +8,7 @@
 - [Problem 104](../problems/104_maximum_depth_of_binary_tree/README.md)
 
 ## Medium
+- [Problem 785](../problems/785_is_graph_bipartite/README.md)
 - [Problem 695](../problems/695_max_area_of_island/README.md)
 - [Problem 542](../problems/542_01_matrix/README.md)
 - [Problem 279](../problems/279_perfect_squares/README.md)
