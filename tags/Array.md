@@ -18,6 +18,7 @@
 - [Problem 11](../problems/11_container_with_most_water/README.md)
 
 ## Medium
+- [Problem 1020](../problems/1020_number_of_enclaves/README.md)
 - [Problem 695](../problems/695_max_area_of_island/README.md)
 - [Problem 581](../problems/581_shortest_unsorted_continuous_subarray/README.md)
 - [Problem 560](../problems/560_subarray_sum_equals_k/README.md)

@@ -3,6 +3,7 @@
 ## Easy
 
 ## Medium
+- [Problem 1020](../problems/1020_number_of_enclaves/README.md)
 - [Problem 695](../problems/695_max_area_of_island/README.md)
 - [Problem 542](../problems/542_01_matrix/README.md)
 - [Problem 289](../problems/289_game_of_life/README.md)

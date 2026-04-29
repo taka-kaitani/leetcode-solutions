@@ -9,6 +9,7 @@
 - [Problem 104](../problems/104_maximum_depth_of_binary_tree/README.md)
 
 ## Medium
+- [Problem 1020](../problems/1020_number_of_enclaves/README.md)
 - [Problem 785](../problems/785_is_graph_bipartite/README.md)
 - [Problem 695](../problems/695_max_area_of_island/README.md)
 - [Problem 430](../problems/430_flatten_a_multilevel_doubly_linked_list/README.md)
