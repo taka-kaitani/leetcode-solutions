@@ -171,7 +171,7 @@
 - [x] 03/29 (Sun): 785 Is Graph Bipartite?
   - with hints to solve it
 - [x] 03/30 (Mon): 1020 Number of Enclaves
-- [ ] 03/31 (Tue): 1288 Remove Covered Intervals
+- [x] 03/31 (Tue): 1288 Remove Covered Intervals
 
 ## Apr
 - [ ] 04/01 (Wed): 1268 Search Suggestions System
