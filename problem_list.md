@@ -174,7 +174,8 @@
 - [x] 03/31 (Tue): 1288 Remove Covered Intervals
 
 ## Apr
-- [ ] 04/01 (Wed): 1268 Search Suggestions System
+- [x] 04/01 (Wed): 1268 Search Suggestions System
+  - with some fix needed
 - [ ] 04/02 (Thu): 1337 The K Weakest Rows in a Matrix
 - [ ] 04/03 (Fri): 1343 Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold
 - [ ] 04/04 (Sat): 1642
