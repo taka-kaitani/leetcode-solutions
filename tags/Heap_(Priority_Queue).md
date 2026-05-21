@@ -1,6 +1,7 @@
 # Heap (Priority Queue) Problems
 
 ## Easy
+- [Problem 1337](../problems/1337_the_k_weakest_rows_in_a_matrix/README.md)
 
 ## Medium
 - [Problem 347](../problems/347_top_k_frequent_elements/README.md)

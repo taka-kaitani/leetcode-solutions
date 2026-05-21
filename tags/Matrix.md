@@ -1,6 +1,7 @@
 # Matrix Problems
 
 ## Easy
+- [Problem 1337](../problems/1337_the_k_weakest_rows_in_a_matrix/README.md)
 
 ## Medium
 - [Problem 1020](../problems/1020_number_of_enclaves/README.md)

@@ -1,6 +1,7 @@
 # Array Problems
 
 ## Easy
+- [Problem 1337](../problems/1337_the_k_weakest_rows_in_a_matrix/README.md)
 - [Problem 448](../problems/448_find_all_numbers_disappeared_in_an_array/README.md)
 - [Problem 228](../problems/228_summary_ranges/README.md)
 - [Problem 121](../problems/121_best_time_to_buy_and_sell_stock/README.md)

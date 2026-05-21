@@ -1,6 +1,7 @@
 # Sorting Problems
 
 ## Easy
+- [Problem 1337](../problems/1337_the_k_weakest_rows_in_a_matrix/README.md)
 - [Problem 242](../problems/242_valid_anagram/README.md)
 
 ## Medium
