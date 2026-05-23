@@ -4,6 +4,7 @@
 - [Problem 643](../problems/643_maximum_average_subarray_i/README.md)
 
 ## Medium
+- [Problem 1343](../problems/1343_number_of_sub-arrays_of_size_k_and_average_greater_than_or_equal_to_threshold/README.md)
 - [Problem 567](../problems/567_permutation_in_string/README.md)
 - [Problem 438](../problems/438_find_all_anagrams_in_a_string/README.md)
 - [Problem 3](../problems/3_longest_substring_without_repeating_characters/README.md)
